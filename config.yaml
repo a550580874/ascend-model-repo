@@ -2,7 +2,7 @@ collection:
   deduplicate: false
   log_level: INFO
   output_dir: data
-  output_file: ascend_models.json
+  output_file: ascend_model.json
   sort_by_stars: true
 
 gitcode:
