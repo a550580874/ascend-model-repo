@@ -116,7 +116,7 @@ class AscendModelCollector:
         }
 
         try:
-            resp = requests.get(url, params=params, headers=self.headers, timeout=30)
+            resp = requests.get(url, params=params, headers=self.headers, timeout=30, verify=False)
             if resp.status_code == 200:
                 data = resp.json()
                 return data.get("content", []), data.get("total", 0)
@@ -153,7 +153,7 @@ class AscendModelCollector:
 
             while True:
                 params = {"count": "true", "page": page, "pageSize": 50}
-                resp = requests.get(url, params=params, headers=headers, timeout=30)
+                resp = requests.get(url, params=params, headers=headers, timeout=30, verify=False)
                 if resp.status_code != 200:
                     print(f"  API错误: {resp.status_code}")
                     break
