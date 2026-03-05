@@ -1,0 +1,37 @@
+name: Ascend Model Scraper
+
+on:
+  schedule:
+    - cron: '*/1 * * * *' # 每 6 小时运行一次
+  workflow_dispatch:      # 允许手动点击按钮触发
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write     # 必须开启写入权限，否则无法 commit 文件
+
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 设置 Python 环境
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: 安装爬虫依赖
+        run: |
+          pip install -r requirements.txt
+
+      - name: 运行爬虫脚本
+        run: python collector.py  # 执行你的爬虫逻辑，生成/更新 ascend_models.json
+
+      - name: 自动提交并推送更改
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add ascend_models.json
+          # 如果文件没有变化，git commit 会报错，所以用 || exit 0 忽略
+          git commit -m "Auto-update ascend_models.json [$(date)]" || exit 0
+          git push
