@@ -1,0 +1,41 @@
+name: Scheduled Scraper
+
+on:
+  schedule:
+    - cron: '0 0 * * *' 
+  workflow_dispatch: 
+
+jobs:
+  scrape_job:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write 
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: |
+          pip install requests PyYAML
+
+      - name: Run Scraper
+        run: python collector.py
+
+      - name: Commit and Push changes
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Action Bot"
+          
+          # 确保创建 data 目录并添加正确的文件名
+          mkdir -p data
+          git add data/ascend_model.json
+          
+          git commit -m "Auto-update ascend model data: $(date)" || exit 0
+          git push
