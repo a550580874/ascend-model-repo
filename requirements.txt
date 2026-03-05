@@ -1,2 +1,13 @@
-requests>=2.28.0
-schedule>=1.1.0
+# 核心请求与网络
+requests>=2.31.0
+urllib3>=2.0.0
+
+# 配置文件解析
+PyYAML>=6.0.1
+
+# 网页内容解析 (HTML Scraping)
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# 数据匹配与模糊搜索
+thefuzz[speedup]>=0.19.0
