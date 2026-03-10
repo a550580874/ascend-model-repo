@@ -126,7 +126,7 @@ class AscendModelCollector:
         except Exception as e:
             print(f"  请求失败: {e}")
             return [], 0
-
+    
     def fetch_modelers_data(self, owner=None):
         """获取Modelers社区模型数据"""
         if owner is None:
@@ -293,15 +293,27 @@ class AscendModelCollector:
             return "待验证"
 
     def deduplicate(self, repos):
-        """去重逻辑保留"""
-        seen = set()
-        unique = []
-        for repo in repos:
-            key = repo.get("full_name") or repo.get("name")
-            if key and key not in seen:
-                seen.add(key)
-                unique.append(repo)
-        return unique
+            """
+            方案 A：区分平台的去重逻辑
+            允许不同平台（Source）存在同名的 full_name。
+            """
+            seen = set()
+            unique = []
+            for repo in repos:
+                # 1. 获取模型名称
+                name = repo.get("full_name") or repo.get("name")
+                # 2. 获取来源平台（gitcode 或 modelers）
+                source = repo.get("source", "unknown")
+                
+                # 3. 将【平台 + 名称】组合成唯一的 Key
+                # 例如: "gitcode|Ascend/resnet50" 与 "modelers|Ascend/resnet50" 将被视为不同项
+                key = f"{source}|{name}"
+                
+                if name and key not in seen:
+                    seen.add(key)
+                    unique.append(repo)
+            
+            return unique
 
     def run(self):
         """运行采集"""
