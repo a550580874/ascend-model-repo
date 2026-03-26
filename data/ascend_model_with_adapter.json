@@ -23,7 +23,12 @@
         "0day首发"
       ],
       "collected_at": "2026-03-26T09:57:44.562596",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A3",
+      "model_series": "GLM",
+      "model_vendor": "智谱AI"
     },
     {
       "id": 9207093,
@@ -43,7 +48,12 @@
         "0day首发"
       ],
       "collected_at": "2026-03-26T09:58:02.821914",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen3.5",
+      "model_vendor": "阿里云"
     },
     {
       "id": 6512476,
@@ -64,7 +74,12 @@
         "718B"
       ],
       "collected_at": "2026-03-26T09:56:41.245520",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "openPangu",
+      "model_vendor": "华为"
     },
     {
       "id": 7802857,
@@ -82,7 +97,12 @@
       "created_at": "2025-10-11T14:42:27.776+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:41.245476",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "openPangu",
+      "model_vendor": "华为"
     },
     {
       "id": 6870725,
@@ -103,7 +123,12 @@
         "pangu-1B"
       ],
       "collected_at": "2026-03-26T09:56:41.245535",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "openPangu",
+      "model_vendor": "华为"
     },
     {
       "id": 6147888,
@@ -124,7 +149,12 @@
         "pangu-7B"
       ],
       "collected_at": "2026-03-26T09:56:41.245350",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "openPangu",
+      "model_vendor": "华为"
     },
     {
       "id": 8833453,
@@ -142,7 +172,12 @@
       "created_at": "2025-12-27T17:02:07.590+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:41.245284",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "",
+      "model_series": "openPangu",
+      "model_vendor": "华为"
     },
     {
       "id": 7478739,
@@ -160,7 +195,12 @@
       "created_at": "2025-09-04T20:01:43.962+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:41.245410",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "openPangu",
+      "model_vendor": "华为"
     },
     {
       "id": 7527325,
@@ -178,7 +218,12 @@
       "created_at": "2025-09-11T11:49:50.490+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:41.245443",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "310",
+      "model_series": "openPangu",
+      "model_vendor": "华为"
     },
     {
       "id": 7504623,
@@ -196,7 +241,12 @@
       "created_at": "2025-09-08T19:39:42.891+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:41.245396",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "openPangu",
+      "model_vendor": "华为"
     },
     {
       "id": 7808571,
@@ -221,7 +271,12 @@
         "KA_置顶项目"
       ],
       "collected_at": "2026-03-26T09:56:41.245461",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "",
+      "model_series": "openPangu",
+      "model_vendor": "华为"
     },
     {
       "id": 9202287,
@@ -241,7 +296,12 @@
         "0day首发"
       ],
       "collected_at": "2026-03-26T09:56:54.672849",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "MiniMax",
+      "model_vendor": "MiniMax"
     },
     {
       "id": 8698867,
@@ -259,7 +319,12 @@
       "created_at": "2025-12-12T16:32:46.488+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:41.245370",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "omni-infer",
+      "training_or_inference": "推理",
+      "adapter_hardware": "",
+      "model_series": "openPangu",
+      "model_vendor": "华为"
     },
     {
       "id": 8506172,
@@ -277,7 +342,12 @@
       "created_at": "2025-11-26T09:45:24.136+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:41.245380",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "openPangu",
+      "model_vendor": "华为"
     },
     {
       "id": 8898889,
@@ -295,7 +365,12 @@
       "created_at": "2026-01-05T16:45:03.415+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:41.245505",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "openPangu",
+      "model_vendor": "华为"
     },
     {
       "id": 8054394,
@@ -313,7 +388,12 @@
       "created_at": "2025-11-04T09:22:39.144+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:54.672705",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8241330,
@@ -331,7 +411,12 @@
       "created_at": "2025-11-14T11:12:25.042+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:31.573491",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "",
+      "model_series": "openPangu",
+      "model_vendor": "华为"
     },
     {
       "id": 8506165,
@@ -349,7 +434,12 @@
       "created_at": "2025-11-26T09:43:48.080+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:41.245303",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "openPangu",
+      "model_vendor": "华为"
     },
     {
       "id": 8132754,
@@ -367,7 +457,12 @@
       "created_at": "2025-11-08T21:27:47.985+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:31.573589",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindspeed-llm",
+      "training_or_inference": "训练",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 9090155,
@@ -387,7 +482,12 @@
         "0day首发"
       ],
       "collected_at": "2026-03-26T09:57:41.483925",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "DeepSeek",
+      "model_vendor": "深度求索"
     },
     {
       "id": 8698876,
@@ -405,7 +505,12 @@
       "created_at": "2025-12-12T16:33:41.486+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:41.245489",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "omni-infer",
+      "training_or_inference": "推理",
+      "adapter_hardware": "",
+      "model_series": "openPangu",
+      "model_vendor": "华为"
     },
     {
       "id": 9090472,
@@ -423,7 +528,12 @@
       "created_at": "2026-01-29T11:37:36.065+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:41.483660",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8897780,
@@ -441,7 +551,12 @@
       "created_at": "2026-01-05T15:13:19.399+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:41.483941",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Hunyuan",
+      "model_vendor": "腾讯"
     },
     {
       "id": 9384581,
@@ -459,7 +574,12 @@
       "created_at": "2026-03-11T18:55:28.149+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:41.245547",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "openPangu",
+      "model_vendor": "华为"
     },
     {
       "id": 8688472,
@@ -477,7 +597,12 @@
       "created_at": "2025-12-11T14:11:19.384+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:54.672917",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "310",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 9151842,
@@ -495,7 +620,12 @@
       "created_at": "2026-02-06T11:17:31.122+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:05.352217",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "GLM",
+      "model_vendor": "智谱AI"
     },
     {
       "id": 8090633,
@@ -513,7 +643,12 @@
       "created_at": "2025-11-05T22:24:42.813+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:11.021770",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindspeed-llm",
+      "training_or_inference": "训练",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8106284,
@@ -531,7 +666,12 @@
       "created_at": "2025-11-06T22:03:54.223+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:11.021830",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 9010148,
@@ -549,7 +689,12 @@
       "created_at": "2026-01-19T15:18:21.598+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:17.818745",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "CosyVoice",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8148569,
@@ -567,7 +712,12 @@
       "created_at": "2025-11-09T22:35:07.783+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:27.793363",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8815567,
@@ -585,7 +735,12 @@
       "created_at": "2025-12-25T15:12:51.791+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:37.436172",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8917635,
@@ -603,7 +758,12 @@
       "created_at": "2026-01-07T16:31:43.574+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:44.562639",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Whisper",
+      "model_vendor": "OpenAI"
     },
     {
       "id": 9129356,
@@ -621,7 +781,12 @@
       "created_at": "2026-02-03T18:30:47.356+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:58:02.822011",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": "88243",
@@ -711,7 +876,12 @@
       "created_at": "2026-03-05T14:28:00.095+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:54.672944",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "CosyVoice",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8506356,
@@ -729,7 +899,12 @@
       "created_at": "2025-11-26T09:49:03.394+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:58.898434",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8856668,
@@ -747,7 +922,12 @@
       "created_at": "2025-12-30T15:15:27.458+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:58.898479",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "CosyVoice",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8055402,
@@ -765,7 +945,12 @@
       "created_at": "2025-11-04T09:53:13.308+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:02.454893",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8633297,
@@ -783,7 +968,12 @@
       "created_at": "2025-12-04T17:53:54.648+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:08.860432",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "GPT",
+      "model_vendor": "OpenAI"
     },
     {
       "id": 8417147,
@@ -801,7 +991,12 @@
       "created_at": "2025-11-19T10:16:21.124+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:11.021842",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindie",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8304761,
@@ -819,7 +1014,12 @@
       "created_at": "2025-11-16T11:24:04.394+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:19.905098",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindspeed-mm",
+      "training_or_inference": "训练",
+      "adapter_hardware": "A2",
+      "model_series": "Wan",
+      "model_vendor": "字节跳动"
     },
     {
       "id": 8941161,
@@ -837,7 +1037,12 @@
       "created_at": "2026-01-10T11:28:58.513+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:19.905204",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8680742,
@@ -855,7 +1060,12 @@
       "created_at": "2025-12-10T16:17:16.862+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:37.436230",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8898006,
@@ -873,7 +1083,12 @@
       "created_at": "2026-01-05T15:30:39.400+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:41.483571",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8897942,
@@ -891,7 +1106,12 @@
       "created_at": "2026-01-05T15:25:40.488+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:44.562708",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "StepFun",
+      "model_vendor": "阶跃星辰"
     },
     {
       "id": 9153799,
@@ -909,7 +1129,12 @@
       "created_at": "2026-02-06T15:55:56.700+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:44.562828",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 9090446,
@@ -927,7 +1152,12 @@
       "created_at": "2026-01-29T11:35:14.765+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:47.956007",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Flux",
+      "model_vendor": "BlackForestLabs"
     },
     {
       "id": 7538409,
@@ -945,7 +1175,12 @@
       "created_at": "2025-09-12T16:26:38.075+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:57.921590",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "sglang",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A3",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 9268094,
@@ -963,7 +1198,12 @@
       "created_at": "2026-02-26T15:43:20.868+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:58:02.821929",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen3.5",
+      "model_vendor": "阿里云"
     },
     {
       "id": 7551836,
@@ -981,7 +1221,12 @@
       "created_at": "2025-09-14T18:07:03.672+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:58:02.822023",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": "80493",
@@ -1161,7 +1406,12 @@
       "created_at": "2026-01-09T11:38:12.914+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:54.672824",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "GLM",
+      "model_vendor": "智谱AI"
     },
     {
       "id": 9094164,
@@ -1179,7 +1429,12 @@
       "created_at": "2026-01-29T19:28:46.576+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:58.898398",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "YOLO",
+      "model_vendor": "Ultralytics"
     },
     {
       "id": 8837826,
@@ -1197,7 +1452,12 @@
       "created_at": "2025-12-28T11:47:01.630+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:02.454649",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9462123,
@@ -1215,7 +1475,12 @@
       "created_at": "2026-03-20T11:35:01.774+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:02.454673",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "",
+      "model_series": "GLM",
+      "model_vendor": "智谱AI"
     },
     {
       "id": 8839836,
@@ -1233,7 +1498,12 @@
       "created_at": "2025-12-28T17:17:45.488+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:02.454733",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8847567,
@@ -1251,7 +1521,12 @@
       "created_at": "2025-12-29T15:06:01.014+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:02.454824",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "SenseVoice",
+      "model_vendor": "阿里云"
     },
     {
       "id": 9371131,
@@ -1269,7 +1544,12 @@
       "created_at": "2026-03-10T15:02:58.246+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:02.454992",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9393935,
@@ -1287,7 +1567,12 @@
       "created_at": "2026-03-12T16:59:29.742+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:02.455013",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9080986,
@@ -1305,7 +1590,12 @@
       "created_at": "2026-01-28T15:16:49.637+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:05.352174",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8795146,
@@ -1323,7 +1613,12 @@
       "created_at": "2025-12-23T16:43:41.933+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:05.352202",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindspeed-llm",
+      "training_or_inference": "训练",
+      "adapter_hardware": "",
+      "model_series": "Intern",
+      "model_vendor": "上海人工智能实验室"
     },
     {
       "id": 9205444,
@@ -1341,7 +1636,12 @@
       "created_at": "2026-02-14T15:27:37.619+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:05.352229",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9192572,
@@ -1359,7 +1659,12 @@
       "created_at": "2026-02-12T13:41:33.985+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:05.352424",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "GLM",
+      "model_vendor": "智谱AI"
     },
     {
       "id": 8679966,
@@ -1377,7 +1682,12 @@
       "created_at": "2025-12-10T15:17:18.550+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:08.860384",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 9279497,
@@ -1395,7 +1705,12 @@
       "created_at": "2026-02-27T16:57:31.578+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:08.860471",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A3",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8245200,
@@ -1413,7 +1728,12 @@
       "created_at": "2025-11-14T15:39:08.157+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:08.860507",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8890112,
@@ -1431,7 +1751,12 @@
       "created_at": "2026-01-04T17:03:24.010+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:11.021669",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8955100,
@@ -1449,7 +1774,12 @@
       "created_at": "2026-01-12T14:06:29.028+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:11.021746",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9279048,
@@ -1467,7 +1797,12 @@
       "created_at": "2026-02-27T16:17:09.576+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:11.021781",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen3.5",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8743885,
@@ -1485,7 +1820,12 @@
       "created_at": "2025-12-18T10:16:55.302+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:15.359140",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "",
+      "model_series": "YOLO",
+      "model_vendor": "Ultralytics"
     },
     {
       "id": 8514006,
@@ -1503,7 +1843,12 @@
       "created_at": "2025-11-26T17:27:21.514+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:15.359168",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9081887,
@@ -1521,7 +1866,12 @@
       "created_at": "2026-01-28T16:50:38.423+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:15.359244",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8431507,
@@ -1539,7 +1889,12 @@
       "created_at": "2025-11-20T15:10:01.905+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:17.818572",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "BGE",
+      "model_vendor": "BAAI"
     },
     {
       "id": 8493079,
@@ -1557,7 +1912,12 @@
       "created_at": "2025-11-25T16:11:53.682+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:17.818680",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "310",
+      "model_series": "ERNIE",
+      "model_vendor": "百度"
     },
     {
       "id": 8782565,
@@ -1575,7 +1935,12 @@
       "created_at": "2025-12-22T17:47:16.645+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:19.905007",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "YOLO",
+      "model_vendor": "Ultralytics"
     },
     {
       "id": 8971035,
@@ -1593,7 +1958,12 @@
       "created_at": "2026-01-14T10:45:48.075+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:19.905058",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindspeed-llm",
+      "training_or_inference": "训练",
+      "adapter_hardware": "A3",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8741325,
@@ -1611,7 +1981,12 @@
       "created_at": "2025-12-17T22:57:39.488+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:19.905110",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "verl",
+      "training_or_inference": "训练",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8644116,
@@ -1629,7 +2004,12 @@
       "created_at": "2025-12-05T23:04:26.488+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:22.252719",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "sglang",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "DeepSeek",
+      "model_vendor": "深度求索"
     },
     {
       "id": 8667820,
@@ -1647,7 +2027,12 @@
       "created_at": "2025-12-09T10:26:06.527+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:22.252838",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "",
+      "model_series": "YOLO",
+      "model_vendor": "Ultralytics"
     },
     {
       "id": 9098304,
@@ -1665,7 +2050,12 @@
       "created_at": "2026-01-30T10:58:57.685+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:24.229525",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "DeepSeek",
+      "model_vendor": "深度求索"
     },
     {
       "id": 9098418,
@@ -1683,7 +2073,12 @@
       "created_at": "2026-01-30T11:11:53.043+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:24.229683",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "GLM",
+      "model_vendor": "智谱AI"
     },
     {
       "id": 8245103,
@@ -1701,7 +2096,12 @@
       "created_at": "2025-11-14T15:32:27.402+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:24.229709",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "GLM",
+      "model_vendor": "智谱AI"
     },
     {
       "id": 8724426,
@@ -1719,7 +2119,12 @@
       "created_at": "2025-12-16T09:50:52.484+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:24.229726",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "",
+      "model_series": "CosyVoice",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8246579,
@@ -1737,7 +2142,12 @@
       "created_at": "2025-11-14T16:58:49.397+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:27.793129",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "StepFun",
+      "model_vendor": "阶跃星辰"
     },
     {
       "id": 8817187,
@@ -1755,7 +2165,12 @@
       "created_at": "2025-12-25T17:07:27.242+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:27.793175",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8724500,
@@ -1773,7 +2188,12 @@
       "created_at": "2025-12-16T09:56:32.026+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:27.793216",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8807696,
@@ -1791,7 +2211,12 @@
       "created_at": "2025-12-24T19:14:41.750+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:31.573429",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A3",
+      "model_series": "Qwen2.5",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8662736,
@@ -1809,7 +2234,12 @@
       "created_at": "2025-12-08T17:23:08.524+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:31.573462",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "DeepSeek",
+      "model_vendor": "深度求索"
     },
     {
       "id": 8826503,
@@ -1827,7 +2257,12 @@
       "created_at": "2025-12-26T17:07:17.960+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:35.381298",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "YOLO",
+      "model_vendor": "Ultralytics"
     },
     {
       "id": 8831006,
@@ -1845,7 +2280,12 @@
       "created_at": "2025-12-27T10:04:52.383+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:35.381411",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindspeed-mm",
+      "training_or_inference": "训练",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen2.5",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8686257,
@@ -1863,7 +2303,12 @@
       "created_at": "2025-12-11T10:01:00.566+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:35.381477",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "",
+      "model_series": "YOLO",
+      "model_vendor": "Ultralytics"
     },
     {
       "id": 8897718,
@@ -1881,7 +2326,12 @@
       "created_at": "2026-01-05T15:08:15.560+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:41.483430",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindie",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8897246,
@@ -1899,7 +2349,12 @@
       "created_at": "2026-01-05T14:27:40.958+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:41.483469",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8897980,
@@ -1917,7 +2372,12 @@
       "created_at": "2026-01-05T15:28:32.718+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:41.483493",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "",
+      "model_series": "YOLO",
+      "model_vendor": "Ultralytics"
     },
     {
       "id": 9333992,
@@ -1935,7 +2395,12 @@
       "created_at": "2026-03-06T10:07:06.482+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:41.483505",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8897756,
@@ -1953,7 +2418,12 @@
       "created_at": "2026-01-05T15:11:22.996+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:41.483518",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "MiniCPM",
+      "model_vendor": "面壁智能"
     },
     {
       "id": 9311374,
@@ -1971,7 +2441,12 @@
       "created_at": "2026-03-03T18:08:47.472+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:41.483595",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "GLM",
+      "model_vendor": "智谱AI"
     },
     {
       "id": 8897956,
@@ -1989,7 +2464,12 @@
       "created_at": "2026-01-05T15:26:26.839+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:41.483607",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8897747,
@@ -2007,7 +2487,12 @@
       "created_at": "2026-01-05T15:10:51.320+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:41.483621",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8897909,
@@ -2025,7 +2510,12 @@
       "created_at": "2026-01-05T15:23:57.426+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:41.483633",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9090434,
@@ -2043,7 +2533,12 @@
       "created_at": "2026-01-29T11:33:54.981+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:41.483646",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8897700,
@@ -2061,7 +2556,12 @@
       "created_at": "2026-01-05T15:06:27.224+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:41.483673",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Hunyuan",
+      "model_vendor": "腾讯"
     },
     {
       "id": 8897945,
@@ -2079,7 +2579,12 @@
       "created_at": "2026-01-05T15:26:00.614+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:44.562540",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9264797,
@@ -2097,7 +2602,12 @@
       "created_at": "2026-02-26T10:21:03.506+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:44.562611",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A3",
+      "model_series": "GLM",
+      "model_vendor": "智谱AI"
     },
     {
       "id": 8897630,
@@ -2115,7 +2625,12 @@
       "created_at": "2026-01-05T15:01:39.844+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:44.562625",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "",
+      "model_series": "BGE",
+      "model_vendor": "BAAI"
     },
     {
       "id": 8897820,
@@ -2133,7 +2648,12 @@
       "created_at": "2026-01-05T15:17:38.574+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:44.562652",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8897912,
@@ -2151,7 +2671,12 @@
       "created_at": "2026-01-05T15:24:17.625+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:44.562664",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8897736,
@@ -2169,7 +2694,12 @@
       "created_at": "2026-01-05T15:09:39.713+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:44.562677",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8897725,
@@ -2187,7 +2717,12 @@
       "created_at": "2026-01-05T15:09:00.135+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:44.562690",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8991720,
@@ -2205,7 +2740,12 @@
       "created_at": "2026-01-16T17:45:40.803+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:44.562720",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "",
+      "model_series": "Qwen",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8897411,
@@ -2223,7 +2763,12 @@
       "created_at": "2026-01-05T14:42:03.415+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:44.562733",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Hunyuan",
+      "model_vendor": "腾讯"
     },
     {
       "id": 8897673,
@@ -2241,7 +2786,12 @@
       "created_at": "2026-01-05T15:05:01.128+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:44.562745",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "",
+      "model_series": "Gemma",
+      "model_vendor": "Google"
     },
     {
       "id": 8897615,
@@ -2259,7 +2809,12 @@
       "created_at": "2026-01-05T15:00:56.698+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:44.562757",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9311380,
@@ -2277,7 +2832,12 @@
       "created_at": "2026-03-03T18:09:56.818+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:44.562769",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8897920,
@@ -2295,7 +2855,12 @@
       "created_at": "2026-01-05T15:24:35.665+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:44.562806",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindie",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Wan",
+      "model_vendor": "字节跳动"
     },
     {
       "id": 8991773,
@@ -2313,7 +2878,12 @@
       "created_at": "2026-01-16T17:52:05.751+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:44.562817",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Hunyuan",
+      "model_vendor": "腾讯"
     },
     {
       "id": 8897925,
@@ -2331,7 +2901,12 @@
       "created_at": "2026-01-05T15:24:59.248+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:47.955946",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8897764,
@@ -2349,7 +2924,12 @@
       "created_at": "2026-01-05T15:11:53.615+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:47.955969",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8897656,
@@ -2367,7 +2947,12 @@
       "created_at": "2026-01-05T15:03:46.810+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:47.955982",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9090468,
@@ -2385,7 +2970,12 @@
       "created_at": "2026-01-29T11:36:53.210+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:47.955994",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen2.5",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8897664,
@@ -2403,7 +2993,12 @@
       "created_at": "2026-01-05T15:04:10.891+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:47.956017",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9269603,
@@ -2421,7 +3016,12 @@
       "created_at": "2026-02-26T17:13:27.469+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:57.921653",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "sglang",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen3.5",
+      "model_vendor": "阿里云"
     },
     {
       "id": 9268063,
@@ -2439,7 +3039,12 @@
       "created_at": "2026-02-26T15:41:25.744+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:58:02.821964",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen3.5",
+      "model_vendor": "阿里云"
     },
     {
       "id": 7694939,
@@ -2457,7 +3062,12 @@
       "created_at": "2025-09-29T19:36:32.027+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:58:02.822035",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "",
+      "model_series": "DeepSeek",
+      "model_vendor": "深度求索"
     },
     {
       "id": "82570",
@@ -3015,7 +3625,12 @@
       "created_at": "2026-02-05T20:26:44.288+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:19.794856",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9147884,
@@ -3033,7 +3648,12 @@
       "created_at": "2026-02-05T19:54:50.695+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:19.794891",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 7904470,
@@ -3051,7 +3671,12 @@
       "created_at": "2025-10-21T11:01:06.029+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:19.794913",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "310",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9147831,
@@ -3069,7 +3694,12 @@
       "created_at": "2026-02-05T19:45:20.145+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:19.794934",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9147821,
@@ -3087,7 +3717,12 @@
       "created_at": "2026-02-05T19:44:40.127+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:19.794954",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9147868,
@@ -3105,7 +3740,12 @@
       "created_at": "2026-02-05T19:51:17.694+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:19.794975",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9147990,
@@ -3123,7 +3763,12 @@
       "created_at": "2026-02-05T20:11:20.888+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:19.794995",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9147935,
@@ -3141,7 +3786,12 @@
       "created_at": "2026-02-05T20:02:14.902+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:19.795030",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 7895684,
@@ -3159,7 +3809,12 @@
       "created_at": "2025-10-20T15:56:23.069+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:19.795337",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "310",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 7891600,
@@ -3177,7 +3832,12 @@
       "created_at": "2025-10-20T10:33:27.671+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:19.795356",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "310",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 7903113,
@@ -3195,7 +3855,12 @@
       "created_at": "2025-10-21T09:26:11.223+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:19.795369",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 7903015,
@@ -3213,7 +3878,12 @@
       "created_at": "2025-10-21T09:14:06.328+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:19.795381",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 7991656,
@@ -3231,7 +3901,12 @@
       "created_at": "2025-10-29T17:31:34.943+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:19.795393",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9148171,
@@ -3249,7 +3924,12 @@
       "created_at": "2026-02-05T20:41:12.209+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:19.795404",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9151937,
@@ -3267,7 +3947,12 @@
       "created_at": "2026-02-06T11:28:31.374+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:19.795415",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 7904101,
@@ -3285,7 +3970,12 @@
       "created_at": "2025-10-21T10:36:14.524+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:19.795428",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "310",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9151679,
@@ -3303,7 +3993,12 @@
       "created_at": "2026-02-06T10:59:41.312+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:19.795439",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 7897110,
@@ -3321,7 +4016,12 @@
       "created_at": "2025-10-20T17:21:32.271+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:19.795451",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9147905,
@@ -3339,7 +4039,12 @@
       "created_at": "2026-02-05T19:57:35.082+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:19.795463",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 7904625,
@@ -3357,7 +4062,12 @@
       "created_at": "2025-10-21T11:11:11.738+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:19.795480",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "310",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 7903079,
@@ -3375,7 +4085,12 @@
       "created_at": "2025-10-21T09:22:10.787+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:24.208035",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9094070,
@@ -3393,7 +4108,12 @@
       "created_at": "2026-01-29T19:08:46.074+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:24.208058",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 7855036,
@@ -3411,7 +4131,12 @@
       "created_at": "2025-10-16T09:25:46.363+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:24.208070",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 7699219,
@@ -3429,7 +4154,12 @@
       "created_at": "2025-09-30T11:26:50.030+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:31.577656",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindie",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "DeepSeek",
+      "model_vendor": "深度求索"
     },
     {
       "id": 7699129,
@@ -3447,7 +4177,12 @@
       "created_at": "2025-09-30T11:20:48.389+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:31.577677",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindspeed-llm",
+      "training_or_inference": "训练",
+      "adapter_hardware": "310",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 7699130,
@@ -3465,7 +4200,12 @@
       "created_at": "2025-09-30T11:20:59.017+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:31.577688",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindspeed-llm",
+      "training_or_inference": "训练",
+      "adapter_hardware": "310",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 7699184,
@@ -3483,7 +4223,12 @@
       "created_at": "2025-09-30T11:24:42.754+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:31.577699",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindie",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "DeepSeek",
+      "model_vendor": "深度求索"
     },
     {
       "id": 7699145,
@@ -3501,7 +4246,12 @@
       "created_at": "2025-09-30T11:21:51.376+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:31.577710",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindspeed-llm",
+      "training_or_inference": "训练",
+      "adapter_hardware": "310",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 7699190,
@@ -3519,7 +4269,12 @@
       "created_at": "2025-09-30T11:25:05.605+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:31.577720",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindie",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "DeepSeek",
+      "model_vendor": "深度求索"
     },
     {
       "id": 7699142,
@@ -3537,7 +4292,12 @@
       "created_at": "2025-09-30T11:21:20.821+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:31.577731",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindspeed-llm",
+      "training_or_inference": "训练",
+      "adapter_hardware": "310",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 7699213,
@@ -3555,7 +4315,12 @@
       "created_at": "2025-09-30T11:26:26.531+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:31.577750",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindie",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "DeepSeek",
+      "model_vendor": "深度求索"
     },
     {
       "id": 7699119,
@@ -3573,7 +4338,12 @@
       "created_at": "2025-09-30T11:20:05.901+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:31.577760",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindie",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 7699152,
@@ -3591,7 +4361,12 @@
       "created_at": "2025-09-30T11:22:12.995+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:31.577771",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindspeed-llm",
+      "training_or_inference": "训练",
+      "adapter_hardware": "310",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 7699124,
@@ -3609,7 +4384,12 @@
       "created_at": "2025-09-30T11:20:27.031+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:31.577781",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindspeed-llm",
+      "training_or_inference": "训练",
+      "adapter_hardware": "310",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 7699229,
@@ -3627,7 +4407,12 @@
       "created_at": "2025-09-30T11:27:21.469+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:31.577793",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindspeed-llm",
+      "training_or_inference": "训练",
+      "adapter_hardware": "",
+      "model_series": "DeepSeek",
+      "model_vendor": "深度求索"
     },
     {
       "id": 7699221,
@@ -3645,7 +4430,12 @@
       "created_at": "2025-09-30T11:27:11.247+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:31.577805",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindspeed-llm",
+      "training_or_inference": "训练",
+      "adapter_hardware": "",
+      "model_series": "DeepSeek",
+      "model_vendor": "深度求索"
     },
     {
       "id": 7699126,
@@ -3663,7 +4453,12 @@
       "created_at": "2025-09-30T11:20:37.938+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:31.577816",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindspeed-llm",
+      "training_or_inference": "训练",
+      "adapter_hardware": "310",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 7699180,
@@ -3681,7 +4476,12 @@
       "created_at": "2025-09-30T11:24:12.968+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:31.577826",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindie",
+      "training_or_inference": "推理",
+      "adapter_hardware": "",
+      "model_series": "Qwen2.5",
+      "model_vendor": "阿里云"
     },
     {
       "id": 7699220,
@@ -3699,7 +4499,12 @@
       "created_at": "2025-09-30T11:27:01.221+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:31.577836",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindie",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "DeepSeek",
+      "model_vendor": "深度求索"
     },
     {
       "id": 7699165,
@@ -3717,7 +4522,12 @@
       "created_at": "2025-09-30T11:23:13.459+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:31.577847",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindie",
+      "training_or_inference": "推理",
+      "adapter_hardware": "",
+      "model_series": "Qwen2.5",
+      "model_vendor": "阿里云"
     },
     {
       "id": 9147203,
@@ -3735,7 +4545,12 @@
       "created_at": "2026-02-05T18:00:56.866+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:31.577857",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindie",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 7699121,
@@ -3753,7 +4568,12 @@
       "created_at": "2025-09-30T11:20:16.643+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:31.577867",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "",
+      "model_series": "Qwen",
+      "model_vendor": "阿里云"
     },
     {
       "id": 7699173,
@@ -3771,7 +4591,12 @@
       "created_at": "2025-09-30T11:23:56.960+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:31.577877",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindie",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "DeepSeek",
+      "model_vendor": "深度求索"
     },
     {
       "id": 7699147,
@@ -3789,7 +4614,12 @@
       "created_at": "2025-09-30T11:22:02.619+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:34.870858",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindspeed-llm",
+      "training_or_inference": "训练",
+      "adapter_hardware": "310",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 7699209,
@@ -3807,7 +4637,12 @@
       "created_at": "2025-09-30T11:26:16.511+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:34.870881",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindie",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "DeepSeek",
+      "model_vendor": "深度求索"
     },
     {
       "id": 7699181,
@@ -3825,7 +4660,12 @@
       "created_at": "2025-09-30T11:24:23.319+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:34.870893",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindie",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "DeepSeek",
+      "model_vendor": "深度求索"
     },
     {
       "id": 7699231,
@@ -3843,7 +4683,12 @@
       "created_at": "2025-09-30T11:27:32.965+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:34.870905",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "openPangu",
+      "model_vendor": "华为"
     },
     {
       "id": 7699158,
@@ -3861,7 +4706,12 @@
       "created_at": "2025-09-30T11:22:44.766+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:34.870916",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindspeed-llm",
+      "training_or_inference": "训练",
+      "adapter_hardware": "310",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 7699199,
@@ -3879,7 +4729,12 @@
       "created_at": "2025-09-30T11:25:46.981+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:34.870928",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "DeepSeek",
+      "model_vendor": "深度求索"
     },
     {
       "id": 7699160,
@@ -3897,7 +4752,12 @@
       "created_at": "2025-09-30T11:23:01.380+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:34.870939",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen2.5",
+      "model_vendor": "阿里云"
     },
     {
       "id": 7699157,
@@ -3915,7 +4775,12 @@
       "created_at": "2025-09-30T11:22:34.455+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:34.870959",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindspeed-llm",
+      "training_or_inference": "训练",
+      "adapter_hardware": "310",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 7699144,
@@ -3933,7 +4798,12 @@
       "created_at": "2025-09-30T11:21:40.962+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:34.870970",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindspeed-llm",
+      "training_or_inference": "训练",
+      "adapter_hardware": "310",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 7699194,
@@ -3951,7 +4821,12 @@
       "created_at": "2025-09-30T11:25:25.477+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:34.870982",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindie",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "DeepSeek",
+      "model_vendor": "深度求索"
     },
     {
       "id": 7699205,
@@ -3969,7 +4844,12 @@
       "created_at": "2025-09-30T11:26:06.379+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:34.870998",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "DeepSeek",
+      "model_vendor": "深度求索"
     },
     {
       "id": 7699197,
@@ -3987,7 +4867,12 @@
       "created_at": "2025-09-30T11:25:35.353+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:34.871010",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindie",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "DeepSeek",
+      "model_vendor": "深度求索"
     },
     {
       "id": 7699187,
@@ -4005,7 +4890,12 @@
       "created_at": "2025-09-30T11:24:54.599+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:34.871021",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindie",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "DeepSeek",
+      "model_vendor": "深度求索"
     },
     {
       "id": 7699156,
@@ -4023,7 +4913,12 @@
       "created_at": "2025-09-30T11:22:23.639+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:34.871031",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindspeed-llm",
+      "training_or_inference": "训练",
+      "adapter_hardware": "310",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 7699192,
@@ -4041,7 +4936,12 @@
       "created_at": "2025-09-30T11:25:15.735+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:34.871043",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindie",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "DeepSeek",
+      "model_vendor": "深度求索"
     },
     {
       "id": 7699172,
@@ -4059,7 +4959,12 @@
       "created_at": "2025-09-30T11:23:42.750+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:34.871053",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindie",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen2",
+      "model_vendor": "阿里云"
     },
     {
       "id": 7699140,
@@ -4077,7 +4982,12 @@
       "created_at": "2025-09-30T11:21:09.926+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:34.871063",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindspeed-llm",
+      "training_or_inference": "训练",
+      "adapter_hardware": "310",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 7699168,
@@ -4095,7 +5005,12 @@
       "created_at": "2025-09-30T11:23:23.416+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:34.871073",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 7699170,
@@ -4113,7 +5028,12 @@
       "created_at": "2025-09-30T11:23:33.265+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:34.871084",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindie",
+      "training_or_inference": "推理",
+      "adapter_hardware": "",
+      "model_series": "Qwen2.5",
+      "model_vendor": "阿里云"
     },
     {
       "id": 7699202,
@@ -4131,7 +5051,12 @@
       "created_at": "2025-09-30T11:25:56.759+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:34.871095",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "DeepSeek",
+      "model_vendor": "深度求索"
     },
     {
       "id": 7699143,
@@ -4149,7 +5074,12 @@
       "created_at": "2025-09-30T11:21:31.098+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:36.566253",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindspeed-llm",
+      "training_or_inference": "训练",
+      "adapter_hardware": "310",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 7699216,
@@ -4167,7 +5097,12 @@
       "created_at": "2025-09-30T11:26:38.499+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:36.566273",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindie",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "DeepSeek",
+      "model_vendor": "深度求索"
     },
     {
       "id": 7699183,
@@ -4185,7 +5120,12 @@
       "created_at": "2025-09-30T11:24:32.565+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:36.566285",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindie",
+      "training_or_inference": "推理",
+      "adapter_hardware": "",
+      "model_series": "Qwen2.5",
+      "model_vendor": "阿里云"
     },
     {
       "id": 7699108,
@@ -4203,7 +5143,12 @@
       "created_at": "2025-09-30T11:19:49.456+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:36.566296",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindie",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 9088640,
@@ -4221,7 +5166,12 @@
       "created_at": "2026-01-29T09:31:33.210+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:54.672727",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9155657,
@@ -4239,7 +5189,12 @@
       "created_at": "2026-02-06T19:34:29.936+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:54.672741",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "GLM",
+      "model_vendor": "智谱AI"
     },
     {
       "id": 9155757,
@@ -4257,7 +5212,12 @@
       "created_at": "2026-02-06T19:51:38.516+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:54.672755",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "",
+      "model_series": "GLM",
+      "model_vendor": "智谱AI"
     },
     {
       "id": 9251829,
@@ -4275,7 +5235,12 @@
       "created_at": "2026-02-24T16:16:57.585+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:54.672767",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8717544,
@@ -4293,7 +5258,12 @@
       "created_at": "2025-12-15T15:48:26.371+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:54.672779",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9283674,
@@ -4311,7 +5281,12 @@
       "created_at": "2026-02-28T09:37:16.323+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:54.672790",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9504951,
@@ -4329,7 +5304,12 @@
       "created_at": "2026-03-25T14:18:41.856+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:54.672802",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8695714,
@@ -4347,7 +5327,12 @@
       "created_at": "2025-12-12T10:25:55.762+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:54.672812",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9205120,
@@ -4365,7 +5350,12 @@
       "created_at": "2026-02-14T14:20:15.301+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:54.672836",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A3",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9080884,
@@ -4383,7 +5373,12 @@
       "created_at": "2026-01-28T15:07:41.285+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:54.672861",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "openPangu",
+      "model_vendor": "华为"
     },
     {
       "id": 9504084,
@@ -4401,7 +5396,12 @@
       "created_at": "2026-03-25T11:58:25.258+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:54.672873",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9455073,
@@ -4419,7 +5419,12 @@
       "created_at": "2026-03-19T15:57:34.893+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:54.672883",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "YOLO",
+      "model_vendor": "Ultralytics"
     },
     {
       "id": 8524095,
@@ -4437,7 +5442,12 @@
       "created_at": "2025-11-27T11:15:32.870+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:54.672896",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "DeepSeek",
+      "model_vendor": "深度求索"
     },
     {
       "id": 9496387,
@@ -4455,7 +5465,12 @@
       "created_at": "2026-03-24T15:03:39.907+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:54.672907",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "",
+      "model_series": "GLM",
+      "model_vendor": "智谱AI"
     },
     {
       "id": 9119773,
@@ -4473,7 +5488,12 @@
       "created_at": "2026-02-02T15:40:47.127+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:54.672929",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "PaddleOCR",
+      "model_vendor": "百度"
     },
     {
       "id": 9438761,
@@ -4491,7 +5511,12 @@
       "created_at": "2026-03-17T20:38:01.001+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:58.898061",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen3.5",
+      "model_vendor": "阿里云"
     },
     {
       "id": 9494027,
@@ -4509,7 +5534,12 @@
       "created_at": "2026-03-24T10:45:31.357+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:58.898084",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9155605,
@@ -4527,7 +5557,12 @@
       "created_at": "2026-02-06T19:21:22.133+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:58.898097",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "DeepSeek",
+      "model_vendor": "深度求索"
     },
     {
       "id": 9433061,
@@ -4545,7 +5580,12 @@
       "created_at": "2026-03-17T11:05:07.835+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:58.898109",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "MiniCPM",
+      "model_vendor": "面壁智能"
     },
     {
       "id": 9422754,
@@ -4563,7 +5603,12 @@
       "created_at": "2026-03-16T10:01:21.073+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:58.898121",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8744001,
@@ -4581,7 +5626,12 @@
       "created_at": "2025-12-18T10:27:02.850+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:58.898350",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindie",
+      "training_or_inference": "推理",
+      "adapter_hardware": "",
+      "model_series": "Wan",
+      "model_vendor": "字节跳动"
     },
     {
       "id": 9471013,
@@ -4599,7 +5649,12 @@
       "created_at": "2026-03-21T14:28:58.253+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:58.898364",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8716911,
@@ -4617,7 +5672,12 @@
       "created_at": "2025-12-15T14:51:04.244+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:58.898376",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9488430,
@@ -4635,7 +5695,12 @@
       "created_at": "2026-03-23T17:25:51.739+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:58.898387",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8897782,
@@ -4653,7 +5718,12 @@
       "created_at": "2026-01-05T15:13:31.111+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:58.898410",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9268672,
@@ -4671,7 +5741,12 @@
       "created_at": "2026-02-26T16:17:50.157+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:58.898422",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9471022,
@@ -4689,7 +5764,12 @@
       "created_at": "2026-03-21T14:30:02.132+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:58.898446",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 9324332,
@@ -4707,7 +5787,12 @@
       "created_at": "2026-03-05T09:31:22.983+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:58.898456",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8673785,
@@ -4725,7 +5810,12 @@
       "created_at": "2025-12-09T21:36:23.597+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:58.898467",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9303620,
@@ -4743,7 +5833,12 @@
       "created_at": "2026-03-02T21:07:20.150+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:58.898492",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "sglang",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "GLM",
+      "model_vendor": "智谱AI"
     },
     {
       "id": 8828672,
@@ -4761,7 +5856,12 @@
       "created_at": "2025-12-26T22:08:25.795+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:58.898502",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "",
+      "model_series": "YOLO",
+      "model_vendor": "Ultralytics"
     },
     {
       "id": 8514580,
@@ -4779,7 +5879,12 @@
       "created_at": "2025-11-26T18:01:25.704+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:56:58.898514",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9455690,
@@ -4797,7 +5902,12 @@
       "created_at": "2026-03-19T16:47:08.553+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:02.454687",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9455203,
@@ -4815,7 +5925,12 @@
       "created_at": "2026-03-19T16:09:06.170+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:02.454702",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9463471,
@@ -4833,7 +5948,12 @@
       "created_at": "2026-03-20T14:40:20.018+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:02.454718",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindie",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Flux",
+      "model_vendor": "BlackForestLabs"
     },
     {
       "id": 8667060,
@@ -4851,7 +5971,12 @@
       "created_at": "2025-12-09T09:10:21.437+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:02.454748",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Intern",
+      "model_vendor": "上海人工智能实验室"
     },
     {
       "id": 9436905,
@@ -4869,7 +5994,12 @@
       "created_at": "2026-03-17T17:27:21.212+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:02.454782",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindspeed-llm",
+      "training_or_inference": "训练",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9204142,
@@ -4887,7 +6017,12 @@
       "created_at": "2026-02-14T10:33:11.042+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:02.454795",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9455872,
@@ -4905,7 +6040,12 @@
       "created_at": "2026-03-19T17:03:39.545+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:02.454810",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9445032,
@@ -4923,7 +6063,12 @@
       "created_at": "2026-03-18T14:55:58.486+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:02.454838",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9436656,
@@ -4941,7 +6086,12 @@
       "created_at": "2026-03-17T17:10:50.078+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:02.454853",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindspeed-llm",
+      "training_or_inference": "训练",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9138849,
@@ -4959,7 +6109,12 @@
       "created_at": "2026-02-04T16:47:15.631+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:02.454867",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "sglang",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "GLM",
+      "model_vendor": "智谱AI"
     },
     {
       "id": 8765945,
@@ -4977,7 +6132,12 @@
       "created_at": "2025-12-20T15:49:55.870+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:02.454880",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 9425692,
@@ -4995,7 +6155,12 @@
       "created_at": "2026-03-16T15:19:47.489+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:02.454907",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "GLM",
+      "model_vendor": "智谱AI"
     },
     {
       "id": 9383594,
@@ -5013,7 +6178,12 @@
       "created_at": "2026-03-11T17:16:48.106+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:02.455028",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A3",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8690464,
@@ -5031,7 +6201,12 @@
       "created_at": "2025-12-11T17:02:03.878+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:05.352240",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindspeed-mm",
+      "training_or_inference": "训练",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8683785,
@@ -5049,7 +6224,12 @@
       "created_at": "2025-12-10T22:42:31.730+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:05.352252",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "CosyVoice",
+      "model_vendor": "阿里云"
     },
     {
       "id": 9043598,
@@ -5067,7 +6247,12 @@
       "created_at": "2026-01-23T14:26:34.378+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:05.352274",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8782321,
@@ -5085,7 +6270,12 @@
       "created_at": "2025-12-22T17:27:40.284+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:05.352285",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindspeed-llm",
+      "training_or_inference": "训练",
+      "adapter_hardware": "A3",
+      "model_series": "Qwen2.5",
+      "model_vendor": "阿里云"
     },
     {
       "id": 9138621,
@@ -5103,7 +6293,12 @@
       "created_at": "2026-02-04T16:21:45.075+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:05.352297",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8688816,
@@ -5121,7 +6316,12 @@
       "created_at": "2025-12-11T14:42:32.777+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:05.352308",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindspeed-llm",
+      "training_or_inference": "训练",
+      "adapter_hardware": "A3",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 9316388,
@@ -5139,7 +6339,12 @@
       "created_at": "2026-03-04T11:35:14.762+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:05.352332",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "",
+      "model_series": "Qwen",
+      "model_vendor": "阿里云"
     },
     {
       "id": 9331028,
@@ -5157,7 +6362,12 @@
       "created_at": "2026-03-05T21:35:46.344+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:05.352343",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Llama",
+      "model_vendor": "Meta"
     },
     {
       "id": 8690324,
@@ -5175,7 +6385,12 @@
       "created_at": "2025-12-11T16:48:44.121+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:05.352354",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "verl",
+      "training_or_inference": "训练",
+      "adapter_hardware": "A3",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 9185209,
@@ -5193,7 +6408,12 @@
       "created_at": "2026-02-11T11:31:53.567+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:05.352366",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A3",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8642101,
@@ -5211,7 +6431,12 @@
       "created_at": "2025-12-05T17:25:54.954+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:05.352376",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen2.5",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8784047,
@@ -5229,7 +6454,12 @@
       "created_at": "2025-12-22T20:49:47.306+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:05.352388",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "",
+      "model_series": "Qwen2.5",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8514591,
@@ -5247,7 +6477,12 @@
       "created_at": "2025-11-26T18:02:49.589+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:05.352400",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9107385,
@@ -5265,7 +6500,12 @@
       "created_at": "2026-01-31T16:13:45.634+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:05.352413",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9218768,
@@ -5283,7 +6523,12 @@
       "created_at": "2026-02-17T16:44:48.008+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:05.352435",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen3.5",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8662929,
@@ -5301,7 +6546,12 @@
       "created_at": "2025-12-08T17:39:24.237+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:08.860351",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8668688,
@@ -5319,7 +6569,12 @@
       "created_at": "2025-12-09T11:48:45.005+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:08.860399",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8890173,
@@ -5337,7 +6592,12 @@
       "created_at": "2026-01-04T17:07:55.181+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:08.860410",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindspeed-llm",
+      "training_or_inference": "训练",
+      "adapter_hardware": "A3",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8826607,
@@ -5355,7 +6615,12 @@
       "created_at": "2025-12-26T17:16:55.174+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:08.860458",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8661709,
@@ -5373,7 +6638,12 @@
       "created_at": "2025-12-08T15:50:32.612+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:08.860483",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindspeed-llm",
+      "training_or_inference": "训练",
+      "adapter_hardware": "A3",
+      "model_series": "Qwen2.5",
+      "model_vendor": "阿里云"
     },
     {
       "id": 9383231,
@@ -5391,7 +6661,12 @@
       "created_at": "2026-03-11T16:50:26.191+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:08.860495",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A3",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8676256,
@@ -5409,7 +6684,12 @@
       "created_at": "2025-12-10T09:23:05.651+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:08.860518",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8826857,
@@ -5427,7 +6707,12 @@
       "created_at": "2025-12-26T17:40:06.323+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:08.860530",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "",
+      "model_series": "PaddleOCR",
+      "model_vendor": "百度"
     },
     {
       "id": 8686705,
@@ -5445,7 +6730,12 @@
       "created_at": "2025-12-11T10:39:02.609+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:08.860541",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "PaddleOCR",
+      "model_vendor": "百度"
     },
     {
       "id": 8662715,
@@ -5463,7 +6753,12 @@
       "created_at": "2025-12-08T17:21:17.336+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:08.860562",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8896021,
@@ -5481,7 +6776,12 @@
       "created_at": "2026-01-05T11:34:47.888+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:08.860572",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8586678,
@@ -5499,7 +6799,12 @@
       "created_at": "2025-12-02T14:42:03.800+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:08.860582",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "",
+      "model_series": "Qwen2.5",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8641759,
@@ -5517,7 +6822,12 @@
       "created_at": "2025-12-05T16:55:30.267+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:08.860592",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9125175,
@@ -5535,7 +6845,12 @@
       "created_at": "2026-02-03T10:14:22.457+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:08.860603",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "openPangu",
+      "model_vendor": "华为"
     },
     {
       "id": 8667814,
@@ -5553,7 +6868,12 @@
       "created_at": "2025-12-09T10:25:20.551+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:08.860613",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "310",
+      "model_series": "YOLO",
+      "model_vendor": "Ultralytics"
     },
     {
       "id": 8830805,
@@ -5571,7 +6891,12 @@
       "created_at": "2025-12-27T09:26:55.061+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:08.860628",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8641532,
@@ -5589,7 +6914,12 @@
       "created_at": "2025-12-05T16:33:44.588+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:11.021583",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8992396,
@@ -5607,7 +6937,12 @@
       "created_at": "2026-01-16T19:42:18.070+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:11.021629",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "openPangu",
+      "model_vendor": "华为"
     },
     {
       "id": 8783581,
@@ -5625,7 +6960,12 @@
       "created_at": "2025-12-22T19:56:20.023+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:11.021642",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "",
+      "model_series": "Qwen2.5",
+      "model_vendor": "阿里云"
     },
     {
       "id": 9161205,
@@ -5643,7 +6983,12 @@
       "created_at": "2026-02-07T18:34:00.236+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:11.021657",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "DeepSeek",
+      "model_vendor": "深度求索"
     },
     {
       "id": 9264571,
@@ -5661,7 +7006,12 @@
       "created_at": "2026-02-26T09:57:08.579+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:11.021681",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8748431,
@@ -5679,7 +7029,12 @@
       "created_at": "2025-12-18T16:58:15.866+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:11.021692",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindspeed-llm",
+      "training_or_inference": "训练",
+      "adapter_hardware": "A3",
+      "model_series": "Qwen2.5",
+      "model_vendor": "阿里云"
     },
     {
       "id": 9061133,
@@ -5697,7 +7052,12 @@
       "created_at": "2026-01-26T10:12:32.730+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:11.021702",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 9316323,
@@ -5715,7 +7075,12 @@
       "created_at": "2026-03-04T11:29:18.104+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:11.021716",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 9316334,
@@ -5733,7 +7098,12 @@
       "created_at": "2026-03-04T11:30:03.601+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:11.021729",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "GLM",
+      "model_vendor": "智谱AI"
     },
     {
       "id": 8662861,
@@ -5751,7 +7121,12 @@
       "created_at": "2025-12-08T17:33:21.118+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:11.021758",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindie",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "DeepSeek",
+      "model_vendor": "深度求索"
     },
     {
       "id": 9287173,
@@ -5769,7 +7144,12 @@
       "created_at": "2026-02-28T16:35:29.258+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:11.021792",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "GLM",
+      "model_vendor": "智谱AI"
     },
     {
       "id": 9117615,
@@ -5787,7 +7167,12 @@
       "created_at": "2026-02-02T10:38:44.832+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:11.021808",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindie",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8734778,
@@ -5805,7 +7190,12 @@
       "created_at": "2025-12-17T10:10:48.691+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:11.021820",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "",
+      "model_series": "Qwen2.5",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8862256,
@@ -5823,7 +7213,12 @@
       "created_at": "2025-12-31T09:41:57.449+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:11.021853",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindie",
+      "training_or_inference": "推理",
+      "adapter_hardware": "",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9125165,
@@ -5841,7 +7236,12 @@
       "created_at": "2026-02-03T10:13:01.540+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:15.358918",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8690018,
@@ -5859,7 +7259,12 @@
       "created_at": "2025-12-11T16:25:16.882+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:15.359155",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "",
+      "model_series": "DeepSeek",
+      "model_vendor": "深度求索"
     },
     {
       "id": 9337272,
@@ -5877,7 +7282,12 @@
       "created_at": "2026-03-06T16:25:07.093+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:15.359182",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8710682,
@@ -5895,7 +7305,12 @@
       "created_at": "2025-12-14T16:45:49.082+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:15.359193",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindspeed-llm",
+      "training_or_inference": "训练",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8758504,
@@ -5913,7 +7328,12 @@
       "created_at": "2025-12-19T15:55:39.969+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:15.359204",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8866997,
@@ -5931,7 +7351,12 @@
       "created_at": "2025-12-31T18:48:40.748+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:15.359221",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "verl",
+      "training_or_inference": "训练",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8825203,
@@ -5949,7 +7374,12 @@
       "created_at": "2025-12-26T15:07:08.158+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:15.359231",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9310236,
@@ -5967,7 +7397,12 @@
       "created_at": "2026-03-03T16:17:27.520+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:15.359257",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9191602,
@@ -5985,7 +7420,12 @@
       "created_at": "2026-02-12T10:57:39.361+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:15.359270",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindie",
+      "training_or_inference": "推理",
+      "adapter_hardware": "",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8825045,
@@ -6003,7 +7443,12 @@
       "created_at": "2025-12-26T14:52:19.629+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:15.359287",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9043571,
@@ -6021,7 +7466,12 @@
       "created_at": "2026-01-23T14:24:49.168+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:15.359299",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8778938,
@@ -6039,7 +7489,12 @@
       "created_at": "2025-12-22T11:38:09.626+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:15.359309",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindie",
+      "training_or_inference": "推理",
+      "adapter_hardware": "310",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8933806,
@@ -6057,7 +7512,12 @@
       "created_at": "2026-01-09T14:17:40.996+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:15.359334",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9107724,
@@ -6075,7 +7535,12 @@
       "created_at": "2026-01-31T17:10:30.285+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:15.359347",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 9191404,
@@ -6093,7 +7558,12 @@
       "created_at": "2026-02-12T10:29:18.918+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:15.359360",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9119792,
@@ -6111,7 +7581,12 @@
       "created_at": "2026-02-02T15:44:55.175+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:15.359371",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Whisper",
+      "model_vendor": "OpenAI"
     },
     {
       "id": 8844430,
@@ -6129,7 +7604,12 @@
       "created_at": "2025-12-29T10:33:24.579+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:15.359382",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindspeed-mm",
+      "training_or_inference": "训练",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 9125415,
@@ -6147,7 +7627,12 @@
       "created_at": "2026-02-03T10:46:32.376+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:17.818536",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9284348,
@@ -6165,7 +7650,12 @@
       "created_at": "2026-02-28T10:57:41.372+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:17.818560",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "",
+      "model_series": "YOLO",
+      "model_vendor": "Ultralytics"
     },
     {
       "id": 8744035,
@@ -6183,7 +7673,12 @@
       "created_at": "2025-12-18T10:30:28.893+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:17.818589",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindie",
+      "training_or_inference": "推理",
+      "adapter_hardware": "",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8833844,
@@ -6201,7 +7696,12 @@
       "created_at": "2025-12-27T17:58:03.111+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:17.818600",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "310",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8788805,
@@ -6219,7 +7719,12 @@
       "created_at": "2025-12-23T11:47:04.183+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:17.818612",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "310",
+      "model_series": "PaddleOCR",
+      "model_vendor": "百度"
     },
     {
       "id": 8717525,
@@ -6237,7 +7742,12 @@
       "created_at": "2025-12-15T15:46:48.770+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:17.818622",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8714727,
@@ -6255,7 +7765,12 @@
       "created_at": "2025-12-15T10:42:24.393+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:17.818633",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "310",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 9264536,
@@ -6273,7 +7788,12 @@
       "created_at": "2026-02-26T09:53:06.203+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:17.818644",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "GLM",
+      "model_vendor": "智谱AI"
     },
     {
       "id": 9264602,
@@ -6291,7 +7811,12 @@
       "created_at": "2026-02-26T10:00:47.154+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:17.818656",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen3.5",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8784100,
@@ -6309,7 +7834,12 @@
       "created_at": "2025-12-22T20:53:27.630+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:17.818666",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8792002,
@@ -6327,7 +7857,12 @@
       "created_at": "2025-12-23T14:56:58.433+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:17.818691",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindie",
+      "training_or_inference": "推理",
+      "adapter_hardware": "",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9250834,
@@ -6345,7 +7880,12 @@
       "created_at": "2026-02-24T14:25:59.909+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:17.818702",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8784131,
@@ -6363,7 +7903,12 @@
       "created_at": "2025-12-22T20:56:01.667+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:17.818713",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindspeed-llm",
+      "training_or_inference": "训练",
+      "adapter_hardware": "A3",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8698214,
@@ -6381,7 +7926,12 @@
       "created_at": "2025-12-12T15:28:34.743+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:17.818723",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "GPT",
+      "model_vendor": "OpenAI"
     },
     {
       "id": 8765953,
@@ -6399,7 +7949,12 @@
       "created_at": "2025-12-20T15:50:35.819+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:17.818733",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8756092,
@@ -6417,7 +7972,12 @@
       "created_at": "2025-12-19T11:39:49.889+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:17.818757",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "LLaVA",
+      "model_vendor": "LLaVA团队"
     },
     {
       "id": 8431538,
@@ -6435,7 +7995,12 @@
       "created_at": "2025-11-20T15:12:21.819+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:17.818768",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "",
+      "model_series": "BGE",
+      "model_vendor": "BAAI"
     },
     {
       "id": 8780477,
@@ -6453,7 +8018,12 @@
       "created_at": "2025-12-22T14:47:05.628+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:19.904932",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A3",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8751067,
@@ -6471,7 +8041,12 @@
       "created_at": "2025-12-18T21:44:51.866+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:19.904994",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "verl",
+      "training_or_inference": "训练",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8784153,
@@ -6489,7 +8064,12 @@
       "created_at": "2025-12-22T20:58:59.673+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:19.905020",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8784218,
@@ -6507,7 +8087,12 @@
       "created_at": "2025-12-22T21:07:52.430+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:19.905034",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "GLM",
+      "model_vendor": "智谱AI"
     },
     {
       "id": 8718005,
@@ -6525,7 +8110,12 @@
       "created_at": "2025-12-15T16:23:17.585+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:19.905046",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen2.5",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8745357,
@@ -6543,7 +8133,12 @@
       "created_at": "2025-12-18T12:05:44.596+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:19.905071",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8747618,
@@ -6561,7 +8156,12 @@
       "created_at": "2025-12-18T15:52:33.036+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:19.905084",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindspeed-llm",
+      "training_or_inference": "训练",
+      "adapter_hardware": "A3",
+      "model_series": "Qwen2.5",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8748884,
@@ -6579,7 +8179,12 @@
       "created_at": "2025-12-18T17:36:40.963+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:19.905123",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "310",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8610020,
@@ -6597,7 +8202,12 @@
       "created_at": "2025-12-03T15:16:59.744+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:19.905136",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8738041,
@@ -6615,7 +8225,12 @@
       "created_at": "2025-12-17T16:09:04.425+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:19.905148",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindspeed-mm",
+      "training_or_inference": "训练",
+      "adapter_hardware": "",
+      "model_series": "Qwen2.5",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8738534,
@@ -6633,7 +8248,12 @@
       "created_at": "2025-12-17T16:53:51.075+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:19.905159",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8974691,
@@ -6651,7 +8271,12 @@
       "created_at": "2026-01-14T17:40:52.529+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:19.905177",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8696508,
@@ -6669,7 +8294,12 @@
       "created_at": "2025-12-12T11:44:21.274+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:19.905189",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8891852,
@@ -6687,7 +8317,12 @@
       "created_at": "2026-01-04T20:51:36.275+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:19.905216",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindspeed-llm",
+      "training_or_inference": "训练",
+      "adapter_hardware": "A3",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9152936,
@@ -6705,7 +8340,12 @@
       "created_at": "2026-02-06T14:16:17.168+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:19.905229",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9182622,
@@ -6723,7 +8363,12 @@
       "created_at": "2026-02-11T00:26:32.285+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:22.252573",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A3",
+      "model_series": "YOLO",
+      "model_vendor": "Ultralytics"
     },
     {
       "id": 9182318,
@@ -6741,7 +8386,12 @@
       "created_at": "2026-02-10T23:13:26.318+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:22.252596",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A3",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9181352,
@@ -6759,7 +8409,12 @@
       "created_at": "2026-02-10T19:55:47.366+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:22.252610",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A3",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8806452,
@@ -6777,7 +8432,12 @@
       "created_at": "2025-12-24T17:06:15.942+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:22.252647",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9174246,
@@ -6795,7 +8455,12 @@
       "created_at": "2026-02-09T20:33:58.930+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:22.252667",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "verl",
+      "training_or_inference": "训练",
+      "adapter_hardware": "A3",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9174399,
@@ -6813,7 +8478,12 @@
       "created_at": "2026-02-09T20:59:52.454+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:22.252680",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A3",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8673643,
@@ -6831,7 +8501,12 @@
       "created_at": "2025-12-09T21:16:15.006+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:22.252693",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "",
+      "model_series": "BGE",
+      "model_vendor": "BAAI"
     },
     {
       "id": 8667779,
@@ -6849,7 +8524,12 @@
       "created_at": "2025-12-09T10:22:43.186+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:22.252707",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Hunyuan",
+      "model_vendor": "腾讯"
     },
     {
       "id": 8811637,
@@ -6867,7 +8547,12 @@
       "created_at": "2025-12-25T08:59:46.618+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:22.252731",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindie",
+      "training_or_inference": "推理",
+      "adapter_hardware": "310",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8933994,
@@ -6885,7 +8570,12 @@
       "created_at": "2026-01-09T14:38:14.142+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:22.252744",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8740694,
@@ -6903,7 +8593,12 @@
       "created_at": "2025-12-17T21:22:49.434+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:22.252757",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindie",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "DeepSeek",
+      "model_vendor": "深度求索"
     },
     {
       "id": 8692352,
@@ -6921,7 +8616,12 @@
       "created_at": "2025-12-11T20:52:56.106+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:22.252770",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindie",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "DeepSeek",
+      "model_vendor": "深度求索"
     },
     {
       "id": 8898346,
@@ -6939,7 +8639,12 @@
       "created_at": "2026-01-05T16:02:35.552+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:22.252782",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "PaddleOCR",
+      "model_vendor": "百度"
     },
     {
       "id": 8744025,
@@ -6957,7 +8662,12 @@
       "created_at": "2025-12-18T10:29:45.031+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:22.252803",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindie",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9028529,
@@ -6975,7 +8685,12 @@
       "created_at": "2026-01-21T17:12:33.002+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:22.252815",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8554373,
@@ -6993,7 +8708,12 @@
       "created_at": "2025-11-29T16:46:15.576+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:22.252827",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8514564,
@@ -7011,7 +8731,12 @@
       "created_at": "2025-11-26T18:00:26.870+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:22.252850",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8642052,
@@ -7029,7 +8754,12 @@
       "created_at": "2025-12-05T17:20:32.563+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:22.252862",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindie",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "DeepSeek",
+      "model_vendor": "深度求索"
     },
     {
       "id": 8895980,
@@ -7047,7 +8777,12 @@
       "created_at": "2026-01-05T11:32:07.760+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:24.229488",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8627197,
@@ -7065,7 +8800,12 @@
       "created_at": "2025-12-04T09:47:48.834+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:24.229512",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8631229,
@@ -7083,7 +8823,12 @@
       "created_at": "2025-12-04T14:42:35.428+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:24.229539",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "",
+      "model_series": "GLM",
+      "model_vendor": "智谱AI"
     },
     {
       "id": 8850207,
@@ -7101,7 +8846,12 @@
       "created_at": "2025-12-29T19:25:48.430+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:24.229552",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "310",
+      "model_series": "openPangu",
+      "model_vendor": "华为"
     },
     {
       "id": 9019870,
@@ -7119,7 +8869,12 @@
       "created_at": "2026-01-20T17:27:03.870+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:24.229563",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "sglang",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8894754,
@@ -7137,7 +8892,12 @@
       "created_at": "2026-01-05T09:52:03.780+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:24.229573",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8688492,
@@ -7155,7 +8915,12 @@
       "created_at": "2025-12-11T14:13:49.617+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:24.229585",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "DeepSeek",
+      "model_vendor": "深度求索"
     },
     {
       "id": 8896592,
@@ -7173,7 +8938,12 @@
       "created_at": "2026-01-05T12:58:26.493+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:24.229615",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8848238,
@@ -7191,7 +8961,12 @@
       "created_at": "2025-12-29T15:59:02.810+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:24.229628",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindie",
+      "training_or_inference": "推理",
+      "adapter_hardware": "",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8609563,
@@ -7209,7 +8984,12 @@
       "created_at": "2025-12-03T14:58:33.012+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:24.229639",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A3",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 9117639,
@@ -7227,7 +9007,12 @@
       "created_at": "2026-02-02T10:40:37.853+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:24.229652",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8554955,
@@ -7245,7 +9030,12 @@
       "created_at": "2025-11-29T17:54:43.302+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:24.229672",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9081518,
@@ -7263,7 +9053,12 @@
       "created_at": "2026-01-28T16:12:06.307+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:24.229695",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A3",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8839742,
@@ -7281,7 +9076,12 @@
       "created_at": "2025-12-28T17:01:33.705+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:24.229737",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Hunyuan",
+      "model_vendor": "腾讯"
     },
     {
       "id": 8853930,
@@ -7299,7 +9099,12 @@
       "created_at": "2025-12-30T10:30:40.252+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:24.229753",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8431153,
@@ -7317,7 +9122,12 @@
       "created_at": "2025-11-20T14:39:40.634+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:24.229765",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "BGE",
+      "model_vendor": "BAAI"
     },
     {
       "id": 8744011,
@@ -7335,7 +9145,12 @@
       "created_at": "2025-12-18T10:28:01.304+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:27.793195",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "PaddleOCR",
+      "model_vendor": "百度"
     },
     {
       "id": 8898134,
@@ -7353,7 +9168,12 @@
       "created_at": "2026-01-05T15:42:41.911+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:27.793228",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "",
+      "model_series": "Qwen2.5",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8819595,
@@ -7371,7 +9191,12 @@
       "created_at": "2025-12-25T21:38:44.538+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:27.793240",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8934711,
@@ -7389,7 +9214,12 @@
       "created_at": "2026-01-09T15:50:06.600+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:27.793253",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen2.5",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8934786,
@@ -7407,7 +9237,12 @@
       "created_at": "2026-01-09T15:56:25.906+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:27.793266",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8844132,
@@ -7425,7 +9260,12 @@
       "created_at": "2025-12-29T10:00:48.979+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:27.793277",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8844118,
@@ -7443,7 +9283,12 @@
       "created_at": "2025-12-29T10:00:19.734+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:27.793289",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8554795,
@@ -7461,7 +9306,12 @@
       "created_at": "2025-11-29T17:34:31.173+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:27.793303",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Whisper",
+      "model_vendor": "OpenAI"
     },
     {
       "id": 8637613,
@@ -7479,7 +9329,12 @@
       "created_at": "2025-12-05T09:44:43.172+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:27.793330",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "LLaVA",
+      "model_vendor": "LLaVA团队"
     },
     {
       "id": 8640675,
@@ -7497,7 +9352,12 @@
       "created_at": "2025-12-05T15:26:23.235+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:27.793341",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A3",
+      "model_series": "QwQ",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8661775,
@@ -7515,7 +9375,12 @@
       "created_at": "2025-12-08T15:57:14.214+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:27.793352",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindspeed-llm",
+      "training_or_inference": "训练",
+      "adapter_hardware": "",
+      "model_series": "Qwen2.5",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8678060,
@@ -7533,7 +9398,12 @@
       "created_at": "2025-12-10T11:34:16.293+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:27.793374",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindspeed-llm",
+      "training_or_inference": "训练",
+      "adapter_hardware": "",
+      "model_series": "Qwen2.5",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8686954,
@@ -7551,7 +9421,12 @@
       "created_at": "2025-12-11T11:00:41.926+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:27.793384",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindspeed-llm",
+      "training_or_inference": "训练",
+      "adapter_hardware": "",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8678017,
@@ -7569,7 +9444,12 @@
       "created_at": "2025-12-10T11:29:59.274+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:27.793394",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen2.5",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8678031,
@@ -7587,7 +9467,12 @@
       "created_at": "2025-12-10T11:31:16.923+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:27.793407",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen2.5",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8686106,
@@ -7605,7 +9490,12 @@
       "created_at": "2025-12-11T09:47:32.663+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:27.793417",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8757231,
@@ -7623,7 +9513,12 @@
       "created_at": "2025-12-19T14:09:29.317+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:31.573312",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A3",
+      "model_series": "Qwen2.5",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8746888,
@@ -7641,7 +9536,12 @@
       "created_at": "2025-12-18T14:54:34.892+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:31.573346",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Xiaomi",
+      "model_vendor": "小米"
     },
     {
       "id": 8667695,
@@ -7659,7 +9559,12 @@
       "created_at": "2025-12-09T10:14:21.750+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:31.573366",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindie",
+      "training_or_inference": "推理",
+      "adapter_hardware": "310",
+      "model_series": "openPangu",
+      "model_vendor": "华为"
     },
     {
       "id": 8744049,
@@ -7677,7 +9582,12 @@
       "created_at": "2025-12-18T10:31:17.866+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:31.573393",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8746353,
@@ -7695,7 +9605,12 @@
       "created_at": "2025-12-18T14:10:20.633+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:31.573405",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8805076,
@@ -7713,7 +9628,12 @@
       "created_at": "2025-12-24T15:19:35.246+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:31.573418",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindie",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A3",
+      "model_series": "DeepSeek",
+      "model_vendor": "深度求索"
     },
     {
       "id": 8667793,
@@ -7731,7 +9651,12 @@
       "created_at": "2025-12-09T10:23:33.882+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:31.573441",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindie",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Flux",
+      "model_vendor": "BlackForestLabs"
     },
     {
       "id": 8797895,
@@ -7749,7 +9674,12 @@
       "created_at": "2025-12-23T19:21:02.660+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:31.573474",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8641471,
@@ -7767,7 +9697,12 @@
       "created_at": "2025-12-05T16:26:32.081+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:31.573502",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen2.5",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8806492,
@@ -7785,7 +9720,12 @@
       "created_at": "2025-12-24T17:11:15.240+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:31.573515",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindie",
+      "training_or_inference": "推理",
+      "adapter_hardware": "",
+      "model_series": "Wan",
+      "model_vendor": "字节跳动"
     },
     {
       "id": 8523211,
@@ -7803,7 +9743,12 @@
       "created_at": "2025-11-27T09:46:30.031+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:31.573526",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8701227,
@@ -7821,7 +9766,12 @@
       "created_at": "2025-12-12T22:40:44.054+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:31.573539",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindie",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Hunyuan",
+      "model_vendor": "腾讯"
     },
     {
       "id": 8677995,
@@ -7839,7 +9789,12 @@
       "created_at": "2025-12-10T11:27:43.890+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:31.573550",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Gemma",
+      "model_vendor": "Google"
     },
     {
       "id": 8899173,
@@ -7857,7 +9812,12 @@
       "created_at": "2026-01-05T17:06:12.234+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:31.573561",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8825183,
@@ -7875,7 +9835,12 @@
       "created_at": "2025-12-26T15:06:01.604+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:31.573572",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8825142,
@@ -7893,7 +9858,12 @@
       "created_at": "2025-12-26T15:02:03.760+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:31.573600",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8825059,
@@ -7911,7 +9881,12 @@
       "created_at": "2025-12-26T14:54:16.816+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:35.381263",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8827657,
@@ -7929,7 +9904,12 @@
       "created_at": "2025-12-26T19:28:20.065+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:35.381289",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8748389,
@@ -7947,7 +9927,12 @@
       "created_at": "2025-12-18T16:53:34.922+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:35.381331",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8744410,
@@ -7965,7 +9950,12 @@
       "created_at": "2025-12-18T11:01:33.003+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:35.381350",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindie",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Wan",
+      "model_vendor": "字节跳动"
     },
     {
       "id": 8802282,
@@ -7983,7 +9973,12 @@
       "created_at": "2025-12-24T10:07:29.573+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:35.381363",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindspeed-llm",
+      "training_or_inference": "训练",
+      "adapter_hardware": "",
+      "model_series": "Qwen2.5",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8667778,
@@ -8001,7 +9996,12 @@
       "created_at": "2025-12-09T10:22:23.609+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:35.381375",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8667796,
@@ -8019,7 +10019,12 @@
       "created_at": "2025-12-09T10:23:55.424+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:35.381388",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8854226,
@@ -8037,7 +10042,12 @@
       "created_at": "2025-12-30T11:04:37.435+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:35.381400",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Hunyuan",
+      "model_vendor": "腾讯"
     },
     {
       "id": 8847860,
@@ -8055,7 +10065,12 @@
       "created_at": "2025-12-29T15:25:16.997+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:35.381421",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8671405,
@@ -8073,7 +10088,12 @@
       "created_at": "2025-12-09T16:46:20.856+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:35.381434",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "GLM",
+      "model_vendor": "智谱AI"
     },
     {
       "id": 8672073,
@@ -8091,7 +10111,12 @@
       "created_at": "2025-12-09T17:43:55.166+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:35.381445",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "GLM",
+      "model_vendor": "智谱AI"
     },
     {
       "id": 8667785,
@@ -8109,7 +10134,12 @@
       "created_at": "2025-12-09T10:23:03.960+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:35.381455",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindie",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8627207,
@@ -8127,7 +10157,12 @@
       "created_at": "2025-12-04T09:48:20.280+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:35.381467",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8743997,
@@ -8145,7 +10180,12 @@
       "created_at": "2025-12-18T10:26:39.763+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:35.381489",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindie",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8554823,
@@ -8163,7 +10203,12 @@
       "created_at": "2025-11-29T17:38:46.584+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:35.381504",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8554913,
@@ -8181,7 +10226,12 @@
       "created_at": "2025-11-29T17:50:16.742+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:35.381516",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8835004,
@@ -8199,7 +10249,12 @@
       "created_at": "2025-12-27T21:45:58.125+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:35.381536",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8778160,
@@ -8217,7 +10272,12 @@
       "created_at": "2025-12-22T10:44:14.961+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:37.435840",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8890409,
@@ -8235,7 +10295,12 @@
       "created_at": "2026-01-04T17:27:53.005+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:37.435866",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 8831141,
@@ -8253,7 +10318,12 @@
       "created_at": "2025-12-27T10:26:19.255+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:37.435880",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8832860,
@@ -8271,7 +10341,12 @@
       "created_at": "2025-12-27T15:35:40.096+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:37.435894",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8806036,
@@ -8289,7 +10364,12 @@
       "created_at": "2025-12-24T16:33:41.637+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:37.436158",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8639588,
@@ -8307,7 +10387,12 @@
       "created_at": "2025-12-05T14:07:04.701+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:37.436185",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8631557,
@@ -8325,7 +10410,12 @@
       "created_at": "2025-12-04T15:13:09.150+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:37.436200",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindie",
+      "training_or_inference": "推理",
+      "adapter_hardware": "",
+      "model_series": "DeepSeek",
+      "model_vendor": "深度求索"
     },
     {
       "id": 8914034,
@@ -8343,7 +10433,12 @@
       "created_at": "2026-01-07T09:59:42.117+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:37.436216",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "",
+      "model_series": "openPangu",
+      "model_vendor": "华为"
     },
     {
       "id": 8802290,
@@ -8361,7 +10456,12 @@
       "created_at": "2025-12-24T10:08:03.454+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:37.436243",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindspeed-llm",
+      "training_or_inference": "训练",
+      "adapter_hardware": "",
+      "model_series": "Qwen2.5",
+      "model_vendor": "阿里云"
     },
     {
       "id": 8748736,
@@ -8379,7 +10479,12 @@
       "created_at": "2025-12-18T17:24:40.701+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:37.436256",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "mindie",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9334016,
@@ -8397,7 +10502,12 @@
       "created_at": "2026-03-06T10:09:30.709+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:41.483455",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 9311377,
@@ -8415,7 +10525,12 @@
       "created_at": "2026-03-03T18:09:31.518+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:41.483482",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9333961,
@@ -8433,7 +10548,12 @@
       "created_at": "2026-03-06T10:05:09.343+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:41.483546",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9311385,
@@ -8451,7 +10571,12 @@
       "created_at": "2026-03-03T18:11:10.301+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:41.483558",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "",
+      "model_series": "Unknown",
+      "model_vendor": "Unknown"
     },
     {
       "id": 9446728,
@@ -8469,7 +10594,12 @@
       "created_at": "2026-03-18T17:21:59.985+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:41.483582",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "",
+      "model_series": "Qwen3",
+      "model_vendor": "阿里云"
     },
     {
       "id": 9311391,
@@ -8487,7 +10617,12 @@
       "created_at": "2026-03-03T18:11:24.244+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:44.562781",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Intern",
+      "model_vendor": "上海人工智能实验室"
     },
     {
       "id": 9334294,
@@ -8505,7 +10640,12 @@
       "created_at": "2026-03-06T10:37:17.625+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:44.562794",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "MiniCPM",
+      "model_vendor": "面壁智能"
     },
     {
       "id": 9011297,
@@ -8523,7 +10663,12 @@
       "created_at": "2026-01-19T17:03:16.816+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:52.575976",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "",
+      "training_or_inference": "",
+      "adapter_hardware": "A2",
+      "model_series": "GLM",
+      "model_vendor": "智谱AI"
     },
     {
       "id": 9010440,
@@ -8541,7 +10686,12 @@
       "created_at": "2026-01-19T15:43:45.151+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:52.576000",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "openPangu",
+      "model_vendor": "华为"
     },
     {
       "id": 9010481,
@@ -8559,7 +10709,12 @@
       "created_at": "2026-01-19T15:47:51.740+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:52.576015",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "openPangu",
+      "model_vendor": "华为"
     },
     {
       "id": 9269485,
@@ -8577,7 +10732,12 @@
       "created_at": "2026-02-26T17:06:34.753+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:57.921559",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "sglang",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen3.5",
+      "model_vendor": "阿里云"
     },
     {
       "id": 9269567,
@@ -8595,7 +10755,12 @@
       "created_at": "2026-02-26T17:11:26.270+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:57.921579",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "sglang",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen3.5",
+      "model_vendor": "阿里云"
     },
     {
       "id": 9287180,
@@ -8613,7 +10778,12 @@
       "created_at": "2026-02-28T16:36:19.521+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:57.921600",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "sglang",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen3.5",
+      "model_vendor": "阿里云"
     },
     {
       "id": 9287296,
@@ -8631,7 +10801,12 @@
       "created_at": "2026-02-28T16:47:29.958+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:57.921611",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "sglang",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen3.5",
+      "model_vendor": "阿里云"
     },
     {
       "id": 9299606,
@@ -8649,7 +10824,12 @@
       "created_at": "2026-03-02T14:16:05.864+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:57.921620",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "sglang",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen3.5",
+      "model_vendor": "阿里云"
     },
     {
       "id": 9299587,
@@ -8667,7 +10847,12 @@
       "created_at": "2026-03-02T14:13:53.144+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:57.921630",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "sglang",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen3.5",
+      "model_vendor": "阿里云"
     },
     {
       "id": 9269628,
@@ -8685,7 +10870,12 @@
       "created_at": "2026-02-26T17:14:52.202+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:57.921663",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "sglang",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A3",
+      "model_series": "Qwen3.5",
+      "model_vendor": "阿里云"
     },
     {
       "id": 7694660,
@@ -8703,7 +10893,12 @@
       "created_at": "2025-09-29T18:52:02.014+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:57:57.921675",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "sglang",
+      "training_or_inference": "推理",
+      "adapter_hardware": "",
+      "model_series": "DeepSeek",
+      "model_vendor": "深度求索"
     },
     {
       "id": 9288886,
@@ -8721,7 +10916,12 @@
       "created_at": "2026-02-28T20:35:44.202+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:58:02.821683",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen3.5",
+      "model_vendor": "阿里云"
     },
     {
       "id": 9303241,
@@ -8739,7 +10939,12 @@
       "created_at": "2026-03-02T20:19:40.094+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:58:02.821705",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen3.5",
+      "model_vendor": "阿里云"
     },
     {
       "id": 9389525,
@@ -8757,7 +10962,12 @@
       "created_at": "2026-03-12T10:31:41.956+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:58:02.821942",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A3",
+      "model_series": "GLM",
+      "model_vendor": "智谱AI"
     },
     {
       "id": 9268073,
@@ -8775,7 +10985,12 @@
       "created_at": "2026-02-26T15:42:06.910+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:58:02.821953",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen3.5",
+      "model_vendor": "阿里云"
     },
     {
       "id": 9303219,
@@ -8793,7 +11008,12 @@
       "created_at": "2026-03-02T20:16:23.845+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:58:02.821987",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen3.5",
+      "model_vendor": "阿里云"
     },
     {
       "id": 9288869,
@@ -8811,7 +11031,12 @@
       "created_at": "2026-02-28T20:31:21.627+08:00",
       "tags": [],
       "collected_at": "2026-03-26T09:58:02.821997",
-      "source": "gitcode"
+      "source": "gitcode",
+      "adapter_framework": "vllm-ascend",
+      "training_or_inference": "推理",
+      "adapter_hardware": "A2",
+      "model_series": "Qwen3.5",
+      "model_vendor": "阿里云"
     },
     {
       "id": "19053",
