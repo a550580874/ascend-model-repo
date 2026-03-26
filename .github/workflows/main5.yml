@@ -35,7 +35,7 @@ jobs:
           
           # 确保创建 data 目录并添加正确的文件名
           mkdir -p data
-          git add data/ascend_model.json
+          git add data/ascend_model_adapter.json
           
           git commit -m "Auto-update ascend model data: $(date)" || exit 0
           git push
