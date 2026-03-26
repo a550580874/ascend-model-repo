@@ -25,6 +25,8 @@ import time
 from urllib.parse import urlparse
 import subprocess
 
+from model_series_vendor_detector import check_model_series_vendor
+
 ADAPTER_KEYWORDS = [
     ("vllm-ascend", ["vllm-ascend", "vllm_ascend", "vllm ascend"]),
     ("mindspeed-llm", ["mindspeed-llm", "mindspeed_llm", "mindspeed llm"]),
