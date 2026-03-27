@@ -94,6 +94,6 @@ def convert_json_to_kb_markdown(
 
 if __name__ == "__main__":
     convert_json_to_kb_markdown(
-        input_json_path="ascend_model.json",
-        output_md_path="ascend_model_kb.md"
+        input_json_path="./data/ascend_model_with_adapter.json",
+        output_md_path="./data/ascend_model_kb.md"
     )
