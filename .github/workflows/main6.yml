@@ -38,6 +38,7 @@ jobs:
           git add data/ascend_model_with_adapter.json
 
           git add data/ascend_model.json
+          git add data/ascend_model_kb.md
           
           git commit -m "Auto-update ascend model data: $(date)" || exit 0
           git push
