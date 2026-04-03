@@ -173,8 +173,8 @@ def check_adapter_hardware(model):
     return adapter_hardware
 
 def main():
-    input_file = "/home/wangyan/work/test_0318/ascend-model-repo/data/ascend_model.json"
-    output_file = "/home/wangyan/work/test_0318/ascend_model_with_adapter.json"
+    input_file = "./data/ascend_model.json"
+    output_file = "./ascend_model_with_adapter.json"
     
     with open(input_file, 'r', encoding='utf-8') as f:
         data = json.load(f)
