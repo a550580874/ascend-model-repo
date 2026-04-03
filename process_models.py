@@ -174,7 +174,7 @@ def check_adapter_hardware(model):
 
 def main():
     input_file = "./data/ascend_model.json"
-    output_file = "./ascend_model_with_adapter.json"
+    output_file = "./data/ascend_model_with_adapter.json"
     
     with open(input_file, 'r', encoding='utf-8') as f:
         data = json.load(f)
