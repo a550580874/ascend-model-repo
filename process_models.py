@@ -39,7 +39,7 @@ def get_raw_readme_url(url):
     return None
 
 def fetch_readme_content(url, max_retries=3):
-    """回归 curl 方案，加入超时、重试和忽略证书机制"""
+    """回归 curl 方案，加入极致的 Debug 打印信息"""
     raw_url = get_raw_readme_url(url)
     if not raw_url:
         return None
@@ -47,18 +47,29 @@ def fetch_readme_content(url, max_retries=3):
     for attempt in range(max_retries):
         try:
             # -sL: 静默并跟随重定向
-            # -k: 忽略 SSL 证书校验，穿透代理限制
+            # -k: 忽略 SSL 证书校验
             # --max-time: 防止网络卡死
             cmd = ['curl', '-sL', '-k', '--max-time', '15', raw_url]
             result = subprocess.run(cmd, capture_output=True, text=True, timeout=20)
             
-            if result.returncode == 0 and result.stdout:
+            if result.returncode == 0:
                 content = result.stdout
-                # 确保抓到的是真 README，而不是防火墙返回的短句
+                # === 核心调试打印 ===
+                # 把回车换行去掉，截取前 150 个字符预览
+                preview = content[:150].replace('\n', ' ').strip()
+                print(f"      [Debug] curl 成功 (0). 拿到 {len(content)} 字节. 预览: {preview}")
+                
                 if len(content) > 100:
+                    # 如果抓到了 HTML 标签，说明是被防火墙拦截了，并非真实的 Markdown
+                    if "<html" in content.lower() or "<!doctype" in content.lower():
+                        print(f"      [警告] 抓到的疑似网页/防火墙拦截页，不是 README！")
                     return content
+                else:
+                    print(f"      [警告] 内容过短，可能被拦截或文件为空。")
             else:
-                print(f"      [curl拦截] 第 {attempt+1} 次失败，错误码: {result.returncode}")
+                # 打印出标准错误流里的信息
+                err_msg = result.stderr.strip()[:100] if result.stderr else "无错误日志"
+                print(f"      [curl错误] 第 {attempt+1} 次失败，退出码: {result.returncode}, 日志: {err_msg}")
                 
         except subprocess.TimeoutExpired:
             print(f"      [超时] 第 {attempt+1} 次执行 curl 卡死")
