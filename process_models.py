@@ -37,25 +37,40 @@ def get_raw_readme_url(url):
         return f"https://raw.gitcode.com/{owner}/{repo}/raw/main/README.md"
     return None
 
-def fetch_readme_content(url):
-    """使用curl获取README内容"""
+def fetch_readme_content(url, max_retries=3):
+    """使用curl获取README内容，带重试机制"""
     raw_url = get_raw_readme_url(url)
     if not raw_url:
         return None
     
-    try:
-        result = subprocess.run(
-            ['curl', '-sL', raw_url],
-            capture_output=True,
-            text=True,
-            timeout=30
-        )
-        if result.returncode == 0 and result.stdout:
-            content = result.stdout
-            if len(content) > 100:
-                return content
-    except:
-        pass
+    for attempt in range(max_retries):
+        try:
+            # 使用 --max-time 限制 curl 本身的执行时间，防止卡死
+            result = subprocess.run(
+                ['curl', '-sL', '--max-time', '20', raw_url],
+                capture_output=True,
+                text=True,
+                timeout=25 # Python 层的超时，比 curl 略长
+            )
+            if result.returncode == 0 and result.stdout:
+                content = result.stdout
+                if len(content) > 100:
+                    return content
+            else:
+                # 打印 curl 的错误码，方便在 Actions 日志里看原因
+                print(f"      [警告] 第 {attempt+1} 次获取失败，状态码: {result.returncode}")
+                
+        except subprocess.TimeoutExpired:
+            print(f"      [超时] 第 {attempt+1} 次获取 {raw_url} 超时")
+        except Exception as e:
+            print(f"      [错误] 第 {attempt+1} 次获取异常: {e}")
+        
+        # 如果不是最后一次尝试，失败后随机休息 2~5 秒再重试
+        if attempt < max_retries - 1:
+            sleep_time = random.uniform(2.0, 5.0)
+            print(f"      -> 等待 {sleep_time:.1f} 秒后重试...")
+            time.sleep(sleep_time)
+            
     return None
 
 def detect_adapter_framework(content):
@@ -172,6 +187,8 @@ def check_adapter_hardware(model):
     
     return adapter_hardware
 
+import random
+
 def main():
     input_file = "./data/ascend_model.json"
     output_file = "./data/ascend_model_with_adapter.json"
@@ -198,7 +215,9 @@ def main():
         
         print(f"[{idx+1}/{len(gitcode_models)}] {model.get('name')} -> framework: {adapter_framework}, hardware: {adapter_hardware}, series: {series_vendor.get('series')}, vendor: {series_vendor.get('vendor')}")
         
-        time.sleep(0.3)
+        # 使用随机延迟，避免被 GitCode 识别为高频爬虫
+        sleep_time = random.uniform(1.0, 2.5)
+        time.sleep(sleep_time)
         
         if (idx + 1) % 50 == 0:
             with open(output_file, 'w', encoding='utf-8') as f:
