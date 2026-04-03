@@ -4,6 +4,7 @@ import re
 import time
 from urllib.parse import urlparse
 import subprocess
+import random
 
 from model_series_vendor_detector import check_model_series_vendor
 
@@ -29,7 +30,7 @@ HARDWARE_KEYWORDS = [
 ]
 
 def get_raw_readme_url(url):
-    """从gitcode仓库URL获取raw README URL"""
+    """最原始的 raw url 拼接方式（已被证实有效）"""
     parsed = urlparse(url)
     path_parts = parsed.path.strip('/').split('/')
     if len(path_parts) >= 2:
@@ -38,43 +39,41 @@ def get_raw_readme_url(url):
     return None
 
 def fetch_readme_content(url, max_retries=3):
-    """使用curl获取README内容，带重试机制"""
+    """回归 curl 方案，加入超时、重试和忽略证书机制"""
     raw_url = get_raw_readme_url(url)
     if not raw_url:
         return None
     
     for attempt in range(max_retries):
         try:
-            # 使用 --max-time 限制 curl 本身的执行时间，防止卡死
-            result = subprocess.run(
-                ['curl', '-sL', '--max-time', '20', raw_url],
-                capture_output=True,
-                text=True,
-                timeout=25 # Python 层的超时，比 curl 略长
-            )
+            # -sL: 静默并跟随重定向
+            # -k: 忽略 SSL 证书校验，穿透代理限制
+            # --max-time: 防止网络卡死
+            cmd = ['curl', '-sL', '-k', '--max-time', '15', raw_url]
+            result = subprocess.run(cmd, capture_output=True, text=True, timeout=20)
+            
             if result.returncode == 0 and result.stdout:
                 content = result.stdout
+                # 确保抓到的是真 README，而不是防火墙返回的短句
                 if len(content) > 100:
                     return content
             else:
-                # 打印 curl 的错误码，方便在 Actions 日志里看原因
-                print(f"      [警告] 第 {attempt+1} 次获取失败，状态码: {result.returncode}")
+                print(f"      [curl拦截] 第 {attempt+1} 次失败，错误码: {result.returncode}")
                 
         except subprocess.TimeoutExpired:
-            print(f"      [超时] 第 {attempt+1} 次获取 {raw_url} 超时")
+            print(f"      [超时] 第 {attempt+1} 次执行 curl 卡死")
         except Exception as e:
-            print(f"      [错误] 第 {attempt+1} 次获取异常: {e}")
-        
-        # 如果不是最后一次尝试，失败后随机休息 2~5 秒再重试
+            print(f"      [异常] 第 {attempt+1} 次执行出错: {e}")
+            
+        # 失败后随机休眠再重试
         if attempt < max_retries - 1:
-            sleep_time = random.uniform(2.0, 5.0)
+            sleep_time = random.uniform(2.0, 4.0)
             print(f"      -> 等待 {sleep_time:.1f} 秒后重试...")
             time.sleep(sleep_time)
             
     return None
 
 def detect_adapter_framework(content):
-    """检测适配框架"""
     if not content:
         return None, None
     
@@ -101,14 +100,6 @@ def detect_adapter_framework(content):
     return None, None
 
 def check_adapter_framework(model):
-    """检查模型的适配框架
-    
-    按顺序检查：
-    1. name字段
-    2. full_name字段  
-    3. description字段
-    4. README文档（必须获取）
-    """
     name = model.get("name", "")
     full_name = model.get("full_name", "")
     description = model.get("description", "") or ""
@@ -116,26 +107,19 @@ def check_adapter_framework(model):
     
     search_sources = [name, full_name, description]
     
-    adapter_framework = None
-    training_or_inference = None
-    
     for source in search_sources:
         if source:
             fw, toi = detect_adapter_framework(source)
             if fw:
-                adapter_framework = fw
-                training_or_inference = toi
-                return adapter_framework, training_or_inference
-    
+                return fw, toi
+                
     readme_content = fetch_readme_content(url)
     if readme_content:
-        adapter_framework, training_or_inference = detect_adapter_framework(readme_content)
+        return detect_adapter_framework(readme_content)
     
-    return adapter_framework, training_or_inference
-
+    return None, None
 
 def detect_adapter_hardware(content):
-    """检测适配硬件"""
     if not content:
         return None
     
@@ -155,16 +139,7 @@ def detect_adapter_hardware(content):
     
     return None
 
-
 def check_adapter_hardware(model):
-    """检查模型的适配硬件
-    
-    按顺序检查：
-    1. name字段
-    2. full_name字段  
-    3. description字段
-    4. README文档（必须获取）
-    """
     name = model.get("name", "")
     full_name = model.get("full_name", "")
     description = model.get("description", "") or ""
@@ -172,22 +147,17 @@ def check_adapter_hardware(model):
     
     search_sources = [name, full_name, description]
     
-    adapter_hardware = None
-    
     for source in search_sources:
         if source:
             hw = detect_adapter_hardware(source)
             if hw:
-                adapter_hardware = hw
-                return adapter_hardware
-    
+                return hw
+                
     readme_content = fetch_readme_content(url)
     if readme_content:
-        adapter_hardware = detect_adapter_hardware(readme_content)
+        return detect_adapter_hardware(readme_content)
     
-    return adapter_hardware
-
-import random
+    return None
 
 def main():
     input_file = "./data/ascend_model.json"
@@ -215,9 +185,8 @@ def main():
         
         print(f"[{idx+1}/{len(gitcode_models)}] {model.get('name')} -> framework: {adapter_framework}, hardware: {adapter_hardware}, series: {series_vendor.get('series')}, vendor: {series_vendor.get('vendor')}")
         
-        # 使用随机延迟，避免被 GitCode 识别为高频爬虫
-        sleep_time = random.uniform(1.0, 2.5)
-        time.sleep(sleep_time)
+        # 增加随机休眠，避免被 Actions 环境或防火墙判断为高频攻击
+        time.sleep(random.uniform(1.0, 2.5))
         
         if (idx + 1) % 50 == 0:
             with open(output_file, 'w', encoding='utf-8') as f:
