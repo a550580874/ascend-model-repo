@@ -6,6 +6,7 @@ import subprocess
 import sys
 import tempfile
 from pathlib import Path
+import os
 
 
 TOKEN = "k_yRB-MW4zPsQK_jSMByJCt6"
@@ -15,7 +16,15 @@ SRC_REL_PATH = "data/ascend_model_with_adapter.json"
 
 
 def run_cmd(cmd, cwd=None):
-    print(f"[INFO] run: {' '.join(cmd)}")
+    safe_cmd = []
+    for part in cmd:
+        if isinstance(part, str) and "oauth2:" in part and "@gitcode.com" in part:
+            safe_cmd.append("<REDACTED_GIT_URL>")
+        else:
+            safe_cmd.append(part)
+
+    print(f"[INFO] run: {' '.join(safe_cmd)}")
+
     result = subprocess.run(
         cmd,
         cwd=cwd,
@@ -24,12 +33,15 @@ def run_cmd(cmd, cwd=None):
         text=True,
         check=False,
     )
+
     if result.stdout:
         print(result.stdout.strip())
+
     if result.returncode != 0:
         if result.stderr:
             print(result.stderr.strip(), file=sys.stderr)
-        raise RuntimeError(f"command failed: {' '.join(cmd)}")
+        raise RuntimeError(f"command failed: {' '.join(safe_cmd)}")
+
     return result
 
 
@@ -71,9 +83,6 @@ def main() -> int:
         print(f"[INFO] saved to: {out_file}")
         print(f"[INFO] size: {out_file.stat().st_size} bytes")
 
-        # 给后续 GitHub Actions step 用
-        github_output = None
-        import os
         github_output = os.getenv("GITHUB_OUTPUT")
         if github_output:
             with open(github_output, "a", encoding="utf-8") as f:
