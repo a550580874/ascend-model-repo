@@ -2,15 +2,15 @@ name: Scheduled Scraper
 
 on:
   schedule:
-    - cron: '0 0 * * *' 
-  workflow_dispatch: 
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 jobs:
   scrape_job:
     runs-on: ubuntu-latest
-    
+
     permissions:
-      contents: write 
+      contents: write
 
     steps:
       - name: Checkout Code
@@ -26,16 +26,27 @@ jobs:
           pip install requests PyYAML
 
       - name: Run Scraper
+        id: get_json
         run: python get_data_from_gitcode.py
+
+      - name: Copy downloaded json into repo
+        run: |
+          mkdir -p data
+          cp "${{ steps.get_json.outputs.json_path }}" data/ascend_model_with_adapter.json
+          ls -la data
+          test -f data/ascend_model_with_adapter.json
 
       - name: Commit and Push changes
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Action Bot"
-          
-          # 确保创建 data 目录并添加正确的文件名
-          mkdir -p data
-          git add data/ascend_model_adapter.json
-          
-          git commit -m "Auto-update ascend model data: $(date)" || exit 0
+
+          git add data/ascend_model_with_adapter.json
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          git commit -m "Auto-update ascend model data: $(date)"
           git push
