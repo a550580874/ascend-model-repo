@@ -1,53 +1,86 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+import shutil
+import subprocess
 import sys
+import tempfile
 from pathlib import Path
 
-import requests
+
+TOKEN = "k_yRB-MW4zPsQK_jSMByJCt6"
+REPO_URL = "https://gitcode.com/ming-shen/Ascend-model-search.git"
+BRANCH = "main"
+SRC_REL_PATH = "data/ascend_model_with_adapter.json"
 
 
-URL = "https://raw.gitcode.com/ming-shen/Ascend-model-search/raw/main/data/ascend_model_with_adapter.json"
-OUT_DIR = Path("./data")
-OUT_FILE = OUT_DIR / "ascend_model_with_adapter.json"
+def run_cmd(cmd, cwd=None):
+    print(f"[INFO] run: {' '.join(cmd)}")
+    result = subprocess.run(
+        cmd,
+        cwd=cwd,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+        text=True,
+        check=False,
+    )
+    if result.stdout:
+        print(result.stdout.strip())
+    if result.returncode != 0:
+        if result.stderr:
+            print(result.stderr.strip(), file=sys.stderr)
+        raise RuntimeError(f"command failed: {' '.join(cmd)}")
+    return result
 
 
-def download_json(url: str, out_file: Path) -> None:
-    out_file.parent.mkdir(parents=True, exist_ok=True)
-
-    headers = {
-        "User-Agent": (
-            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-            "AppleWebKit/537.36 (KHTML, like Gecko) "
-            "Chrome/124.0.0.0 Safari/537.36"
-        ),
-        "Accept": "application/json,text/plain,*/*",
-        "Referer": "https://gitcode.com/",
-        "Cache-Control": "no-cache",
-        "Pragma": "no-cache",
-    }
-
-    session = requests.Session()
-    resp = session.get(url, headers=headers, timeout=60, allow_redirects=True)
-
-    try:
-        resp.raise_for_status()
-    except requests.HTTPError as e:
-        print(f"[ERROR] 下载失败: {e}", file=sys.stderr)
-        print(f"[ERROR] status_code={resp.status_code}", file=sys.stderr)
-        print(f"[ERROR] response_text={resp.text[:500]}", file=sys.stderr)
-        raise
-
-    out_file.write_bytes(resp.content)
-    print(f"[INFO] 下载成功: {url}")
-    print(f"[INFO] 已保存到: {out_file.resolve()}")
-    print(f"[INFO] 文件大小: {out_file.stat().st_size} bytes")
+def build_auth_repo_url(repo_url: str, token: str) -> str:
+    prefix = "https://"
+    if not repo_url.startswith(prefix):
+        raise ValueError(f"unexpected repo url: {repo_url}")
+    return f"https://oauth2:{token}@{repo_url[len(prefix):]}"
 
 
 def main() -> int:
+    tmp_root = Path(tempfile.mkdtemp(prefix="gitcode_pull_"))
+    repo_dir = tmp_root / "repo"
+    out_file = tmp_root / "ascend_model_with_adapter.json"
+
+    print(f"[INFO] temp root: {tmp_root}")
+    print(f"[INFO] repo dir: {repo_dir}")
+    print(f"[INFO] out file: {out_file}")
+
     try:
-        download_json(URL, OUT_FILE)
+        auth_repo_url = build_auth_repo_url(REPO_URL, TOKEN)
+
+        run_cmd([
+            "git",
+            "clone",
+            "--depth", "1",
+            "--branch", BRANCH,
+            auth_repo_url,
+            str(repo_dir),
+        ])
+
+        src_file = repo_dir / SRC_REL_PATH
+        if not src_file.exists():
+            raise FileNotFoundError(f"source file not found: {src_file}")
+
+        shutil.copy2(src_file, out_file)
+
+        print(f"[INFO] copied from: {src_file}")
+        print(f"[INFO] saved to: {out_file}")
+        print(f"[INFO] size: {out_file.stat().st_size} bytes")
+
+        # 给后续 GitHub Actions step 用
+        github_output = None
+        import os
+        github_output = os.getenv("GITHUB_OUTPUT")
+        if github_output:
+            with open(github_output, "a", encoding="utf-8") as f:
+                f.write(f"json_path={out_file}\n")
+
         return 0
+
     except Exception as e:
         print(f"[FATAL] {type(e).__name__}: {e}", file=sys.stderr)
         return 1
