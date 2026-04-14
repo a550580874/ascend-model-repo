@@ -23,6 +23,8 @@ gitcode:
       org_id: SGLangAscend
     - name: vLLM_Ascend
       org_id: vLLM_Ascend
+    - name: ascend_model_docs
+      org_id: ascend_model_docs
 
 modelers:
   repositories:
