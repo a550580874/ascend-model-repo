@@ -15,6 +15,8 @@ ROOT = Path(__file__).resolve().parent
 DEFAULT_INPUT = ROOT / "data" / "ascend_model_with_adapter-1-total.json"
 DEFAULT_KEYWORD_OUTPUT = ROOT / "data" / "ascend_model_source_key_word.json"
 DEFAULT_MODEL_NAME_OUTPUT = ROOT / "data" / "ascend_mode_source_model_name.json"
+DEFAULT_FRAMEWORK_OUTPUT = ROOT / "data" / "ascend_model_source_framework.json"
+DEFAULT_HARDWARE_OUTPUT = ROOT / "data" / "ascend_model_source_hardware.json"
 KEY_FIELDS = ("name", "adapter_framework", "adapter_hardware")
 SPLIT_PATTERN = re.compile(r"[-_\s]+")
 TRAILING_NUMBER_PATTERN = re.compile(r"[0-9.]+$")
@@ -67,9 +69,20 @@ def normalize_id(raw_value: Any) -> int | None:
     return None
 
 
-def build_indexes(models: list[dict[str, Any]]) -> tuple[dict[str, list[int]], dict[str, list[str]]]:
+def normalize_value(raw_value: Any) -> str | None:
+    if not isinstance(raw_value, str):
+        return None
+    normalized = raw_value.strip().lower()
+    return normalized or None
+
+
+def build_indexes(
+    models: list[dict[str, Any]]
+) -> tuple[dict[str, list[int]], dict[str, list[str]], dict[str, list[int]], dict[str, list[int]]]:
     model_name_index: dict[str, set[int]] = defaultdict(set)
     keyword_index_by_id: dict[int, set[str]] = defaultdict(set)
+    framework_index: dict[str, set[int]] = defaultdict(set)
+    hardware_index: dict[str, set[int]] = defaultdict(set)
 
     for model in models:
         if not isinstance(model, dict):
@@ -82,6 +95,14 @@ def build_indexes(models: list[dict[str, Any]]) -> tuple[dict[str, list[int]], d
         model_name = extract_model_name(model.get("name"))
         if model_name:
             model_name_index[model_name].add(model_id)
+
+        framework = normalize_value(model.get("adapter_framework"))
+        if framework:
+            framework_index[framework].add(model_id)
+
+        hardware = normalize_value(model.get("adapter_hardware"))
+        if hardware:
+            hardware_index[hardware].add(model_id)
 
         model_keywords: set[str] = set()
         for field in KEY_FIELDS:
@@ -98,7 +119,13 @@ def build_indexes(models: list[dict[str, Any]]) -> tuple[dict[str, list[int]], d
     sorted_keyword_index = {
         str(model_id): sorted(keywords) for model_id, keywords in sorted(keyword_index_by_id.items())
     }
-    return sorted_model_name_index, sorted_keyword_index
+    sorted_framework_index = {
+        key: sorted(ids) for key, ids in sorted(framework_index.items())
+    }
+    sorted_hardware_index = {
+        key: sorted(ids) for key, ids in sorted(hardware_index.items())
+    }
+    return sorted_model_name_index, sorted_keyword_index, sorted_framework_index, sorted_hardware_index
 
 
 def write_json(path: Path, payload: dict[str, list[Any]]) -> None:
@@ -121,6 +148,16 @@ def parse_args() -> argparse.Namespace:
         default=str(DEFAULT_MODEL_NAME_OUTPUT),
         help="Path to the model-name JSON file",
     )
+    parser.add_argument(
+        "--framework-output",
+        default=str(DEFAULT_FRAMEWORK_OUTPUT),
+        help="Path to the framework JSON file",
+    )
+    parser.add_argument(
+        "--hardware-output",
+        default=str(DEFAULT_HARDWARE_OUTPUT),
+        help="Path to the hardware JSON file",
+    )
     return parser.parse_args()
 
 
@@ -136,17 +173,25 @@ def main() -> int:
     input_path = resolve_path(args.input)
     keyword_output_path = resolve_path(args.keyword_output)
     model_name_output_path = resolve_path(args.model_name_output)
+    framework_output_path = resolve_path(args.framework_output)
+    hardware_output_path = resolve_path(args.hardware_output)
 
     source_data = load_json(input_path)
-    model_name_index, keyword_index = build_indexes(source_data["models"])
+    model_name_index, keyword_index, framework_index, hardware_index = build_indexes(source_data["models"])
     write_json(keyword_output_path, keyword_index)
     write_json(model_name_output_path, model_name_index)
+    write_json(framework_output_path, framework_index)
+    write_json(hardware_output_path, hardware_index)
 
     print(f"Models processed: {len(source_data['models'])}")
     print(f"Keyword keys written: {len(keyword_index)}")
     print(f"Model name keys written: {len(model_name_index)}")
+    print(f"Framework keys written: {len(framework_index)}")
+    print(f"Hardware keys written: {len(hardware_index)}")
     print(f"Keyword output: {keyword_output_path}")
     print(f"Model name output: {model_name_output_path}")
+    print(f"Framework output: {framework_output_path}")
+    print(f"Hardware output: {hardware_output_path}")
     return 0
 
 
