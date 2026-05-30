@@ -78,9 +78,9 @@ def normalize_value(raw_value: Any) -> str | None:
 
 def build_indexes(
     models: list[dict[str, Any]]
-) -> tuple[dict[str, list[int]], dict[str, list[str]], dict[str, list[int]], dict[str, list[int]]]:
+) -> tuple[dict[str, list[int]], dict[str, list[int]], dict[str, list[int]], dict[str, list[int]]]:
     model_name_index: dict[str, set[int]] = defaultdict(set)
-    keyword_index_by_id: dict[int, set[str]] = defaultdict(set)
+    keyword_index: dict[str, set[int]] = defaultdict(set)
     framework_index: dict[str, set[int]] = defaultdict(set)
     hardware_index: dict[str, set[int]] = defaultdict(set)
 
@@ -111,13 +111,14 @@ def build_indexes(
         if model_name:
             model_keywords.discard(model_name)
 
-        keyword_index_by_id[model_id].update(model_keywords)
+        for keyword in model_keywords:
+            keyword_index[keyword].add(model_id)
 
     sorted_model_name_index = {
         key: sorted(ids) for key, ids in sorted(model_name_index.items())
     }
     sorted_keyword_index = {
-        str(model_id): sorted(keywords) for model_id, keywords in sorted(keyword_index_by_id.items())
+        key: sorted(ids) for key, ids in sorted(keyword_index.items())
     }
     sorted_framework_index = {
         key: sorted(ids) for key, ids in sorted(framework_index.items())
