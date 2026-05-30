@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
-"""Build normalized keyword and model-name lists from ascend model source data."""
+"""Build normalized keyword and model-name indexes from ascend model source data."""
 
 from __future__ import annotations
 
 import argparse
 import json
 import re
+from collections import defaultdict
 from pathlib import Path
 from typing import Any
 
@@ -44,16 +45,6 @@ def extract_keywords(raw_value: Any) -> set[str]:
     return {normalized}
 
 
-def build_keywords(models: list[dict[str, Any]]) -> list[str]:
-    keywords: set[str] = set()
-    for model in models:
-        if not isinstance(model, dict):
-            continue
-        for field in KEY_FIELDS:
-            keywords.update(extract_keywords(model.get(field)))
-    return sorted(keywords)
-
-
 def extract_model_name(raw_value: Any) -> str | None:
     if not isinstance(raw_value, str):
         return None
@@ -70,21 +61,48 @@ def extract_model_name(raw_value: Any) -> str | None:
     return model_name or None
 
 
-def build_model_names(models: list[dict[str, Any]]) -> list[str]:
-    model_names: set[str] = set()
+def normalize_id(raw_value: Any) -> int | None:
+    if isinstance(raw_value, int):
+        return raw_value
+    return None
+
+
+def build_indexes(models: list[dict[str, Any]]) -> tuple[dict[str, list[int]], dict[str, list[int]]]:
+    model_name_index: dict[str, set[int]] = defaultdict(set)
+    keyword_index: dict[str, set[int]] = defaultdict(set)
+
     for model in models:
         if not isinstance(model, dict):
             continue
+
+        model_id = normalize_id(model.get("id"))
+        if model_id is None:
+            continue
+
         model_name = extract_model_name(model.get("name"))
         if model_name:
-            model_names.add(model_name)
-    return sorted(model_names)
+            model_name_index[model_name].add(model_id)
+
+        for field in KEY_FIELDS:
+            for keyword in extract_keywords(model.get(field)):
+                keyword_index[keyword].add(model_id)
+
+    for model_name in model_name_index:
+        keyword_index.pop(model_name, None)
+
+    sorted_model_name_index = {
+        key: sorted(ids) for key, ids in sorted(model_name_index.items())
+    }
+    sorted_keyword_index = {
+        key: sorted(ids) for key, ids in sorted(keyword_index.items())
+    }
+    return sorted_model_name_index, sorted_keyword_index
 
 
-def write_json(path: Path, items: list[str]) -> None:
+def write_json(path: Path, payload: dict[str, list[int]]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8") as fh:
-        json.dump(items, fh, ensure_ascii=False, indent=2)
+        json.dump(payload, fh, ensure_ascii=False, indent=2)
         fh.write("\n")
 
 
@@ -118,14 +136,13 @@ def main() -> int:
     model_name_output_path = resolve_path(args.model_name_output)
 
     source_data = load_json(input_path)
-    keywords = build_keywords(source_data["models"])
-    model_names = build_model_names(source_data["models"])
-    write_json(keyword_output_path, keywords)
-    write_json(model_name_output_path, model_names)
+    model_name_index, keyword_index = build_indexes(source_data["models"])
+    write_json(keyword_output_path, keyword_index)
+    write_json(model_name_output_path, model_name_index)
 
     print(f"Models processed: {len(source_data['models'])}")
-    print(f"Keywords written: {len(keywords)}")
-    print(f"Model names written: {len(model_names)}")
+    print(f"Keyword keys written: {len(keyword_index)}")
+    print(f"Model name keys written: {len(model_name_index)}")
     print(f"Keyword output: {keyword_output_path}")
     print(f"Model name output: {model_name_output_path}")
     return 0

@@ -1,723 +1,1138 @@
-[
-  "0127test",
-  "3ddiffusionpolicy",
-  "aasist",
-  "absolute",
-  "accelerate",
-  "acegpt",
-  "activity",
-  "adamcodd",
-  "ag",
-  "agentlm",
-  "agiin",
-  "aguila",
-  "ai",
-  "ai4s",
-  "aigc",
-  "al",
-  "albert",
-  "all",
-  "alma",
-  "altclip",
-  "amber",
-  "amberchat",
-  "amchat",
-  "anarchy",
-  "angelina",
-  "animagine",
-  "animatediff",
-  "announcementclassfication",
-  "apollo",
-  "apple",
-  "aquila",
-  "arabiangpt",
-  "ascend",
-  "ath",
-  "audiocraft",
-  "audiofly",
-  "aurora",
-  "autonlp",
-  "aware",
-  "aya",
-  "bagel",
-  "baichuan",
-  "bart",
-  "beats",
-  "beit",
-  "bert",
-  "berticelli",
-  "bertin",
-  "bertweet",
-  "bevformer",
-  "bge",
-  "bigbird",
-  "bigvgan",
-  "bilingual",
-  "bilingualchildemo",
-  "billsum",
-  "binary",
-  "bio",
-  "biobert",
-  "bioformer",
-  "biogpt",
-  "biolinkbert",
-  "biomedical",
-  "biomedkg",
-  "biomednlp",
-  "biomedvlp",
-  "bit",
-  "blenderbot",
-  "blendmask",
-  "blip",
-  "bloom",
-  "bluelm",
-  "boltz",
-  "breeze",
-  "bulbasaur",
-  "bunny",
-  "butspeechfit",
-  "byt",
-  "c",
-  "c4ai",
-  "calm",
-  "camel",
-  "camembert",
-  "canary",
-  "canine",
-  "cann",
-  "cappy",
-  "capybara",
-  "carballo",
-  "carrot",
-  "cartoonizer",
-  "catppt",
-  "cbddo",
-  "cbs",
-  "cerbero",
-  "cerebras",
-  "chatglm",
-  "chatlaw",
-  "chemberta",
-  "chemception",
-  "chemprop",
-  "chgnet",
-  "chinese",
-  "chronos",
-  "clap",
-  "clip",
-  "co",
-  "coat",
-  "coatnet",
-  "cobformer",
-  "codeberta",
-  "codefuse",
-  "codegeex",
-  "codegen",
-  "codellama",
-  "codenlbert",
-  "codeparrot",
-  "codeqwen",
-  "codesage",
-  "codet",
-  "codet5p",
-  "cogagent",
-  "cogvideox",
-  "cogview",
-  "cogvlm",
-  "cohere",
-  "colbertv",
-  "comic",
-  "comprehend",
-  "conditional",
-  "context",
-  "convnext",
-  "convnextv",
-  "convtext",
-  "cosmo",
-  "cosyvoice",
-  "crnn",
-  "cryptobert",
-  "cspdarknet53.ra",
-  "cspresnet50.ra",
-  "cspresnext50.ra",
-  "cvt",
-  "da",
-  "davinci",
-  "db",
-  "dbnet",
-  "dclm",
-  "deberta",
-  "deeplabv",
-  "deeponet",
-  "deepseek",
-  "deepseekv",
-  "dehatebert",
-  "deid",
-  "deit",
-  "depth",
-  "detectron",
-  "diffsbdd",
-  "dino",
-  "dinomaly",
-  "dinov",
-  "distilbert",
-  "distilcamembert",
-  "distilgpt",
-  "distill",
-  "distilprotbert",
-  "distilroberta",
-  "distiluse",
-  "dit",
-  "dlite",
-  "dlrm",
-  "dmeta",
-  "dnsmos",
-  "domain",
-  "dots.ocr",
-  "dpot",
-  "dpt",
-  "drbert",
-  "dream",
-  "dreaming",
-  "drln",
-  "dssm",
-  "dtnn",
-  "dynamic",
-  "e",
-  "eccv",
-  "edsr",
-  "efficientnet",
-  "efficientnetv",
-  "efficientvit",
-  "electra",
-  "email",
-  "emo",
-  "emotion",
-  "environmentalbert",
-  "envit",
-  "envroberta",
-  "erlangshen",
-  "ernie",
-  "esm",
-  "esmfold",
-  "espnet",
-  "eva",
-  "evo",
-  "f3net",
-  "fact",
-  "fairseq",
-  "falcon",
-  "fara",
-  "faro",
-  "fastchat",
-  "faster",
-  "fasterrcnn",
-  "fin",
-  "financialbert",
-  "finbert",
-  "finbertptbr",
-  "finguai",
-  "fintwitbert",
-  "firered",
-  "fireredasr",
-  "flan",
-  "flashvsr",
-  "flaubert",
-  "flor",
-  "florence",
-  "flux",
-  "fnet",
-  "fno",
-  "focalformer3d",
-  "foundation",
-  "fox",
-  "frame",
-  "framepack",
-  "free",
-  "freehand",
-  "french",
-  "fun",
-  "funasr",
-  "fusecap",
-  "gatortrons",
-  "gelectra",
-  "gemini",
-  "gemma",
-  "geneformer",
-  "genmol",
-  "genos",
-  "german",
-  "germeo",
-  "glip",
-  "glm",
-  "glm4.x",
-  "got",
-  "governancebert",
-  "govroberta",
-  "gpt",
-  "gptff",
-  "granite",
-  "gritlm",
-  "grounding",
-  "groundingdino",
-  "grover",
-  "gte",
-  "gtr",
-  "guanaco",
-  "h2o",
-  "h2ogpt",
-  "hallucination",
-  "hayao",
-  "healing",
-  "heygem.ai",
-  "hibou",
-  "hidream",
-  "hisa",
-  "hplt",
-  "hrnet",
-  "htdemucs",
-  "human",
-  "hunyuan",
-  "hunyuan3d",
-  "hunyuancustom",
-  "hunyuanimage",
-  "hunyuanocr",
-  "hunyuanvideo",
-  "hunyuanworld",
-  "hy",
-  "igbert",
-  "imagegpt",
-  "inception",
-  "inceptionv",
-  "index",
-  "indicbertv",
-  "indo",
-  "indobert",
-  "infograph",
-  "ink",
-  "inspiremusic",
-  "instructor",
-  "intern",
-  "internlm",
-  "internvl",
-  "italian",
-  "ivysaur",
-  "jailbreak",
-  "jamba",
-  "janus",
-  "japanese",
-  "jina",
-  "joytag",
-  "juggernaut",
-  "kandinsky",
-  "kant",
-  "kcbert",
-  "ke",
-  "keyphrase",
-  "keyphrasetransformer",
-  "kimi",
-  "ko",
-  "koalpaca",
-  "kobart",
-  "koelectra",
-  "kogpt",
-  "kokoro",
-  "kollama",
-  "kolors",
-  "komodo",
-  "koquality",
-  "kor",
-  "korani",
-  "korean",
-  "kullm",
-  "l",
-  "labse",
-  "lamini",
-  "langdetect",
-  "larger",
-  "latentsync",
-  "lcm",
-  "led",
-  "lenet",
-  "leosam",
-  "levit",
-  "li",
-  "ligandmpnn",
-  "lightonocr",
-  "lightweight",
-  "lilarest",
-  "ling",
-  "linkbert",
-  "litellama",
-  "llama",
-  "llamaragdrama",
-  "llamion",
-  "llava",
-  "llm",
-  "llmlingua",
-  "locooperator",
-  "locotrainer",
-  "logos",
-  "longcat",
-  "longformer",
-  "lsg",
-  "lsh",
-  "ltx",
-  "luke",
-  "m",
-  "macbert",
-  "madlad",
-  "mae",
-  "magi",
-  "mahahate",
-  "mammoth",
-  "mapformer",
-  "mappo",
-  "marcoroni",
-  "marx",
-  "matmodel",
-  "maxvit",
-  "maxxvit",
-  "maxxvitv",
-  "mbart",
-  "mbx",
-  "md",
-  "mdeberta",
-  "meaningbert",
-  "medgemma",
-  "medical",
-  "medmistral",
-  "mega",
-  "meltemi",
-  "mengzi",
-  "meta",
-  "midashenglm",
-  "mimo",
-  "mindyolo",
-  "mineru",
-  "minerva",
-  "ming",
-  "minichat",
-  "minicheck",
-  "minicpm",
-  "minilm",
-  "minimax",
-  "minueza",
-  "mirothinker",
-  "mistral",
-  "mixer",
-  "mixnet",
-  "mixtral",
-  "ml",
-  "mllm",
-  "mmaudio",
-  "mnasnet",
-  "mobilebert",
-  "mobileclip",
-  "mobilenetv",
-  "moge",
-  "molformer",
-  "molscribe",
-  "mono3d",
-  "moss",
-  "mossformer",
-  "mova",
-  "ms",
-  "msmarco",
-  "mt",
-  "muertu",
-  "multi",
-  "multilingual",
-  "multimaster",
-  "multitalk",
-  "multiverseex",
-  "muq",
-  "muril",
-  "mvp",
-  "mxbai",
-  "my",
-  "nanbeige",
-  "nasnetalarge.tf",
-  "nees",
-  "nepalibert",
-  "ner",
-  "nest",
-  "neuralllama",
-  "neuralsynthesis",
-  "neuttsair",
-  "nextstage",
-  "nf",
-  "nfnet",
-  "nli",
-  "nllb",
-  "nlp",
-  "nous",
-  "nox",
-  "nsfw",
-  "occformer",
-  "occiglot",
-  "oligoformer",
-  "omnicoder",
-  "omninet",
-  "omniparserv",
-  "one",
-  "open",
-  "openai",
-  "openbmb",
-  "openbuddy",
-  "openclip",
-  "openfold",
-  "openpangu",
-  "openr",
-  "opensora",
-  "openthaigpt",
-  "openvla",
-  "openweb",
-  "openwebui",
-  "opus",
-  "orpo",
-  "ovis",
-  "owlvit",
-  "pack",
-  "paddleocr",
-  "paddleocrv",
-  "paecter",
-  "panda",
-  "pangu",
-  "paraphrase",
-  "parlbert",
-  "parrot",
-  "patchcore",
-  "pebblo",
-  "pegasus",
-  "peptidebert",
-  "persimmon",
-  "phi",
-  "phobert",
-  "pi",
-  "pit",
-  "pnasnet5large.tf",
-  "pocketxmol",
-  "polar",
-  "polka",
-  "polyglot",
-  "poolformer",
-  "poolformerv",
-  "powerflownet",
-  "pp",
-  "ppo",
-  "promcse",
-  "protbert",
-  "proteinbert",
-  "proteinmpnn",
-  "protenix",
-  "protgpt",
-  "pvc",
-  "pvt",
-  "pyannote",
-  "pyehr",
-  "pythia",
-  "pythia410m",
-  "qed",
-  "qnli",
-  "qq",
-  "qra",
-  "query",
-  "question",
-  "quiltnet",
-  "quip",
-  "quora",
-  "qvq",
-  "qwen",
-  "qwen2.5vl",
-  "qwen2.5vl7b",
-  "qwq",
-  "r",
-  "rad",
-  "radbert",
-  "raft",
-  "randeng",
-  "re2g",
-  "reactgen",
-  "real",
-  "reann",
-  "reddit",
-  "reformer",
-  "regnetx",
-  "regnety",
-  "rembert",
-  "repghostnet",
-  "repvgg",
-  "resmlp",
-  "resnest101e.in1k",
-  "resnest14d.gluon",
-  "resnest26d.gluon",
-  "resnest50d.in1k",
-  "resnet",
-  "resnet101.a1h",
-  "resnet10t.c",
-  "resnet152.a1h",
-  "resnet18.a",
-  "resnet18d.ra",
-  "resnet34.a",
-  "resnet50.a",
-  "resnet50.a1h",
-  "resnet50d.a",
-  "resnet50d.ra",
-  "resnetv",
-  "resnext",
-  "retinaface",
-  "rex",
-  "rexnet",
-  "rf",
-  "rfantibody",
-  "rfdiffusion",
-  "ring",
-  "robbert",
-  "roberta",
-  "robertalex",
-  "robertuito",
-  "rorshark",
-  "rt",
-  "rtdetr",
-  "rubert",
-  "ruroberta",
-  "s",
-  "sagemaker",
-  "sam",
-  "samrs",
-  "scandi",
-  "schnet",
-  "sci",
-  "scincl",
-  "sd",
-  "sdxl",
-  "sebotnet33ts",
-  "secbert",
-  "secroberta",
-  "seed",
-  "senet154.gluon",
-  "sensevoice",
-  "sentence",
-  "sentiment",
-  "sequencer2d",
-  "seresnet50.a",
-  "seresnext26d",
-  "seresnextaa101d",
-  "setfit",
-  "setu",
-  "sherpa",
-  "shufflenetv",
-  "siglip",
-  "skyreels",
-  "skywork",
-  "slimsam",
-  "snot",
-  "socialbert",
-  "socroberta",
-  "softmasked",
-  "spanish",
-  "sparsetrack",
-  "speechscorer",
-  "spnasnet",
-  "srpo",
-  "stable",
-  "stablediffusion",
-  "steerling",
-  "step",
-  "step1x",
-  "stepfun",
-  "stepvideo",
-  "stockmark",
-  "structbert",
-  "stsb",
-  "sulphur",
-  "supplychain",
-  "surya",
-  "swallow",
-  "swin",
-  "swin2sr",
-  "swinv",
-  "switch",
-  "t",
-  "tabpfn",
-  "tacotron",
-  "taiwan",
-  "tapas",
-  "test",
-  "text",
-  "text2vec",
-  "textcnnmodel",
-  "time",
-  "timecma",
-  "timer",
-  "timerxl",
-  "tiny",
-  "tinyclip",
-  "tinyllama",
-  "tinyr",
-  "tora",
-  "toxic",
-  "traffic",
-  "train",
-  "translategemma",
-  "tribev",
-  "trocr",
-  "tweet",
-  "twitter",
-  "txlm",
-  "typo",
-  "unet",
-  "unetmodel",
-  "units",
-  "univar",
-  "use",
-  "user",
-  "uvr",
-  "v",
-  "vbvr",
-  "verysmol",
-  "vibevoice",
-  "vicuna",
-  "vidmuse",
-  "vietnamese",
-  "vilt",
-  "vishnun",
-  "vision",
-  "visualglm",
-  "vit",
-  "vitmatte",
-  "vitruv",
-  "wan",
-  "wav2vec",
-  "wellcomebertmesh",
-  "wenet",
-  "westlake",
-  "wganmodel",
-  "whisper",
-  "winclip",
-  "wingpt",
-  "wizardlm",
-  "wmt",
-  "xdoc",
-  "xglm",
-  "xiaomi",
-  "xlm",
-  "xlnet",
-  "xphonebert",
-  "xuanyuan",
-  "yi",
-  "yingmusic",
-  "yolo",
-  "yolo11s",
-  "yolov",
-  "yolov8n",
-  "yolov8x",
-  "yuan",
-  "yuyuan",
-  "z",
-  "zai",
-  "zeroshot",
-  "zeta",
-  "zinc"
-]
+{
+  "3ddiffusionpolicy": [
+    9597418
+  ],
+  "aasist": [
+    8811637
+  ],
+  "ai4s": [
+    9575747
+  ],
+  "aigc": [
+    8890409
+  ],
+  "apple": [
+    8897246
+  ],
+  "ascend": [
+    9628184
+  ],
+  "audiocraft": [
+    9117639
+  ],
+  "audiofly": [
+    8897615
+  ],
+  "aurora": [
+    9337272,
+    9925901
+  ],
+  "bagel": [
+    9884391
+  ],
+  "beats": [
+    8523211
+  ],
+  "bert": [
+    8825203
+  ],
+  "bge": [
+    8431153,
+    8431507,
+    8431538,
+    8673643,
+    8897630,
+    9878190,
+    9915986
+  ],
+  "bigvgan": [
+    8696508
+  ],
+  "biogpt": [
+    9954847
+  ],
+  "biomedkg": [
+    9383231
+  ],
+  "blendmask": [
+    9630497
+  ],
+  "blip": [
+    8748389
+  ],
+  "boltz": [
+    7904625,
+    9741756
+  ],
+  "butspeechfit": [
+    8554823
+  ],
+  "canary": [
+    8514591
+  ],
+  "cbs": [
+    9436905
+  ],
+  "chemberta": [
+    9204142
+  ],
+  "chemception": [
+    9310236
+  ],
+  "chemprop": [
+    9147821
+  ],
+  "chgnet": [
+    9151937
+  ],
+  "chinese": [
+    8778160
+  ],
+  "chronos": [
+    9422754
+  ],
+  "clip": [
+    8825142,
+    8844132,
+    9771433
+  ],
+  "co": [
+    8717544,
+    9776226
+  ],
+  "cobformer": [
+    7991656
+  ],
+  "convtext": [
+    8826607
+  ],
+  "cosyvoice": [
+    8683785,
+    8724426,
+    8856668,
+    9010148
+  ],
+  "crnn": [
+    8899173
+  ],
+  "dbnet": [
+    8830805
+  ],
+  "deeponet": [
+    8610020
+  ],
+  "deepseek": [
+    7694660,
+    7694939,
+    7699173,
+    7699181,
+    7699184,
+    7699187,
+    7699190,
+    7699192,
+    7699194,
+    7699197,
+    7699199,
+    7699202,
+    7699205,
+    7699209,
+    7699213,
+    7699216,
+    7699219,
+    7699220,
+    7699221,
+    7699229,
+    8524095,
+    8631557,
+    8642052,
+    8644116,
+    8662736,
+    8662861,
+    8688492,
+    8690018,
+    8692352,
+    8740694,
+    8805076,
+    9090155,
+    9098304,
+    9155605,
+    9161205,
+    9288274,
+    9289307,
+    9290387,
+    9290677,
+    9291186,
+    9292208,
+    9292692,
+    9293158,
+    9295405,
+    9295946,
+    9296341,
+    9296834,
+    9310818,
+    9312731,
+    9313843,
+    9314663,
+    9315324,
+    9321195,
+    9322298,
+    9322796,
+    9323347,
+    9323523,
+    9323990,
+    9324950,
+    9557233,
+    9564552,
+    9611322,
+    9611368,
+    9611378,
+    9615204,
+    9692728,
+    9692777,
+    9692792,
+    9700798,
+    9754964,
+    9761354,
+    9763511,
+    9769500,
+    9833479,
+    9834627,
+    9914234
+  ],
+  "deepseekv": [
+    9765417
+  ],
+  "detectron": [
+    9630501
+  ],
+  "diffsbdd": [
+    9147905
+  ],
+  "dino": [
+    8819595
+  ],
+  "dinomaly": [
+    8792002
+  ],
+  "dinov": [
+    8673785,
+    9637531,
+    9855703
+  ],
+  "dnsmos": [
+    8668688
+  ],
+  "dots.ocr": [
+    8837826
+  ],
+  "dpot": [
+    9436656
+  ],
+  "dssm": [
+    8825183
+  ],
+  "dtnn": [
+    9264571
+  ],
+  "eccv": [
+    9107385
+  ],
+  "ernie": [
+    8493079,
+    9802135,
+    9843609
+  ],
+  "esm": [
+    7904470,
+    9147884,
+    9383594
+  ],
+  "esmfold": [
+    7903113
+  ],
+  "eva": [
+    9311385
+  ],
+  "evo": [
+    9279497
+  ],
+  "f3net": [
+    8862256
+  ],
+  "fara": [
+    8897656
+  ],
+  "fasterrcnn": [
+    9630525
+  ],
+  "finbert": [
+    8897664
+  ],
+  "firered": [
+    9333961
+  ],
+  "fireredasr": [
+    8514564
+  ],
+  "flan": [
+    9630527
+  ],
+  "flashvsr": [
+    9283904,
+    9923221
+  ],
+  "florence": [
+    8744035
+  ],
+  "flux": [
+    8667793,
+    9090446,
+    9463471
+  ],
+  "fno": [
+    9770414
+  ],
+  "focalformer3d": [
+    9181352
+  ],
+  "fun": [
+    9080986,
+    9081887,
+    9326909
+  ],
+  "funasr": [
+    8853930
+  ],
+  "gemma": [
+    8677995,
+    8897673,
+    9588860
+  ],
+  "geneformer": [
+    7904101
+  ],
+  "genmol": [
+    9094070
+  ],
+  "genos": [
+    9382824
+  ],
+  "glm": [
+    8245103,
+    8631229,
+    8671405,
+    8672073,
+    8784218,
+    8932769,
+    9098418,
+    9138849,
+    9151842,
+    9155657,
+    9155757,
+    9190547,
+    9192572,
+    9198422,
+    9264536,
+    9264797,
+    9285601,
+    9285645,
+    9287173,
+    9294005,
+    9303620,
+    9309949,
+    9311374,
+    9311745,
+    9316334,
+    9389525,
+    9425692,
+    9434673,
+    9462123,
+    9496387,
+    9611420,
+    9644621,
+    9692815,
+    9692865,
+    9704986,
+    9734000,
+    9755179,
+    9764986,
+    9768890
+  ],
+  "glm4.x": [
+    9611405
+  ],
+  "got": [
+    8897942
+  ],
+  "gpt": [
+    8633297,
+    8698214
+  ],
+  "gptff": [
+    9148171
+  ],
+  "groundingdino": [
+    8667796,
+    9761845
+  ],
+  "grover": [
+    9455203
+  ],
+  "hidream": [
+    8744025
+  ],
+  "hisa": [
+    9727778
+  ],
+  "htdemucs": [
+    9905797
+  ],
+  "hunyuan": [
+    8897780
+  ],
+  "hunyuanocr": [
+    8839742,
+    8897411
+  ],
+  "hunyuanvideo": [
+    8667779,
+    8701227,
+    8854226
+  ],
+  "hunyuanworld": [
+    8897700
+  ],
+  "hy": [
+    8991773,
+    9755973
+  ],
+  "index": [
+    8506356,
+    8897782
+  ],
+  "infograph": [
+    9504951
+  ],
+  "inspiremusic": [
+    9692031
+  ],
+  "intern": [
+    8795146,
+    9311391,
+    9421805,
+    9979434
+  ],
+  "internvl": [
+    8667060
+  ],
+  "kimi": [
+    8662715,
+    8896592,
+    9205120,
+    9205444,
+    9286257,
+    9296687,
+    9308322,
+    9314617,
+    9321078,
+    9371131,
+    9393935,
+    9611452,
+    9611491,
+    9664769,
+    9741945,
+    9754035,
+    9785813,
+    9979538
+  ],
+  "kokoro": [
+    8695714,
+    8897718
+  ],
+  "kolors": [
+    8835004,
+    9854726
+  ],
+  "latentsync": [
+    8955100
+  ],
+  "ligandmpnn": [
+    7855036
+  ],
+  "lightonocr": [
+    9125165
+  ],
+  "ling": [
+    9755204,
+    9811578,
+    9850208
+  ],
+  "llama": [
+    9331028
+  ],
+  "llava": [
+    8637613,
+    8756092
+  ],
+  "longcat": [
+    8897725,
+    8897736
+  ],
+  "ltx": [
+    9925296
+  ],
+  "mapformer": [
+    8890112
+  ],
+  "matmodel": [
+    9268672
+  ],
+  "medgemma": [
+    9090434
+  ],
+  "midashenglm": [
+    8895980
+  ],
+  "mimo": [
+    9932453
+  ],
+  "mindyolo": [
+    8716911
+  ],
+  "mineru": [
+    8839836,
+    8897747,
+    9152936,
+    9445032,
+    9752157
+  ],
+  "minicpm": [
+    8897756,
+    9334294,
+    9433061,
+    9882581,
+    9957521
+  ],
+  "minimax": [
+    9202287,
+    9611507,
+    9750633,
+    9755234,
+    9836783,
+    9964545
+  ],
+  "mirothinker": [
+    9634777
+  ],
+  "ml": [
+    9683115
+  ],
+  "mllm": [
+    8941161
+  ],
+  "mmaudio": [
+    8514006
+  ],
+  "mobileclip": [
+    8778938
+  ],
+  "molformer": [
+    9484571
+  ],
+  "molscribe": [
+    9709352
+  ],
+  "mono3d": [
+    9081518
+  ],
+  "moss": [
+    8245200,
+    8554373
+  ],
+  "mossformer": [
+    8554955
+  ],
+  "mova": [
+    9191404,
+    9902787
+  ],
+  "multitalk": [
+    9117615,
+    9553563
+  ],
+  "nanbeige": [
+    9311377
+  ],
+  "neuttsair": [
+    8897764
+  ],
+  "nllb": [
+    8724500
+  ],
+  "occformer": [
+    9174246
+  ],
+  "oligoformer": [
+    9147868
+  ],
+  "omninet": [
+    9174399
+  ],
+  "omniparserv": [
+    8848238
+  ],
+  "openbmb": [
+    8897820
+  ],
+  "openfold": [
+    7903079,
+    9088640
+  ],
+  "openpangu": [
+    6147888,
+    6512476,
+    6870725,
+    7478739,
+    7504623,
+    7527325,
+    7802857,
+    7808571,
+    8241330,
+    8506165,
+    8506172,
+    8667695,
+    8698867,
+    8698876,
+    8833453,
+    8850207,
+    8898889,
+    8914034,
+    8992396,
+    9010440,
+    9010481,
+    9080884,
+    9125175,
+    9384581
+  ],
+  "openr": [
+    7699168
+  ],
+  "openvla": [
+    9588090
+  ],
+  "ovis": [
+    8897909
+  ],
+  "paddleocr": [
+    8686705,
+    8826857,
+    8898346,
+    9119773,
+    9611528
+  ],
+  "paddleocrv": [
+    8744011,
+    8788805
+  ],
+  "pangu": [
+    7699231
+  ],
+  "paraphrase": [
+    8897925
+  ],
+  "patchcore": [
+    9630529
+  ],
+  "peptidebert": [
+    7903015
+  ],
+  "pi": [
+    9324275
+  ],
+  "pocketxmol": [
+    9743740
+  ],
+  "powerflownet": [
+    7897110
+  ],
+  "pp": [
+    8148569,
+    9842767,
+    9854450,
+    9863123,
+    9918521
+  ],
+  "protbert": [
+    9488430
+  ],
+  "proteinbert": [
+    9868223
+  ],
+  "proteinmpnn": [
+    7891600
+  ],
+  "protenix": [
+    7895684
+  ],
+  "pyannote": [
+    8554913
+  ],
+  "pyehr": [
+    9147831
+  ],
+  "qed": [
+    9311380
+  ],
+  "quip": [
+    9148082
+  ],
+  "qwen": [
+    7538409,
+    7551836,
+    7699108,
+    7699119,
+    7699121,
+    7699124,
+    7699126,
+    7699129,
+    7699130,
+    7699140,
+    7699142,
+    7699143,
+    7699144,
+    7699145,
+    7699147,
+    7699152,
+    7699156,
+    7699157,
+    7699158,
+    7699160,
+    7699165,
+    7699170,
+    7699172,
+    7699180,
+    7699183,
+    8054394,
+    8055402,
+    8090633,
+    8106284,
+    8132754,
+    8586678,
+    8609563,
+    8627197,
+    8627207,
+    8639588,
+    8641471,
+    8641532,
+    8642101,
+    8661709,
+    8661775,
+    8662929,
+    8667785,
+    8676256,
+    8678017,
+    8678031,
+    8678060,
+    8679966,
+    8680742,
+    8686106,
+    8686954,
+    8688472,
+    8688816,
+    8690324,
+    8690464,
+    8710682,
+    8714727,
+    8717525,
+    8718005,
+    8734778,
+    8738041,
+    8738534,
+    8741325,
+    8743997,
+    8744049,
+    8746353,
+    8747618,
+    8748431,
+    8751067,
+    8757231,
+    8758504,
+    8765945,
+    8765953,
+    8780477,
+    8782321,
+    8783581,
+    8784047,
+    8784100,
+    8784153,
+    8797895,
+    8802282,
+    8802290,
+    8806036,
+    8807696,
+    8815567,
+    8831141,
+    8832860,
+    8833844,
+    8844430,
+    8847860,
+    8866997,
+    8894754,
+    8896021,
+    8933994,
+    8934711,
+    8934786,
+    8991720,
+    9019870,
+    9028529,
+    9061133,
+    9090468,
+    9107724,
+    9119755,
+    9129356,
+    9138621,
+    9147203,
+    9153799,
+    9207093,
+    9215637,
+    9218768,
+    9264602,
+    9268063,
+    9268073,
+    9268094,
+    9269485,
+    9269567,
+    9269603,
+    9269628,
+    9279048,
+    9287180,
+    9287296,
+    9288869,
+    9288886,
+    9289753,
+    9289768,
+    9289975,
+    9289987,
+    9290157,
+    9290278,
+    9290584,
+    9290974,
+    9291070,
+    9291353,
+    9291555,
+    9291864,
+    9292633,
+    9295039,
+    9295767,
+    9296524,
+    9299587,
+    9299606,
+    9303219,
+    9303241,
+    9307599,
+    9312344,
+    9314357,
+    9316323,
+    9316367,
+    9316388,
+    9316462,
+    9319329,
+    9320862,
+    9322098,
+    9323124,
+    9323803,
+    9324332,
+    9333992,
+    9334016,
+    9423983,
+    9438761,
+    9446728,
+    9471013,
+    9471022,
+    9610715,
+    9611539,
+    9611556,
+    9611568,
+    9611588,
+    9611602,
+    9611629,
+    9611641,
+    9611672,
+    9611681,
+    9611699,
+    9611724,
+    9611736,
+    9611751,
+    9611765,
+    9611782,
+    9611793,
+    9611807,
+    9611817,
+    9611830,
+    9624234,
+    9624902,
+    9641950,
+    9686299,
+    9691659,
+    9692824,
+    9692845,
+    9692854,
+    9692876,
+    9692897,
+    9692914,
+    9692930,
+    9692946,
+    9692956,
+    9700774,
+    9700816,
+    9700839,
+    9700846,
+    9722354,
+    9750517,
+    9754416,
+    9755165,
+    9755177,
+    9755188,
+    9755197,
+    9755212,
+    9755222,
+    9755244,
+    9755250,
+    9755272,
+    9755282,
+    9755291,
+    9755301,
+    9759140,
+    9761467,
+    9761665,
+    9762526,
+    9774097,
+    9789277,
+    9789281,
+    9789285,
+    9789288,
+    9789291,
+    9789297,
+    9807576,
+    9871383,
+    9901960,
+    9902329,
+    9932758
+  ],
+  "qwen2.5vl": [
+    8898134
+  ],
+  "qwen2.5vl7b": [
+    8831006
+  ],
+  "qwq": [
+    8640675
+  ],
+  "r": [
+    8827657
+  ],
+  "raft": [
+    9185209
+  ],
+  "reactgen": [
+    9554537
+  ],
+  "real": [
+    9553478
+  ],
+  "reann": [
+    9147990
+  ],
+  "retinaface": [
+    8825045
+  ],
+  "rex": [
+    9566784
+  ],
+  "rf": [
+    9887162
+  ],
+  "ring": [
+    9755262
+  ],
+  "rt": [
+    9251829,
+    9843368
+  ],
+  "sam": [
+    8667778,
+    8748884,
+    9496059,
+    9664297,
+    9733245,
+    9808702
+  ],
+  "samrs": [
+    9612076
+  ],
+  "schnet": [
+    9151679
+  ],
+  "sdxl": [
+    8784131
+  ],
+  "sensevoice": [
+    8847567
+  ],
+  "sherpa": [
+    8844118
+  ],
+  "softmasked": [
+    9494027,
+    9504084
+  ],
+  "sparsetrack": [
+    8806452
+  ],
+  "speechscorer": [
+    8745357
+  ],
+  "step": [
+    9741547
+  ],
+  "stepfun": [
+    8246579
+  ],
+  "supplychain": [
+    9455872
+  ],
+  "surya": [
+    9730123
+  ],
+  "swin": [
+    9498075
+  ],
+  "t": [
+    8825059
+  ],
+  "tabpfn": [
+    9673895
+  ],
+  "tacotron": [
+    8817187
+  ],
+  "text2vec": [
+    8897945
+  ],
+  "textcnnmodel": [
+    9568638
+  ],
+  "time": [
+    9043598
+  ],
+  "timecma": [
+    9283674
+  ],
+  "timer": [
+    9250834,
+    9761767
+  ],
+  "timerxl": [
+    9043571
+  ],
+  "tora": [
+    9147935
+  ],
+  "train": [
+    8890173,
+    8891852,
+    8971035
+  ],
+  "translategemma": [
+    9090472
+  ],
+  "tribev": [
+    9634584
+  ],
+  "unet": [
+    9182318
+  ],
+  "unetmodel": [
+    9646066
+  ],
+  "units": [
+    8933806
+  ],
+  "uvr": [
+    8514580
+  ],
+  "vibevoice": [
+    8897912
+  ],
+  "vidmuse": [
+    9125415
+  ],
+  "vit": [
+    8641759,
+    8748736,
+    9578821
+  ],
+  "wan": [
+    8304761,
+    8692676,
+    8744001,
+    8744410,
+    8806492,
+    8897920,
+    9525623,
+    9584853,
+    9755159
+  ],
+  "wav2vec": [
+    8897956
+  ],
+  "wenet": [
+    8417147
+  ],
+  "wganmodel": [
+    9455690
+  ],
+  "whisper": [
+    8554795,
+    8917635,
+    9119792
+  ],
+  "winclip": [
+    9630532
+  ],
+  "xiaomi": [
+    8746888
+  ],
+  "yingmusic": [
+    9191602
+  ],
+  "yolo": [
+    8686257,
+    8743885,
+    8782565,
+    8897980,
+    9094164,
+    9633942
+  ],
+  "yolo11s": [
+    8826503
+  ],
+  "yolov": [
+    8667814,
+    8667820,
+    8828672,
+    9182622,
+    9455073,
+    9564890
+  ],
+  "yolov8x": [
+    9284348
+  ],
+  "z": [
+    8898006,
+    8974691
+  ],
+  "zai": [
+    9011297
+  ]
+}
