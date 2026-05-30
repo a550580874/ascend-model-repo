@@ -1,0 +1,44 @@
+name: Build Model Source Keywords
+
+on:
+  schedule:
+    - cron: '0 16 * * *'
+  push:
+    paths:
+      - 'data/ascend_model_with_adapter-1-total.json'
+      - 'build_model_source_keywords.py'
+      - '.github/workflows/build-model-source-keywords.yml'
+  workflow_dispatch:
+
+jobs:
+  build-model-source-keywords:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Build keyword JSON
+        run: python build_model_source_keywords.py
+
+      - name: Commit and push updates
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Action Bot"
+
+          git add data/ascend_model_source_key_word.json
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          git commit -m "Auto-update model source keywords: $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+          git push
