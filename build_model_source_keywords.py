@@ -62,6 +62,8 @@ def extract_model_name(raw_value: Any) -> str | None:
         return None
 
     model_name = TRAILING_NUMBER_PATTERN.sub("", parts[0]).strip(".")
+    if len(model_name) <= 2:
+        return None
     return model_name or None
 
 
