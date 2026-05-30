@@ -67,9 +67,9 @@ def normalize_id(raw_value: Any) -> int | None:
     return None
 
 
-def build_indexes(models: list[dict[str, Any]]) -> tuple[dict[str, list[int]], dict[str, list[int]]]:
+def build_indexes(models: list[dict[str, Any]]) -> tuple[dict[str, list[int]], dict[str, list[str]]]:
     model_name_index: dict[str, set[int]] = defaultdict(set)
-    keyword_index: dict[str, set[int]] = defaultdict(set)
+    keyword_index_by_id: dict[int, set[str]] = defaultdict(set)
 
     for model in models:
         if not isinstance(model, dict):
@@ -83,23 +83,25 @@ def build_indexes(models: list[dict[str, Any]]) -> tuple[dict[str, list[int]], d
         if model_name:
             model_name_index[model_name].add(model_id)
 
+        model_keywords: set[str] = set()
         for field in KEY_FIELDS:
-            for keyword in extract_keywords(model.get(field)):
-                keyword_index[keyword].add(model_id)
+            model_keywords.update(extract_keywords(model.get(field)))
 
-    for model_name in model_name_index:
-        keyword_index.pop(model_name, None)
+        if model_name:
+            model_keywords.discard(model_name)
+
+        keyword_index_by_id[model_id].update(model_keywords)
 
     sorted_model_name_index = {
         key: sorted(ids) for key, ids in sorted(model_name_index.items())
     }
     sorted_keyword_index = {
-        key: sorted(ids) for key, ids in sorted(keyword_index.items())
+        str(model_id): sorted(keywords) for model_id, keywords in sorted(keyword_index_by_id.items())
     }
     return sorted_model_name_index, sorted_keyword_index
 
 
-def write_json(path: Path, payload: dict[str, list[int]]) -> None:
+def write_json(path: Path, payload: dict[str, list[Any]]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8") as fh:
         json.dump(payload, fh, ensure_ascii=False, indent=2)
