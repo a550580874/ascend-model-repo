@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import random
 import re
 from collections import defaultdict
 from pathlib import Path
@@ -20,6 +21,7 @@ DEFAULT_HARDWARE_OUTPUT = ROOT / "data" / "ascend_model_source_hardware.json"
 KEY_FIELDS = ("name", "adapter_framework", "adapter_hardware")
 SPLIT_PATTERN = re.compile(r"[-_\s]+")
 TRAILING_NUMBER_PATTERN = re.compile(r"[0-9.]+$")
+ID_PREFIX = "55058087"
 
 
 def load_json(path: Path) -> dict[str, Any]:
@@ -76,6 +78,41 @@ def normalize_value(raw_value: Any) -> str | None:
     return normalized or None
 
 
+def resolve_name_value(model: dict[str, Any]) -> Any:
+    return model.get("name") or model.get("model_name")
+
+
+def assign_missing_ids(source_data: dict[str, Any]) -> int:
+    models = source_data["models"]
+    existing_ids = {
+        model_id
+        for model in models
+        if isinstance(model, dict)
+        for model_id in [normalize_id(model.get("id"))]
+        if model_id is not None
+    }
+    assigned_count = 0
+
+    for model in models:
+        if not isinstance(model, dict):
+            continue
+        if normalize_id(model.get("id")) is not None:
+            continue
+        if not model.get("open_date"):
+            continue
+
+        while True:
+            random_suffix = random.randint(1000, 9999)
+            synthetic_id = int(f"{ID_PREFIX}{random_suffix}")
+            if synthetic_id not in existing_ids:
+                existing_ids.add(synthetic_id)
+                model["id"] = synthetic_id
+                assigned_count += 1
+                break
+
+    return assigned_count
+
+
 def build_indexes(
     models: list[dict[str, Any]]
 ) -> tuple[dict[str, list[int]], dict[str, list[int]], dict[str, list[int]], dict[str, list[int]]]:
@@ -92,7 +129,8 @@ def build_indexes(
         if model_id is None:
             continue
 
-        model_name = extract_model_name(model.get("name"))
+        name_value = resolve_name_value(model)
+        model_name = extract_model_name(name_value)
         if model_name:
             model_name_index[model_name].add(model_id)
 
@@ -106,7 +144,10 @@ def build_indexes(
 
         model_keywords: set[str] = set()
         for field in KEY_FIELDS:
-            model_keywords.update(extract_keywords(model.get(field)))
+            if field == "name":
+                model_keywords.update(extract_keywords(name_value))
+            else:
+                model_keywords.update(extract_keywords(model.get(field)))
 
         if model_name:
             model_keywords.discard(model_name)
@@ -129,7 +170,7 @@ def build_indexes(
     return sorted_model_name_index, sorted_keyword_index, sorted_framework_index, sorted_hardware_index
 
 
-def write_json(path: Path, payload: dict[str, list[Any]]) -> None:
+def write_json(path: Path, payload: Any) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8") as fh:
         json.dump(payload, fh, ensure_ascii=False, indent=2)
@@ -178,6 +219,9 @@ def main() -> int:
     hardware_output_path = resolve_path(args.hardware_output)
 
     source_data = load_json(input_path)
+    assigned_count = assign_missing_ids(source_data)
+    if assigned_count:
+        write_json(input_path, source_data)
     model_name_index, keyword_index, framework_index, hardware_index = build_indexes(source_data["models"])
     write_json(keyword_output_path, keyword_index)
     write_json(model_name_output_path, model_name_index)
@@ -185,6 +229,7 @@ def main() -> int:
     write_json(hardware_output_path, hardware_index)
 
     print(f"Models processed: {len(source_data['models'])}")
+    print(f"Missing ids assigned: {assigned_count}")
     print(f"Keyword keys written: {len(keyword_index)}")
     print(f"Model name keys written: {len(model_name_index)}")
     print(f"Framework keys written: {len(framework_index)}")
