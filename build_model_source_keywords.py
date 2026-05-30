@@ -68,6 +68,10 @@ def extract_model_name(raw_value: Any) -> str | None:
 def normalize_id(raw_value: Any) -> int | None:
     if isinstance(raw_value, int):
         return raw_value
+    if isinstance(raw_value, str):
+        normalized = raw_value.strip()
+        if normalized.isdigit():
+            return int(normalized)
     return None
 
 
