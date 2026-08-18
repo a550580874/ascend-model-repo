@@ -33,15 +33,17 @@ jobs:
         run: |
           mkdir -p data
           cp "${{ steps.get_json.outputs.json_path }}" data/ascend_model_with_adapter.json
+          cp "${{ steps.get_json.outputs.all_json_path }}" data/ascend_model_adapters_official.json
           ls -la data
           test -f data/ascend_model_with_adapter.json
+          test -f data/ascend_model_adapters_official.json
 
       - name: Commit and Push changes
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Action Bot"
 
-          git add data/ascend_model_with_adapter.json
+          git add data/ascend_model_with_adapter.json data/ascend_model_adapters_official.json
 
           if git diff --cached --quiet; then
             echo "No changes to commit"

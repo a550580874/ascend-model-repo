@@ -13,6 +13,7 @@ TOKEN = "k_yRB-MW4zPsQK_jSMByJCt6"
 REPO_URL = "https://gitcode.com/ming-shen/Ascend-model-search.git"
 BRANCH = "main"
 SRC_REL_PATH = "data/ascend_model_with_adapter.json"
+ALL_MODELS_SRC_REL_PATH = "data/ascend_all_models.json"
 
 
 def run_cmd(cmd, cwd=None):
@@ -56,6 +57,7 @@ def main() -> int:
     tmp_root = Path(tempfile.mkdtemp(prefix="gitcode_pull_"))
     repo_dir = tmp_root / "repo"
     out_file = tmp_root / "ascend_model_with_adapter.json"
+    out_file_all = tmp_root / "ascend_all_models.json"
 
     print(f"[INFO] temp root: {tmp_root}")
     print(f"[INFO] repo dir: {repo_dir}")
@@ -83,10 +85,21 @@ def main() -> int:
         print(f"[INFO] saved to: {out_file}")
         print(f"[INFO] size: {out_file.stat().st_size} bytes")
 
+        src_file_all = repo_dir / ALL_MODELS_SRC_REL_PATH
+        if not src_file_all.exists():
+            raise FileNotFoundError(f"source file not found: {src_file_all}")
+
+        shutil.copy2(src_file_all, out_file_all)
+
+        print(f"[INFO] copied from: {src_file_all}")
+        print(f"[INFO] saved to: {out_file_all}")
+        print(f"[INFO] size: {out_file_all.stat().st_size} bytes")
+
         github_output = os.getenv("GITHUB_OUTPUT")
         if github_output:
             with open(github_output, "a", encoding="utf-8") as f:
                 f.write(f"json_path={out_file}\n")
+                f.write(f"all_json_path={out_file_all}\n")
 
         return 0
 
