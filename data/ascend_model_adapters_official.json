@@ -1,6 +1,6 @@
 {
-    "generated_at": "2026-08-20 15:26:49",
-    "total_count": 187,
+    "generated_at": "2026-08-20 17:24:03",
+    "total_count": 188,
     "source": [
         "https://docs.vllm.ai/projects/ascend/en/latest/tutorials/models/index.html",
         "https://docs.vllm.ai/projects/ascend/en/latest/sitemap.xml",
@@ -9,6 +9,15 @@
         "https://gitcode.com/Ascend/MindSpeed-MM/tree/master/examples"
     ],
     "models": [
+        {
+            "model_series": "Cohere Transcribe",
+            "model_name": "Cohere Transcribe",
+            "version": "v0.18.0",
+            "url": "https://docs.vllm.ai/projects/ascend/en/latest/tutorials/models/Cohere-Transcribe.html",
+            "adapter_framework": "vllm_ascend",
+            "training_or_inference": "推理",
+            "adapter_hardware": "A2"
+        },
         {
             "model_series": "DeepSeek-R1",
             "model_name": "DeepSeek-R1",
@@ -502,7 +511,7 @@
             "url": "https://docs.vllm.ai/projects/ascend/en/latest/tutorials/models/Qwen3.8-27B.html",
             "adapter_framework": "vllm_ascend",
             "training_or_inference": "推理",
-            "adapter_hardware": "A3"
+            "adapter_hardware": "A2,A3"
         },
         {
             "model_series": "gpt-oss-120b",
