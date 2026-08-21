@@ -2207,6 +2207,9 @@
   "llmlingua": [
     37637
   ],
+  "lnnmodel": [
+    10637824
+  ],
   "locateanything": [
     10225510
   ],
@@ -3921,6 +3924,9 @@
     26140,
     30078,
     35205
+  ],
+  "seqtoseqmodel": [
+    10645395
   ],
   "sequencer2d": [
     53643
