@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-22 04:56:13",
+    "generated_at": "2026-08-22 08:55:04",
     "total_count": 74,
     "source": [
         "https://docs.vllm.ai/projects/ascend/en/latest/tutorials/models/index.html",
@@ -525,7 +525,7 @@
         {
             "model_series": "DeepSeek-R1",
             "model_name": "DeepSeek-R1",
-            "version": "v0.5.17",
+            "version": "v0.5.18",
             "url": "https://docs.sglang.io/docs/hardware-platforms/ascend-npus/model-deployment/tutorials/deepseek_r1",
             "adapter_framework": "sglang",
             "training_or_inference": "推理",
@@ -534,7 +534,7 @@
         {
             "model_series": "DeepSeek-V3.2",
             "model_name": "DeepSeek-V3.2",
-            "version": "v0.5.17",
+            "version": "v0.5.18",
             "url": "https://docs.sglang.io/docs/hardware-platforms/ascend-npus/model-deployment/tutorials/deepseek_v3_2",
             "adapter_framework": "sglang",
             "training_or_inference": "推理",
@@ -543,7 +543,7 @@
         {
             "model_series": "GLM-5.1",
             "model_name": "GLM-5.1",
-            "version": "v0.5.17",
+            "version": "v0.5.18",
             "url": "https://docs.sglang.io/docs/hardware-platforms/ascend-npus/model-deployment/tutorials/glm_5_1",
             "adapter_framework": "sglang",
             "training_or_inference": "推理",
@@ -552,7 +552,7 @@
         {
             "model_series": "GLM-5.2",
             "model_name": "GLM-5.2",
-            "version": "v0.5.17",
+            "version": "v0.5.18",
             "url": "https://docs.sglang.io/docs/hardware-platforms/ascend-npus/model-deployment/tutorials/glm_5_2",
             "adapter_framework": "sglang",
             "training_or_inference": "推理",
@@ -561,7 +561,7 @@
         {
             "model_series": "Hy3",
             "model_name": "Hy3",
-            "version": "v0.5.17",
+            "version": "v0.5.18",
             "url": "https://docs.sglang.io/docs/hardware-platforms/ascend-npus/model-deployment/tutorials/hy3",
             "adapter_framework": "sglang",
             "training_or_inference": "推理",
@@ -570,7 +570,7 @@
         {
             "model_series": "Kimi-K2.6",
             "model_name": "Kimi-K2.6",
-            "version": "v0.5.17",
+            "version": "v0.5.18",
             "url": "https://docs.sglang.io/docs/hardware-platforms/ascend-npus/model-deployment/tutorials/kimi_k2_6",
             "adapter_framework": "sglang",
             "training_or_inference": "推理",
@@ -579,7 +579,7 @@
         {
             "model_series": "MiMo-V2-Flash",
             "model_name": "MiMo-V2-Flash",
-            "version": "v0.5.17",
+            "version": "v0.5.18",
             "url": "https://docs.sglang.io/docs/hardware-platforms/ascend-npus/model-deployment/tutorials/mimo_v2_flash",
             "adapter_framework": "sglang",
             "training_or_inference": "推理",
@@ -588,7 +588,7 @@
         {
             "model_series": "MiniMax-M2.5",
             "model_name": "MiniMax-M2.5",
-            "version": "v0.5.17",
+            "version": "v0.5.18",
             "url": "https://docs.sglang.io/docs/hardware-platforms/ascend-npus/model-deployment/tutorials/minimax_m2_5",
             "adapter_framework": "sglang",
             "training_or_inference": "推理",
@@ -597,7 +597,7 @@
         {
             "model_series": "Qwen3-235B-A22B",
             "model_name": "Qwen3-235B-A22B",
-            "version": "v0.5.17",
+            "version": "v0.5.18",
             "url": "https://docs.sglang.io/docs/hardware-platforms/ascend-npus/model-deployment/tutorials/qwen3_235b_a22b",
             "adapter_framework": "sglang",
             "training_or_inference": "推理",
@@ -606,7 +606,7 @@
         {
             "model_series": "Qwen3-30B-A3B",
             "model_name": "Qwen3-30B-A3B",
-            "version": "v0.5.17",
+            "version": "v0.5.18",
             "url": "https://docs.sglang.io/docs/hardware-platforms/ascend-npus/model-deployment/tutorials/qwen3_30b_a3b",
             "adapter_framework": "sglang",
             "training_or_inference": "推理",
@@ -615,7 +615,7 @@
         {
             "model_series": "Qwen3-32B",
             "model_name": "Qwen3-32B",
-            "version": "v0.5.17",
+            "version": "v0.5.18",
             "url": "https://docs.sglang.io/docs/hardware-platforms/ascend-npus/model-deployment/tutorials/qwen3_32b",
             "adapter_framework": "sglang",
             "training_or_inference": "推理",
@@ -624,7 +624,7 @@
         {
             "model_series": "Qwen3.5-397B-A17B",
             "model_name": "Qwen3.5-397B-A17B",
-            "version": "v0.5.17",
+            "version": "v0.5.18",
             "url": "https://docs.sglang.io/docs/hardware-platforms/ascend-npus/model-deployment/tutorials/qwen3_5_397b",
             "adapter_framework": "sglang",
             "training_or_inference": "推理",
@@ -633,7 +633,7 @@
         {
             "model_series": "Qwen3.6-27B",
             "model_name": "Qwen3.6-27B",
-            "version": "v0.5.17",
+            "version": "v0.5.18",
             "url": "https://docs.sglang.io/docs/hardware-platforms/ascend-npus/model-deployment/tutorials/qwen3_6_27b",
             "adapter_framework": "sglang",
             "training_or_inference": "推理",
@@ -642,7 +642,7 @@
         {
             "model_series": "Qwen3.6-35B-A3B",
             "model_name": "Qwen3.6-35B-A3B",
-            "version": "v0.5.17",
+            "version": "v0.5.18",
             "url": "https://docs.sglang.io/docs/hardware-platforms/ascend-npus/model-deployment/tutorials/qwen3_6_35b_a3b",
             "adapter_framework": "sglang",
             "training_or_inference": "推理",
@@ -651,7 +651,7 @@
         {
             "model_series": "Qwen3.8-Max",
             "model_name": "Qwen3.8-Max",
-            "version": "v0.5.17",
+            "version": "v0.5.18",
             "url": "https://docs.sglang.io/docs/hardware-platforms/ascend-npus/model-deployment/tutorials/qwen3_8_max",
             "adapter_framework": "sglang",
             "training_or_inference": "推理",
@@ -660,7 +660,7 @@
         {
             "model_series": "Qwen3-8B",
             "model_name": "Qwen3-8B",
-            "version": "v0.5.17",
+            "version": "v0.5.18",
             "url": "https://docs.sglang.io/docs/hardware-platforms/ascend-npus/model-deployment/tutorials/qwen3_8b",
             "adapter_framework": "sglang",
             "training_or_inference": "推理",
@@ -669,7 +669,7 @@
         {
             "model_series": "Qwen3-Next-80B-A3B-Instruct",
             "model_name": "Qwen3-Next-80B-A3B-Instruct",
-            "version": "v0.5.17",
+            "version": "v0.5.18",
             "url": "https://docs.sglang.io/docs/hardware-platforms/ascend-npus/model-deployment/tutorials/qwen3_next_80b_a3b_instruct",
             "adapter_framework": "sglang",
             "training_or_inference": "推理",
