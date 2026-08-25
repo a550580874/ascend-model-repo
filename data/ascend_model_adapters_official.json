@@ -1,6 +1,6 @@
 {
-    "generated_at": "2026-08-25 09:19:50",
-    "total_count": 79,
+    "generated_at": "2026-08-25 11:21:22",
+    "total_count": 74,
     "source": [
         "https://docs.vllm.ai/projects/ascend/en/latest/tutorials/models/index.html",
         "https://docs.vllm.ai/projects/ascend/en/latest/sitemap.xml",
@@ -674,56 +674,6 @@
             "adapter_framework": "sglang",
             "training_or_inference": "推理",
             "adapter_hardware": "A2,A3"
-        },
-        {
-            "model_series": "deepseek4",
-            "model_name": "deepseek4_flash_284b",
-            "version": "v26.1.0",
-            "url": "https://gitcode.com/Ascend/MindSpeed-LLM/tree/master/examples/fsdp2/deepseek4",
-            "adapter_framework": "mindspeed_llm",
-            "sub_framework": "fsdp2",
-            "training_or_inference": "训练",
-            "adapter_hardware": "A3"
-        },
-        {
-            "model_series": "glm52",
-            "model_name": "glm52_744b",
-            "version": "v26.1.0",
-            "url": "https://gitcode.com/Ascend/MindSpeed-LLM/tree/master/examples/fsdp2/glm52",
-            "adapter_framework": "mindspeed_llm",
-            "sub_framework": "fsdp2",
-            "training_or_inference": "训练",
-            "adapter_hardware": "A3"
-        },
-        {
-            "model_series": "gpt_oss",
-            "model_name": "gpt_oss_20b_a3b",
-            "version": "v26.1.0",
-            "url": "https://gitcode.com/Ascend/MindSpeed-LLM/tree/master/examples/fsdp2/gpt_oss",
-            "adapter_framework": "mindspeed_llm",
-            "sub_framework": "fsdp2",
-            "training_or_inference": "训练",
-            "adapter_hardware": "A2,A3"
-        },
-        {
-            "model_series": "longcat_flash_lite",
-            "model_name": "longcat_flash_lite",
-            "version": "v26.1.0",
-            "url": "https://gitcode.com/Ascend/MindSpeed-LLM/tree/master/examples/fsdp2/longcat_flash_lite",
-            "adapter_framework": "mindspeed_llm",
-            "sub_framework": "fsdp2",
-            "training_or_inference": "训练",
-            "adapter_hardware": "A3"
-        },
-        {
-            "model_series": "mamba3",
-            "model_name": "mamba3_demo_1b",
-            "version": "v26.1.0",
-            "url": "https://gitcode.com/Ascend/MindSpeed-LLM/tree/master/examples/fsdp2/mamba3",
-            "adapter_framework": "mindspeed_llm",
-            "sub_framework": "fsdp2",
-            "training_or_inference": "训练",
-            "adapter_hardware": "A2"
         }
     ]
 }
