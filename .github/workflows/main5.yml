@@ -38,6 +38,9 @@ jobs:
           test -f data/ascend_model_with_adapter.json
           test -f data/ascend_model_adapters_official.json
 
+      - name: Guard：拒绝 total_count 大幅下降的更新
+        run: python guard_total_count.py
+
       - name: Commit and Push changes
         run: |
           git config --local user.email "actions@github.com"
