@@ -1,6 +1,6 @@
 {
-    "generated_at": "2026-08-26 17:24:55",
-    "total_count": 99,
+    "generated_at": "2026-08-26 19:31:28",
+    "total_count": 96,
     "source": [
         "https://docs.vllm.ai/projects/ascend/en/latest/tutorials/models/index.html",
         "https://docs.vllm.ai/projects/ascend/en/latest/sitemap.xml",
@@ -676,16 +676,6 @@
             "adapter_hardware": "A2,A3"
         },
         {
-            "model_series": "grpo",
-            "model_name": "qwen25_7b",
-            "version": "v26.1.0",
-            "url": "https://gitcode.com/Ascend/MindSpeed-LLM/tree/master/examples/rlhf/grpo",
-            "adapter_framework": "mindspeed_llm",
-            "sub_framework": "rlhf",
-            "training_or_inference": "训练",
-            "adapter_hardware": "A3"
-        },
-        {
             "model_series": "bagel",
             "model_name": "bagel",
             "version": "v26.1.0",
@@ -708,6 +698,15 @@
             "model_name": "dancegrpo",
             "version": "v26.1.0",
             "url": "https://gitcode.com/Ascend/MindSpeed-MM/tree/master/examples/dancegrpo",
+            "adapter_framework": "mindspeed_mm",
+            "training_or_inference": "训练",
+            "adapter_hardware": "A2,A3"
+        },
+        {
+            "model_series": "deepseekocr2",
+            "model_name": "deepseekocr2",
+            "version": "v26.1.0",
+            "url": "https://gitcode.com/Ascend/MindSpeed-MM/tree/master/examples/deepseekocr2",
             "adapter_framework": "mindspeed_mm",
             "training_or_inference": "训练",
             "adapter_hardware": "A2,A3"
@@ -758,28 +757,19 @@
             "adapter_hardware": "A2,A3"
         },
         {
-            "model_series": "magistral-2509",
-            "model_name": "magistral-2509",
+            "model_series": "moss_tts",
+            "model_name": "moss_tts",
             "version": "v26.1.0",
-            "url": "https://gitcode.com/Ascend/MindSpeed-MM/tree/master/examples/magistral-2509",
+            "url": "https://gitcode.com/Ascend/MindSpeed-MM/tree/master/examples/moss_tts",
             "adapter_framework": "mindspeed_mm",
             "training_or_inference": "训练",
             "adapter_hardware": "A2,A3"
         },
         {
-            "model_series": "mimov2_5",
-            "model_name": "mimov2_5",
+            "model_series": "qwen2.5omni",
+            "model_name": "qwen2.5omni",
             "version": "v26.1.0",
-            "url": "https://gitcode.com/Ascend/MindSpeed-MM/tree/master/examples/mimov2_5",
-            "adapter_framework": "mindspeed_mm",
-            "training_or_inference": "训练",
-            "adapter_hardware": "A2,A3"
-        },
-        {
-            "model_series": "minimax_m3_vl",
-            "model_name": "minimax_m3_vl",
-            "version": "v26.1.0",
-            "url": "https://gitcode.com/Ascend/MindSpeed-MM/tree/master/examples/minimax_m3_vl",
+            "url": "https://gitcode.com/Ascend/MindSpeed-MM/tree/master/examples/qwen2.5omni",
             "adapter_framework": "mindspeed_mm",
             "training_or_inference": "训练",
             "adapter_hardware": "A2,A3"
@@ -852,24 +842,6 @@
             "model_name": "qwen3vl",
             "version": "v26.1.0",
             "url": "https://gitcode.com/Ascend/MindSpeed-MM/tree/master/examples/qwen3vl",
-            "adapter_framework": "mindspeed_mm",
-            "training_or_inference": "训练",
-            "adapter_hardware": "A2,A3"
-        },
-        {
-            "model_series": "self_forcing",
-            "model_name": "self_forcing",
-            "version": "v26.1.0",
-            "url": "https://gitcode.com/Ascend/MindSpeed-MM/tree/master/examples/self_forcing",
-            "adapter_framework": "mindspeed_mm",
-            "training_or_inference": "训练",
-            "adapter_hardware": "A2,A3"
-        },
-        {
-            "model_series": "step3_vl",
-            "model_name": "step3_vl",
-            "version": "v26.1.0",
-            "url": "https://gitcode.com/Ascend/MindSpeed-MM/tree/master/examples/step3_vl",
             "adapter_framework": "mindspeed_mm",
             "training_or_inference": "训练",
             "adapter_hardware": "A2,A3"
