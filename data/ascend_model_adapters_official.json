@@ -1,6 +1,6 @@
 {
-    "generated_at": "2026-08-30 07:25:38",
-    "total_count": 182,
+    "generated_at": "2026-08-30 21:22:28",
+    "total_count": 178,
     "source": [
         "https://docs.vllm.ai/projects/ascend/en/latest/tutorials/models/index.html",
         "https://docs.vllm.ai/projects/ascend/en/latest/sitemap.xml",
@@ -1081,46 +1081,6 @@
             "sub_framework": "mcore",
             "training_or_inference": "训练",
             "adapter_hardware": "A2,A3"
-        },
-        {
-            "model_series": "plm",
-            "model_name": "plm_1point8b",
-            "version": "v26.1.0",
-            "url": "https://gitcode.com/Ascend/MindSpeed-LLM/tree/master/examples/mcore/plm",
-            "adapter_framework": "mindspeed_llm",
-            "sub_framework": "mcore",
-            "training_or_inference": "训练",
-            "adapter_hardware": "A2,A3"
-        },
-        {
-            "model_series": "qwen25",
-            "model_name": "qwen25_72b",
-            "version": "v26.1.0",
-            "url": "https://gitcode.com/Ascend/MindSpeed-LLM/tree/master/examples/mcore/qwen25",
-            "adapter_framework": "mindspeed_llm",
-            "sub_framework": "mcore",
-            "training_or_inference": "训练",
-            "adapter_hardware": "A2,A3"
-        },
-        {
-            "model_series": "qwen3_next",
-            "model_name": "qwen3_next_80b",
-            "version": "v26.1.0",
-            "url": "https://gitcode.com/Ascend/MindSpeed-LLM/tree/master/examples/mcore/qwen3_next",
-            "adapter_framework": "mindspeed_llm",
-            "sub_framework": "mcore",
-            "training_or_inference": "训练",
-            "adapter_hardware": "A2,A3"
-        },
-        {
-            "model_series": "seed_oss",
-            "model_name": "seed_oss_36b",
-            "version": "v26.1.0",
-            "url": "https://gitcode.com/Ascend/MindSpeed-LLM/tree/master/examples/mcore/seed_oss",
-            "adapter_framework": "mindspeed_llm",
-            "sub_framework": "mcore",
-            "training_or_inference": "训练",
-            "adapter_hardware": "A3"
         },
         {
             "model_series": "chatglm3",
