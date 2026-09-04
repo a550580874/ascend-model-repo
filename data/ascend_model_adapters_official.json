@@ -1,6 +1,6 @@
 {
-    "generated_at": "2026-09-04 05:29:11",
-    "total_count": 194,
+    "generated_at": "2026-09-04 09:31:31",
+    "total_count": 176,
     "source": [
         "https://docs.vllm.ai/projects/ascend/en/latest/tutorials/models/index.html",
         "https://docs.vllm.ai/projects/ascend/en/latest/sitemap.xml",
@@ -812,46 +812,6 @@
             "adapter_hardware": "A2,A3"
         },
         {
-            "model_series": "qwen3_moe",
-            "model_name": "qwen3_235b",
-            "version": "v26.1.0",
-            "url": "https://gitcode.com/Ascend/MindSpeed-LLM/tree/master/examples/fsdp2/qwen3_moe",
-            "adapter_framework": "mindspeed_llm",
-            "sub_framework": "fsdp2",
-            "training_or_inference": "训练",
-            "adapter_hardware": "A3"
-        },
-        {
-            "model_series": "qwen3_moe",
-            "model_name": "qwen3_30b",
-            "version": "v26.1.0",
-            "url": "https://gitcode.com/Ascend/MindSpeed-LLM/tree/master/examples/fsdp2/qwen3_moe",
-            "adapter_framework": "mindspeed_llm",
-            "sub_framework": "fsdp2",
-            "training_or_inference": "训练",
-            "adapter_hardware": "A3,A5"
-        },
-        {
-            "model_series": "qwen3_next",
-            "model_name": "qwen3_next",
-            "version": "v26.1.0",
-            "url": "https://gitcode.com/Ascend/MindSpeed-LLM/tree/master/examples/fsdp2/qwen3_next",
-            "adapter_framework": "mindspeed_llm",
-            "sub_framework": "fsdp2",
-            "training_or_inference": "训练",
-            "adapter_hardware": "A3"
-        },
-        {
-            "model_series": "step35",
-            "model_name": "step_3p5_flash_196b",
-            "version": "v26.1.0",
-            "url": "https://gitcode.com/Ascend/MindSpeed-LLM/tree/master/examples/fsdp2/step35",
-            "adapter_framework": "mindspeed_llm",
-            "sub_framework": "fsdp2",
-            "training_or_inference": "训练",
-            "adapter_hardware": "A3"
-        },
-        {
             "model_series": "deepseek2_lite",
             "model_name": "deepseek2_lite_16b",
             "version": "v26.1.0",
@@ -970,76 +930,6 @@
             "sub_framework": "mcore",
             "training_or_inference": "训练",
             "adapter_hardware": "A3"
-        },
-        {
-            "model_series": "hunyuan3",
-            "model_name": "hunyuan3_299b",
-            "version": "v26.1.0",
-            "url": "https://gitcode.com/Ascend/MindSpeed-LLM/tree/master/examples/mcore/hunyuan3",
-            "adapter_framework": "mindspeed_llm",
-            "sub_framework": "mcore",
-            "training_or_inference": "训练",
-            "adapter_hardware": "A3"
-        },
-        {
-            "model_series": "kimi2",
-            "model_name": "kimi2_18b",
-            "version": "v26.1.0",
-            "url": "https://gitcode.com/Ascend/MindSpeed-LLM/tree/master/examples/mcore/kimi2",
-            "adapter_framework": "mindspeed_llm",
-            "sub_framework": "mcore",
-            "training_or_inference": "训练",
-            "adapter_hardware": "A2,A3"
-        },
-        {
-            "model_series": "ling_v2",
-            "model_name": "ling_1t",
-            "version": "v26.1.0",
-            "url": "https://gitcode.com/Ascend/MindSpeed-LLM/tree/master/examples/mcore/ling_v2",
-            "adapter_framework": "mindspeed_llm",
-            "sub_framework": "mcore",
-            "training_or_inference": "训练",
-            "adapter_hardware": "A3"
-        },
-        {
-            "model_series": "ling_v2",
-            "model_name": "ling_flash_100b",
-            "version": "v26.1.0",
-            "url": "https://gitcode.com/Ascend/MindSpeed-LLM/tree/master/examples/mcore/ling_v2",
-            "adapter_framework": "mindspeed_llm",
-            "sub_framework": "mcore",
-            "training_or_inference": "训练",
-            "adapter_hardware": "A3"
-        },
-        {
-            "model_series": "ling_v2",
-            "model_name": "ling_mini_16b",
-            "version": "v26.1.0",
-            "url": "https://gitcode.com/Ascend/MindSpeed-LLM/tree/master/examples/mcore/ling_v2",
-            "adapter_framework": "mindspeed_llm",
-            "sub_framework": "mcore",
-            "training_or_inference": "训练",
-            "adapter_hardware": "A2,A3"
-        },
-        {
-            "model_series": "ling_v2",
-            "model_name": "ring_1t",
-            "version": "v26.1.0",
-            "url": "https://gitcode.com/Ascend/MindSpeed-LLM/tree/master/examples/mcore/ling_v2",
-            "adapter_framework": "mindspeed_llm",
-            "sub_framework": "mcore",
-            "training_or_inference": "训练",
-            "adapter_hardware": "A2,A3"
-        },
-        {
-            "model_series": "llama2",
-            "model_name": "llama2_13b",
-            "version": "v26.1.0",
-            "url": "https://gitcode.com/Ascend/MindSpeed-LLM/tree/master/examples/mcore/llama2",
-            "adapter_framework": "mindspeed_llm",
-            "sub_framework": "mcore",
-            "training_or_inference": "训练",
-            "adapter_hardware": "A2,A3"
         },
         {
             "model_series": "longcat",
@@ -1412,66 +1302,6 @@
             "adapter_hardware": "A2,A3"
         },
         {
-            "model_series": "llama31",
-            "model_name": "llama31_70b",
-            "version": "v26.1.0",
-            "url": "https://gitcode.com/Ascend/MindSpeed-LLM/tree/master/examples/mindspore/llama31",
-            "adapter_framework": "mindspeed_llm",
-            "sub_framework": "mindspore",
-            "training_or_inference": "训练",
-            "adapter_hardware": "A2,A3"
-        },
-        {
-            "model_series": "llama31",
-            "model_name": "llama31_8b",
-            "version": "v26.1.0",
-            "url": "https://gitcode.com/Ascend/MindSpeed-LLM/tree/master/examples/mindspore/llama31",
-            "adapter_framework": "mindspeed_llm",
-            "sub_framework": "mindspore",
-            "training_or_inference": "训练",
-            "adapter_hardware": "A2,A3"
-        },
-        {
-            "model_series": "llama32",
-            "model_name": "llama32_1b",
-            "version": "v26.1.0",
-            "url": "https://gitcode.com/Ascend/MindSpeed-LLM/tree/master/examples/mindspore/llama32",
-            "adapter_framework": "mindspeed_llm",
-            "sub_framework": "mindspore",
-            "training_or_inference": "训练",
-            "adapter_hardware": "A2,A3"
-        },
-        {
-            "model_series": "llama32",
-            "model_name": "llama32_3b",
-            "version": "v26.1.0",
-            "url": "https://gitcode.com/Ascend/MindSpeed-LLM/tree/master/examples/mindspore/llama32",
-            "adapter_framework": "mindspeed_llm",
-            "sub_framework": "mindspore",
-            "training_or_inference": "训练",
-            "adapter_hardware": "A2,A3"
-        },
-        {
-            "model_series": "llama33",
-            "model_name": "llama33_70b",
-            "version": "v26.1.0",
-            "url": "https://gitcode.com/Ascend/MindSpeed-LLM/tree/master/examples/mindspore/llama33",
-            "adapter_framework": "mindspeed_llm",
-            "sub_framework": "mindspore",
-            "training_or_inference": "训练",
-            "adapter_hardware": "A2,A3"
-        },
-        {
-            "model_series": "phi35",
-            "model_name": "phi35_mini",
-            "version": "v26.1.0",
-            "url": "https://gitcode.com/Ascend/MindSpeed-LLM/tree/master/examples/mindspore/phi35",
-            "adapter_framework": "mindspeed_llm",
-            "sub_framework": "mindspore",
-            "training_or_inference": "训练",
-            "adapter_hardware": "A2,A3"
-        },
-        {
             "model_series": "qwen25",
             "model_name": "qwen25_32b",
             "version": "v26.1.0",
@@ -1570,16 +1400,6 @@
             "sub_framework": "mindspore",
             "training_or_inference": "训练",
             "adapter_hardware": "A2,A3"
-        },
-        {
-            "model_series": "grpo",
-            "model_name": "qwen25_7b",
-            "version": "v26.1.0",
-            "url": "https://gitcode.com/Ascend/MindSpeed-LLM/tree/master/examples/rlhf/grpo",
-            "adapter_framework": "mindspeed_llm",
-            "sub_framework": "rlhf",
-            "training_or_inference": "训练",
-            "adapter_hardware": "A3"
         },
         {
             "model_series": "bagel",
