@@ -104,8 +104,8 @@ def assign_missing_ids(source_data: dict[str, Any]) -> int:
             continue
         if normalize_id(model.get("id")) is not None:
             continue
-        if not model.get("open_date"):
-            continue
+        # if not model.get("open_date"):
+        #     continue
 
         while True:
             random_suffix = random.randint(1000, 9999)
