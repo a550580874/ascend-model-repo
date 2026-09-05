@@ -23,12 +23,19 @@ jobs:
       - name: Build merged total model file
         run: python merge_total_models.py
 
+      - name: Assign synthetic IDs and rebuild indexes
+        run: python build_model_source_keywords.py
+
       - name: Commit and push updates
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Action Bot"
 
-          git add data/ascend_model_with_adapter-1-total.json
+          git add data/ascend_model_with_adapter-1-total.json \
+                  data/ascend_model_source_key_word.json \
+                  data/ascend_mode_source_model_name.json \
+                  data/ascend_model_source_framework.json \
+                  data/ascend_model_source_hardware.json
 
           if git diff --cached --quiet; then
             echo "No changes to commit"
