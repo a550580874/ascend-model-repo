@@ -1,6 +1,6 @@
 {
-    "generated_at": "2026-09-07 07:21:36",
-    "total_count": 192,
+    "generated_at": "2026-09-08 21:37:03",
+    "total_count": 155,
     "source": [
         "https://docs.vllm.ai/projects/ascend/en/latest/tutorials/models/index.html",
         "https://docs.vllm.ai/projects/ascend/en/latest/sitemap.xml",
@@ -9,15 +9,6 @@
         "https://gitcode.com/Ascend/MindSpeed-MM/tree/master/examples"
     ],
     "models": [
-        {
-            "model_series": "Cohere Transcribe",
-            "model_name": "Cohere Transcribe",
-            "version": "v0.23.0",
-            "url": "https://docs.vllm.ai/projects/ascend/en/latest/tutorials/models/Cohere-Transcribe.html",
-            "adapter_framework": "vllm_ascend",
-            "training_or_inference": "推理",
-            "adapter_hardware": "A2"
-        },
         {
             "model_series": "DeepSeek-R1",
             "model_name": "DeepSeek-R1",
@@ -28,37 +19,10 @@
             "adapter_hardware": "A2,A3"
         },
         {
-            "model_series": "DeepSeek-V3 & 3.1",
-            "model_name": "DeepSeek-V3 & 3.1",
-            "version": "v0.23.0",
-            "url": "https://docs.vllm.ai/projects/ascend/en/latest/tutorials/models/DeepSeek-V3.1.html",
-            "adapter_framework": "vllm_ascend",
-            "training_or_inference": "推理",
-            "adapter_hardware": "A2,A3"
-        },
-        {
             "model_series": "DeepSeek-V3.2",
             "model_name": "DeepSeek-V3.2",
             "version": "v0.23.0",
             "url": "https://docs.vllm.ai/projects/ascend/en/latest/tutorials/models/DeepSeek-V3.2.html",
-            "adapter_framework": "vllm_ascend",
-            "training_or_inference": "推理",
-            "adapter_hardware": "A2,A3"
-        },
-        {
-            "model_series": "DeepSeek-V4-Flash",
-            "model_name": "DeepSeek-V4-Flash",
-            "version": "v0.23.0",
-            "url": "https://docs.vllm.ai/projects/ascend/en/latest/tutorials/models/DeepSeek-V4-Flash.html",
-            "adapter_framework": "vllm_ascend",
-            "training_or_inference": "推理",
-            "adapter_hardware": "A2,A3"
-        },
-        {
-            "model_series": "DeepSeek-V4-Pro",
-            "model_name": "DeepSeek-V4-Pro",
-            "version": "v0.23.0",
-            "url": "https://docs.vllm.ai/projects/ascend/en/latest/tutorials/models/DeepSeek-V4-Pro.html",
             "adapter_framework": "vllm_ascend",
             "training_or_inference": "推理",
             "adapter_hardware": "A2,A3"
@@ -82,64 +46,10 @@
             "adapter_hardware": "A2,A3"
         },
         {
-            "model_series": "GLM",
-            "model_name": "GLM-4.5",
-            "version": "v0.23.0",
-            "url": "https://docs.vllm.ai/projects/ascend/en/latest/tutorials/models/GLM4.x.html",
-            "adapter_framework": "vllm_ascend",
-            "training_or_inference": "推理",
-            "adapter_hardware": "A2,A3"
-        },
-        {
-            "model_series": "GLM",
-            "model_name": "GLM-4.6",
-            "version": "v0.23.0",
-            "url": "https://docs.vllm.ai/projects/ascend/en/latest/tutorials/models/GLM4.x.html",
-            "adapter_framework": "vllm_ascend",
-            "training_or_inference": "推理",
-            "adapter_hardware": "A2,A3"
-        },
-        {
-            "model_series": "GLM",
-            "model_name": "GLM-4.7",
-            "version": "v0.23.0",
-            "url": "https://docs.vllm.ai/projects/ascend/en/latest/tutorials/models/GLM4.x.html",
-            "adapter_framework": "vllm_ascend",
-            "training_or_inference": "推理",
-            "adapter_hardware": "A2,A3"
-        },
-        {
             "model_series": "GLM-5.2",
             "model_name": "GLM-5.2",
             "version": "v0.23.0",
             "url": "https://docs.vllm.ai/projects/ascend/en/latest/tutorials/models/GLM5.2.html",
-            "adapter_framework": "vllm_ascend",
-            "training_or_inference": "推理",
-            "adapter_hardware": "A2,A3"
-        },
-        {
-            "model_series": "GLM-5.3-Flash",
-            "model_name": "GLM-5.3-Flash",
-            "version": "v0.23.0",
-            "url": "https://docs.vllm.ai/projects/ascend/en/latest/tutorials/models/GLM5.3-Flash.html",
-            "adapter_framework": "vllm_ascend",
-            "training_or_inference": "推理",
-            "adapter_hardware": "A2,A3"
-        },
-        {
-            "model_series": "GLM-5.3",
-            "model_name": "Experimental",
-            "version": "v0.23.0",
-            "url": "https://docs.vllm.ai/projects/ascend/en/latest/tutorials/models/GLM5.3.html",
-            "adapter_framework": "vllm_ascend",
-            "training_or_inference": "推理",
-            "adapter_hardware": "A2,A3"
-        },
-        {
-            "model_series": "GLM-5 & GLM-5.1",
-            "model_name": "GLM-5 & GLM-5.1",
-            "version": "v0.23.0",
-            "url": "https://docs.vllm.ai/projects/ascend/en/latest/tutorials/models/GLM5.html",
             "adapter_framework": "vllm_ascend",
             "training_or_inference": "推理",
             "adapter_hardware": "A2,A3"
@@ -152,24 +62,6 @@
             "adapter_framework": "vllm_ascend",
             "training_or_inference": "推理",
             "adapter_hardware": "A2,A3"
-        },
-        {
-            "model_series": "Hunyuan-A13B-Instruct",
-            "model_name": "Hunyuan-A13B-Instruct",
-            "version": "v0.23.0",
-            "url": "https://docs.vllm.ai/projects/ascend/en/latest/tutorials/models/Hunyuan-A13B-Instruct.html",
-            "adapter_framework": "vllm_ascend",
-            "training_or_inference": "推理",
-            "adapter_hardware": "A2,A3"
-        },
-        {
-            "model_series": "Hy3-preview",
-            "model_name": "Hy3-preview",
-            "version": "v0.23.0",
-            "url": "https://docs.vllm.ai/projects/ascend/en/latest/tutorials/models/Hy3-preview.html",
-            "adapter_framework": "vllm_ascend",
-            "training_or_inference": "推理",
-            "adapter_hardware": "A3"
         },
         {
             "model_series": "Hy4-preview",
@@ -199,15 +91,6 @@
             "adapter_hardware": "A3"
         },
         {
-            "model_series": "Kimi-K2-Thinking",
-            "model_name": "Kimi-K2-Thinking",
-            "version": "v0.23.0",
-            "url": "https://docs.vllm.ai/projects/ascend/en/latest/tutorials/models/Kimi-K2-Thinking.html",
-            "adapter_framework": "vllm_ascend",
-            "training_or_inference": "推理",
-            "adapter_hardware": "A3"
-        },
-        {
             "model_series": "Kimi-K2.5",
             "model_name": "Kimi-K2.5",
             "version": "v0.23.0",
@@ -215,24 +98,6 @@
             "adapter_framework": "vllm_ascend",
             "training_or_inference": "推理",
             "adapter_hardware": "A2,A3"
-        },
-        {
-            "model_series": "Kimi-K2.6",
-            "model_name": "Kimi-K2.6",
-            "version": "v0.23.0",
-            "url": "https://docs.vllm.ai/projects/ascend/en/latest/tutorials/models/Kimi-K2.6.html",
-            "adapter_framework": "vllm_ascend",
-            "training_or_inference": "推理",
-            "adapter_hardware": "A2,A3"
-        },
-        {
-            "model_series": "Kimi-K3",
-            "model_name": "Kimi-K3",
-            "version": "v0.23.0",
-            "url": "https://docs.vllm.ai/projects/ascend/en/latest/tutorials/models/Kimi-K3.html",
-            "adapter_framework": "vllm_ascend",
-            "training_or_inference": "推理",
-            "adapter_hardware": "A3"
         },
         {
             "model_series": "LLaVA-OneVision-Qwen2-0.5B-OV",
@@ -244,96 +109,6 @@
             "adapter_hardware": "A2"
         },
         {
-            "model_series": "MiniMax-M2",
-            "model_name": "MiniMax-M2",
-            "version": "v0.23.0",
-            "url": "https://docs.vllm.ai/projects/ascend/en/latest/tutorials/models/MiniMax-M2.html",
-            "adapter_framework": "vllm_ascend",
-            "training_or_inference": "推理",
-            "adapter_hardware": "A2,A3"
-        },
-        {
-            "model_series": "MiniMax-M3",
-            "model_name": "MiniMax-M3",
-            "version": "v0.23.0",
-            "url": "https://docs.vllm.ai/projects/ascend/en/latest/tutorials/models/MiniMax-M3.html",
-            "adapter_framework": "vllm_ascend",
-            "training_or_inference": "推理",
-            "adapter_hardware": "A2,A3"
-        },
-        {
-            "model_series": "Minitron-8B-Base",
-            "model_name": "Minitron-8B-Base",
-            "version": "v0.23.0",
-            "url": "https://docs.vllm.ai/projects/ascend/en/latest/tutorials/models/Minitron-8B-Base.html",
-            "adapter_framework": "vllm_ascend",
-            "training_or_inference": "推理",
-            "adapter_hardware": "A2"
-        },
-        {
-            "model_series": "Mixtral-8x7B-Instruct-v0.1",
-            "model_name": "Mixtral-8x7B-Instruct-v0.1",
-            "version": "v0.23.0",
-            "url": "https://docs.vllm.ai/projects/ascend/en/latest/tutorials/models/Mixtral-8x7B-Instruct-v0.1.html",
-            "adapter_framework": "vllm_ascend",
-            "training_or_inference": "推理",
-            "adapter_hardware": "A2,A3"
-        },
-        {
-            "model_series": "PaddleOCR-VL",
-            "model_name": "PaddleOCR-VL",
-            "version": "v0.23.0",
-            "url": "https://docs.vllm.ai/projects/ascend/en/latest/tutorials/models/PaddleOCR-VL.html",
-            "adapter_framework": "vllm_ascend",
-            "training_or_inference": "推理",
-            "adapter_hardware": "A2,300I DUO"
-        },
-        {
-            "model_series": "Qwen-VL-Dense",
-            "model_name": "Qwen3-VL-8B",
-            "version": "v0.23.0",
-            "url": "https://docs.vllm.ai/projects/ascend/en/latest/tutorials/models/Qwen-VL-Dense.html",
-            "adapter_framework": "vllm_ascend",
-            "training_or_inference": "推理",
-            "adapter_hardware": "A2,A3,300I DUO"
-        },
-        {
-            "model_series": "Qwen-VL-Dense",
-            "model_name": "Qwen3-VL-32B",
-            "version": "v0.23.0",
-            "url": "https://docs.vllm.ai/projects/ascend/en/latest/tutorials/models/Qwen-VL-Dense.html",
-            "adapter_framework": "vllm_ascend",
-            "training_or_inference": "推理",
-            "adapter_hardware": "A2,A3,300I DUO"
-        },
-        {
-            "model_series": "Qwen2.5-Math-RM-72B",
-            "model_name": "Qwen2.5-Math-RM-72B",
-            "version": "v0.23.0",
-            "url": "https://docs.vllm.ai/projects/ascend/en/latest/tutorials/models/Qwen2.5-Math-RM-72B.html",
-            "adapter_framework": "vllm_ascend",
-            "training_or_inference": "推理",
-            "adapter_hardware": "A2"
-        },
-        {
-            "model_series": "Qwen3-235B-A22B",
-            "model_name": "Qwen3-235B-A22B",
-            "version": "v0.23.0",
-            "url": "https://docs.vllm.ai/projects/ascend/en/latest/tutorials/models/Qwen3-235B-A22B.html",
-            "adapter_framework": "vllm_ascend",
-            "training_or_inference": "推理",
-            "adapter_hardware": "A2,A3"
-        },
-        {
-            "model_series": "Qwen3-30B-A3B",
-            "model_name": "Qwen3-30B-A3B",
-            "version": "v0.23.0",
-            "url": "https://docs.vllm.ai/projects/ascend/en/latest/tutorials/models/Qwen3-30B-A3B.html",
-            "adapter_framework": "vllm_ascend",
-            "training_or_inference": "推理",
-            "adapter_hardware": "A2,A3,300I DUO"
-        },
-        {
             "model_series": "Qwen3-ASR-1.7B",
             "model_name": "Qwen3-ASR-1.7B",
             "version": "v0.23.0",
@@ -341,159 +116,6 @@
             "adapter_framework": "vllm_ascend",
             "training_or_inference": "推理",
             "adapter_hardware": "A2,300I DUO"
-        },
-        {
-            "model_series": "Qwen3-Coder-30B-A3B",
-            "model_name": "Qwen3-Coder-30B-A3B",
-            "version": "v0.23.0",
-            "url": "https://docs.vllm.ai/projects/ascend/en/latest/tutorials/models/Qwen3-Coder-30B-A3B.html",
-            "adapter_framework": "vllm_ascend",
-            "training_or_inference": "推理",
-            "adapter_hardware": "A2,A3"
-        },
-        {
-            "model_series": "Qwen3-Dense",
-            "model_name": "Qwen3-0.6B",
-            "version": "v0.23.0",
-            "url": "https://docs.vllm.ai/projects/ascend/en/latest/tutorials/models/Qwen3-Dense.html",
-            "adapter_framework": "vllm_ascend",
-            "training_or_inference": "推理",
-            "adapter_hardware": "A2,A3,300I DUO"
-        },
-        {
-            "model_series": "Qwen3-Dense",
-            "model_name": "Qwen3-1.7B",
-            "version": "v0.23.0",
-            "url": "https://docs.vllm.ai/projects/ascend/en/latest/tutorials/models/Qwen3-Dense.html",
-            "adapter_framework": "vllm_ascend",
-            "training_or_inference": "推理",
-            "adapter_hardware": "A2,A3,300I DUO"
-        },
-        {
-            "model_series": "Qwen3-Dense",
-            "model_name": "Qwen3-4B",
-            "version": "v0.23.0",
-            "url": "https://docs.vllm.ai/projects/ascend/en/latest/tutorials/models/Qwen3-Dense.html",
-            "adapter_framework": "vllm_ascend",
-            "training_or_inference": "推理",
-            "adapter_hardware": "A2,A3,300I DUO"
-        },
-        {
-            "model_series": "Qwen3-Dense",
-            "model_name": "Qwen3-8B",
-            "version": "v0.23.0",
-            "url": "https://docs.vllm.ai/projects/ascend/en/latest/tutorials/models/Qwen3-Dense.html",
-            "adapter_framework": "vllm_ascend",
-            "training_or_inference": "推理",
-            "adapter_hardware": "A2,A3,300I DUO"
-        },
-        {
-            "model_series": "Qwen3-Dense",
-            "model_name": "Qwen3-14B",
-            "version": "v0.23.0",
-            "url": "https://docs.vllm.ai/projects/ascend/en/latest/tutorials/models/Qwen3-Dense.html",
-            "adapter_framework": "vllm_ascend",
-            "training_or_inference": "推理",
-            "adapter_hardware": "A2,A3,300I DUO"
-        },
-        {
-            "model_series": "Qwen3-Dense",
-            "model_name": "Qwen3-32B",
-            "version": "v0.23.0",
-            "url": "https://docs.vllm.ai/projects/ascend/en/latest/tutorials/models/Qwen3-Dense.html",
-            "adapter_framework": "vllm_ascend",
-            "training_or_inference": "推理",
-            "adapter_hardware": "A2,A3,300I DUO"
-        },
-        {
-            "model_series": "Qwen3-Embedding",
-            "model_name": "Qwen3-Embedding",
-            "version": "v0.23.0",
-            "url": "https://docs.vllm.ai/projects/ascend/en/latest/tutorials/models/Qwen3-Embedding.html",
-            "adapter_framework": "vllm_ascend",
-            "training_or_inference": "推理",
-            "adapter_hardware": "A2,A3,300I DUO"
-        },
-        {
-            "model_series": "Qwen3-Next",
-            "model_name": "Qwen3-Next",
-            "version": "v0.23.0",
-            "url": "https://docs.vllm.ai/projects/ascend/en/latest/tutorials/models/Qwen3-Next.html",
-            "adapter_framework": "vllm_ascend",
-            "training_or_inference": "推理",
-            "adapter_hardware": "A2,A3"
-        },
-        {
-            "model_series": "Qwen3-Omni-30B-A3B-Thinking",
-            "model_name": "Qwen3-Omni-30B-A3B-Thinking",
-            "version": "v0.23.0",
-            "url": "https://docs.vllm.ai/projects/ascend/en/latest/tutorials/models/Qwen3-Omni-30B-A3B-Thinking.html",
-            "adapter_framework": "vllm_ascend",
-            "training_or_inference": "推理",
-            "adapter_hardware": "A2,A3"
-        },
-        {
-            "model_series": "Qwen3-Reranker",
-            "model_name": "Qwen3-Reranker",
-            "version": "v0.23.0",
-            "url": "https://docs.vllm.ai/projects/ascend/en/latest/tutorials/models/Qwen3-Reranker.html",
-            "adapter_framework": "vllm_ascend",
-            "training_or_inference": "推理",
-            "adapter_hardware": "A2,A3,300I DUO"
-        },
-        {
-            "model_series": "Qwen3-VL-235B-A22B-Instruct",
-            "model_name": "Qwen3-VL-235B-A22B-Instruct",
-            "version": "v0.23.0",
-            "url": "https://docs.vllm.ai/projects/ascend/en/latest/tutorials/models/Qwen3-VL-235B-A22B-Instruct.html",
-            "adapter_framework": "vllm_ascend",
-            "training_or_inference": "推理",
-            "adapter_hardware": "A2,A3"
-        },
-        {
-            "model_series": "Qwen3-VL-30B-A3B-Instruct",
-            "model_name": "Qwen3-VL-30B-A3B-Instruct",
-            "version": "v0.23.0",
-            "url": "https://docs.vllm.ai/projects/ascend/en/latest/tutorials/models/Qwen3-VL-30B-A3B-Instruct.html",
-            "adapter_framework": "vllm_ascend",
-            "training_or_inference": "推理",
-            "adapter_hardware": "A2,A3"
-        },
-        {
-            "model_series": "Qwen3-VL-Embedding",
-            "model_name": "Qwen3-VL-Embedding",
-            "version": "v0.23.0",
-            "url": "https://docs.vllm.ai/projects/ascend/en/latest/tutorials/models/Qwen3-VL-Embedding.html",
-            "adapter_framework": "vllm_ascend",
-            "training_or_inference": "推理",
-            "adapter_hardware": "A2,A3,300I DUO"
-        },
-        {
-            "model_series": "Qwen3-VL-Reranker",
-            "model_name": "Qwen3-VL-Reranker",
-            "version": "v0.23.0",
-            "url": "https://docs.vllm.ai/projects/ascend/en/latest/tutorials/models/Qwen3-VL-Reranker.html",
-            "adapter_framework": "vllm_ascend",
-            "training_or_inference": "推理",
-            "adapter_hardware": "A2,A3,300I DUO"
-        },
-        {
-            "model_series": "Qwen3.5-27B & Qwen3.6-27B",
-            "model_name": "Qwen3.5-27B & Qwen3.6-27B",
-            "version": "v0.23.0",
-            "url": "https://docs.vllm.ai/projects/ascend/en/latest/tutorials/models/Qwen3.5-27B-Qwen3.6-27B.html",
-            "adapter_framework": "vllm_ascend",
-            "training_or_inference": "推理",
-            "adapter_hardware": "A2,A3,300I DUO"
-        },
-        {
-            "model_series": "Qwen3.5-397B-A17B",
-            "model_name": "Qwen3.5-397B-A17B",
-            "version": "v0.23.0",
-            "url": "https://docs.vllm.ai/projects/ascend/en/latest/tutorials/models/Qwen3.5-397B-A17B.html",
-            "adapter_framework": "vllm_ascend",
-            "training_or_inference": "推理",
-            "adapter_hardware": "A2,A3"
         },
         {
             "model_series": "Qwen3.5-Dense",
@@ -548,24 +170,6 @@
             "adapter_framework": "vllm_ascend",
             "training_or_inference": "推理",
             "adapter_hardware": "A2,A3,300I DUO"
-        },
-        {
-            "model_series": "SigLIP2",
-            "model_name": "SigLIP2",
-            "version": "v0.23.0",
-            "url": "https://docs.vllm.ai/projects/ascend/en/latest/tutorials/models/SigLIP2.html",
-            "adapter_framework": "vllm_ascend",
-            "training_or_inference": "推理",
-            "adapter_hardware": "300I DUO"
-        },
-        {
-            "model_series": "gpt-oss-120b",
-            "model_name": "gpt-oss-120b",
-            "version": "v0.23.0",
-            "url": "https://docs.vllm.ai/projects/ascend/en/latest/tutorials/models/gpt-oss-120b.html",
-            "adapter_framework": "vllm_ascend",
-            "training_or_inference": "推理",
-            "adapter_hardware": "A2,A3"
         },
         {
             "model_series": "DeepSeek-R1",
@@ -860,6 +464,16 @@
             "adapter_hardware": "A3"
         },
         {
+            "model_series": "step35",
+            "model_name": "step_3p5_flash_196b",
+            "version": "v26.1.0",
+            "url": "https://gitcode.com/Ascend/MindSpeed-LLM/tree/master/examples/fsdp2/step35",
+            "adapter_framework": "mindspeed_llm",
+            "sub_framework": "fsdp2",
+            "training_or_inference": "训练",
+            "adapter_hardware": "A3"
+        },
+        {
             "model_series": "deepseek2_lite",
             "model_name": "deepseek2_lite_16b",
             "version": "v26.1.0",
@@ -934,6 +548,26 @@
             "model_name": "gemma2_9b",
             "version": "v26.1.0",
             "url": "https://gitcode.com/Ascend/MindSpeed-LLM/tree/master/examples/mcore/gemma2",
+            "adapter_framework": "mindspeed_llm",
+            "sub_framework": "mcore",
+            "training_or_inference": "训练",
+            "adapter_hardware": "A2,A3"
+        },
+        {
+            "model_series": "glm45",
+            "model_name": "glm45",
+            "version": "v26.1.0",
+            "url": "https://gitcode.com/Ascend/MindSpeed-LLM/tree/master/examples/mcore/glm45",
+            "adapter_framework": "mindspeed_llm",
+            "sub_framework": "mcore",
+            "training_or_inference": "训练",
+            "adapter_hardware": "A2,A3"
+        },
+        {
+            "model_series": "glm45-air",
+            "model_name": "glm45_air_106b",
+            "version": "v26.1.0",
+            "url": "https://gitcode.com/Ascend/MindSpeed-LLM/tree/master/examples/mcore/glm45-air",
             "adapter_framework": "mindspeed_llm",
             "sub_framework": "mcore",
             "training_or_inference": "训练",
@@ -1560,6 +1194,16 @@
             "adapter_hardware": "A2,A3"
         },
         {
+            "model_series": "grpo",
+            "model_name": "qwen25_7b",
+            "version": "v26.1.0",
+            "url": "https://gitcode.com/Ascend/MindSpeed-LLM/tree/master/examples/rlhf/grpo",
+            "adapter_framework": "mindspeed_llm",
+            "sub_framework": "rlhf",
+            "training_or_inference": "训练",
+            "adapter_hardware": "A3"
+        },
+        {
             "model_series": "bagel",
             "model_name": "bagel",
             "version": "v26.1.0",
@@ -1668,6 +1312,15 @@
             "adapter_hardware": "A2,A3"
         },
         {
+            "model_series": "ltx2_3",
+            "model_name": "ltx2_3",
+            "version": "v26.1.0",
+            "url": "https://gitcode.com/Ascend/MindSpeed-MM/tree/master/examples/ltx2_3",
+            "adapter_framework": "mindspeed_mm",
+            "training_or_inference": "训练",
+            "adapter_hardware": "A2,A3"
+        },
+        {
             "model_series": "magistral-2509",
             "model_name": "magistral-2509",
             "version": "v26.1.0",
@@ -1681,6 +1334,24 @@
             "model_name": "mimov2_5",
             "version": "v26.1.0",
             "url": "https://gitcode.com/Ascend/MindSpeed-MM/tree/master/examples/mimov2_5",
+            "adapter_framework": "mindspeed_mm",
+            "training_or_inference": "训练",
+            "adapter_hardware": "A2,A3"
+        },
+        {
+            "model_series": "minimax_h3",
+            "model_name": "minimax_h3",
+            "version": "v26.1.0",
+            "url": "https://gitcode.com/Ascend/MindSpeed-MM/tree/master/examples/minimax_h3",
+            "adapter_framework": "mindspeed_mm",
+            "training_or_inference": "训练",
+            "adapter_hardware": "A2,A3"
+        },
+        {
+            "model_series": "minimax_m3_vl",
+            "model_name": "minimax_m3_vl",
+            "version": "v26.1.0",
+            "url": "https://gitcode.com/Ascend/MindSpeed-MM/tree/master/examples/minimax_m3_vl",
             "adapter_framework": "mindspeed_mm",
             "training_or_inference": "训练",
             "adapter_hardware": "A2,A3"
