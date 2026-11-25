@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-24T07:56:43.668586",
+  "collected_at": "2026-11-25T06:32:24.689542",
   "total_count": 3455,
   "gitcode_total": 997,
   "modelers_total": 2257,
@@ -120367,7 +120367,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "A2",
-      "id": 550580871686
+      "id": 550580878776
     },
     {
       "model_series": "DeepSeek-R1",
@@ -120377,7 +120377,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3",
-      "id": 550580874858
+      "id": 550580873204
     },
     {
       "model_series": "DeepSeek-V3 & 3.1",
@@ -120387,7 +120387,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3",
-      "id": 550580871404
+      "id": 550580875514
     },
     {
       "model_series": "DeepSeek-V3.2",
@@ -120397,7 +120397,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3",
-      "id": 550580871707
+      "id": 550580874959
     },
     {
       "model_series": "DeepSeek-V4-Flash-Vision-Exp",
@@ -120407,7 +120407,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3",
-      "id": 550580877163
+      "id": 550580871353
     },
     {
       "model_series": "DeepSeek-V4-Flash",
@@ -120417,7 +120417,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3",
-      "id": 550580879296
+      "id": 550580875296
     },
     {
       "model_series": "DeepSeek-V4-Pro",
@@ -120427,7 +120427,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3",
-      "id": 550580878286
+      "id": 550580879129
     },
     {
       "model_series": "DeepSeek-V4.1-Flash",
@@ -120437,7 +120437,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3",
-      "id": 550580875958
+      "id": 550580874753
     },
     {
       "model_series": "DeepSeek-OCR-2",
@@ -120447,7 +120447,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3",
-      "id": 550580872374
+      "id": 550580874417
     },
     {
       "model_series": "Dots3 Note",
@@ -120457,7 +120457,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3",
-      "id": 550580871588
+      "id": 550580879886
     },
     {
       "model_series": "GLM",
@@ -120467,7 +120467,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3",
-      "id": 550580877355
+      "id": 550580873861
     },
     {
       "model_series": "GLM",
@@ -120477,7 +120477,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3",
-      "id": 550580879198
+      "id": 550580876367
     },
     {
       "model_series": "GLM",
@@ -120487,7 +120487,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3",
-      "id": 550580872367
+      "id": 550580874374
     },
     {
       "model_series": "GLM-5.2",
@@ -120497,7 +120497,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3",
-      "id": 550580874458
+      "id": 550580879094
     },
     {
       "model_series": "GLM-5.3-Flash",
@@ -120507,7 +120507,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3",
-      "id": 550580876943
+      "id": 550580877293
     },
     {
       "model_series": "GLM-5.3",
@@ -120517,7 +120517,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3",
-      "id": 550580871059
+      "id": 550580878380
     },
     {
       "model_series": "GLM-5 & GLM-5.1",
@@ -120527,7 +120527,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3",
-      "id": 550580876223
+      "id": 550580873965
     },
     {
       "model_series": "Gemma4",
@@ -120537,7 +120537,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3",
-      "id": 550580872293
+      "id": 550580878759
     },
     {
       "model_series": "Hunyuan-A13B-Instruct",
@@ -120547,7 +120547,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3",
-      "id": 550580874430
+      "id": 550580877811
     },
     {
       "model_series": "Hy3-preview",
@@ -120557,7 +120557,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "A3",
-      "id": 550580877750
+      "id": 550580879384
     },
     {
       "model_series": "Hy4-preview",
@@ -120567,7 +120567,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3",
-      "id": 550580877744
+      "id": 550580878236
     },
     {
       "model_series": "InternVL3.5",
@@ -120577,7 +120577,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "A3",
-      "id": 550580876286
+      "id": 550580878032
     },
     {
       "model_series": "InternVL3.5",
@@ -120587,7 +120587,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "A3",
-      "id": 550580873912
+      "id": 550580878747
     },
     {
       "model_series": "Kimi-K2-Thinking",
@@ -120597,7 +120597,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "A3",
-      "id": 550580877602
+      "id": 550580877394
     },
     {
       "model_series": "Kimi-K2.5",
@@ -120607,7 +120607,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3",
-      "id": 550580879836
+      "id": 550580873002
     },
     {
       "model_series": "Kimi-K2.6",
@@ -120617,7 +120617,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3",
-      "id": 550580878337
+      "id": 550580874793
     },
     {
       "model_series": "Kimi-K3",
@@ -120627,7 +120627,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "A3",
-      "id": 550580878566
+      "id": 550580879948
     },
     {
       "model_series": "LLaVA-OneVision-Qwen2-0.5B-OV",
@@ -120637,7 +120637,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "A2",
-      "id": 550580877975
+      "id": 550580875724
     },
     {
       "model_series": "MiniMax-M2",
@@ -120647,7 +120647,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3",
-      "id": 550580879443
+      "id": 550580879993
     },
     {
       "model_series": "MiniMax-M3",
@@ -120657,7 +120657,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3",
-      "id": 550580879608
+      "id": 550580873447
     },
     {
       "model_series": "Minitron-8B-Base",
@@ -120667,7 +120667,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "A2",
-      "id": 550580879676
+      "id": 550580872830
     },
     {
       "model_series": "Mixtral-8x7B-Instruct-v0.1",
@@ -120677,7 +120677,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3",
-      "id": 550580873182
+      "id": 550580872494
     },
     {
       "model_series": "PaddleOCR-VL",
@@ -120687,7 +120687,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,300I DUO",
-      "id": 550580871656
+      "id": 550580877564
     },
     {
       "model_series": "Qwen-VL-Dense",
@@ -120697,7 +120697,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3,300I DUO",
-      "id": 550580879151
+      "id": 550580875862
     },
     {
       "model_series": "Qwen-VL-Dense",
@@ -120707,7 +120707,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3,300I DUO",
-      "id": 550580876353
+      "id": 550580875081
     },
     {
       "model_series": "Qwen2.5-Math-RM-72B",
@@ -120717,7 +120717,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "A2",
-      "id": 550580879869
+      "id": 550580876715
     },
     {
       "model_series": "Qwen3-235B-A22B",
@@ -120727,7 +120727,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3",
-      "id": 550580876967
+      "id": 550580874309
     },
     {
       "model_series": "Qwen3-30B-A3B",
@@ -120737,7 +120737,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3,300I DUO",
-      "id": 550580873616
+      "id": 550580879400
     },
     {
       "model_series": "Qwen3-ASR-1.7B",
@@ -120747,7 +120747,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,300I DUO",
-      "id": 550580871895
+      "id": 550580877360
     },
     {
       "model_series": "Qwen3-Coder-30B-A3B",
@@ -120757,7 +120757,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3",
-      "id": 550580876938
+      "id": 550580874079
     },
     {
       "model_series": "Qwen3-Dense",
@@ -120767,7 +120767,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3,300I DUO",
-      "id": 550580872048
+      "id": 550580875033
     },
     {
       "model_series": "Qwen3-Dense",
@@ -120777,7 +120777,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3,300I DUO",
-      "id": 550580878736
+      "id": 550580875187
     },
     {
       "model_series": "Qwen3-Dense",
@@ -120787,7 +120787,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3,300I DUO",
-      "id": 550580872377
+      "id": 550580872957
     },
     {
       "model_series": "Qwen3-Dense",
@@ -120797,7 +120797,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3,300I DUO",
-      "id": 550580874385
+      "id": 550580872464
     },
     {
       "model_series": "Qwen3-Dense",
@@ -120807,7 +120807,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3,300I DUO",
-      "id": 550580874986
+      "id": 550580873736
     },
     {
       "model_series": "Qwen3-Dense",
@@ -120817,7 +120817,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3,300I DUO",
-      "id": 550580879555
+      "id": 550580875676
     },
     {
       "model_series": "Qwen3-Embedding",
@@ -120827,7 +120827,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3,300I DUO",
-      "id": 550580874109
+      "id": 550580871267
     },
     {
       "model_series": "Qwen3-Next",
@@ -120837,7 +120837,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3",
-      "id": 550580872514
+      "id": 550580871829
     },
     {
       "model_series": "Qwen3-Omni-30B-A3B-Thinking",
@@ -120847,7 +120847,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3",
-      "id": 550580879047
+      "id": 550580878275
     },
     {
       "model_series": "Qwen3-Reranker",
@@ -120857,7 +120857,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3,300I DUO",
-      "id": 550580879690
+      "id": 550580877233
     },
     {
       "model_series": "Qwen3-VL-235B-A22B-Instruct",
@@ -120867,7 +120867,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3",
-      "id": 550580877225
+      "id": 550580879980
     },
     {
       "model_series": "Qwen3-VL-30B-A3B-Instruct",
@@ -120877,7 +120877,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3",
-      "id": 550580879281
+      "id": 550580873857
     },
     {
       "model_series": "Qwen3-VL-Embedding",
@@ -120887,7 +120887,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3,300I DUO",
-      "id": 550580871551
+      "id": 550580877474
     },
     {
       "model_series": "Qwen3-VL-Reranker",
@@ -120897,7 +120897,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3,300I DUO",
-      "id": 550580879156
+      "id": 550580878921
     },
     {
       "model_series": "Qwen3.5-27B & Qwen3.6-27B",
@@ -120907,7 +120907,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3,300I DUO",
-      "id": 550580879837
+      "id": 550580875428
     },
     {
       "model_series": "Qwen3.5-397B-A17B",
@@ -120917,7 +120917,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3",
-      "id": 550580879242
+      "id": 550580874942
     },
     {
       "model_series": "Qwen3.5-Dense",
@@ -120927,7 +120927,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "300I DUO",
-      "id": 550580874448
+      "id": 550580873887
     },
     {
       "model_series": "Qwen3.5-Dense",
@@ -120937,7 +120937,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "300I DUO",
-      "id": 550580874709
+      "id": 550580878286
     },
     {
       "model_series": "Qwen3.5-Dense",
@@ -120947,7 +120947,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "300I DUO",
-      "id": 550580878887
+      "id": 550580873686
     },
     {
       "model_series": "Qwen3.6-35B-A3B",
@@ -120957,7 +120957,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3,300I DUO",
-      "id": 550580878386
+      "id": 550580876302
     },
     {
       "model_series": "Qwen3.8-2.4T-A95B",
@@ -120967,7 +120967,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3",
-      "id": 550580871987
+      "id": 550580876658
     },
     {
       "model_series": "Qwen3.8-27B",
@@ -120977,7 +120977,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3,300I DUO",
-      "id": 550580873869
+      "id": 550580878437
     },
     {
       "model_series": "SigLIP2",
@@ -120987,7 +120987,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "300I DUO",
-      "id": 550580878954
+      "id": 550580878548
     },
     {
       "model_series": "gpt-oss-120b",
@@ -120997,7 +120997,7 @@
       "adapter_framework": "vllm_ascend",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3",
-      "id": 550580878723
+      "id": 550580871652
     },
     {
       "model_series": "DeepSeek-R1",
@@ -121007,7 +121007,7 @@
       "adapter_framework": "sglang",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3",
-      "id": 550580876951
+      "id": 550580873928
     },
     {
       "model_series": "DeepSeek-V3.2",
@@ -121017,7 +121017,7 @@
       "adapter_framework": "sglang",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3",
-      "id": 550580878590
+      "id": 550580871688
     },
     {
       "model_series": "DeepSeek-V4-Flash",
@@ -121027,7 +121027,7 @@
       "adapter_framework": "sglang",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3",
-      "id": 550580879178
+      "id": 550580874650
     },
     {
       "model_series": "GLM-5.1",
@@ -121037,7 +121037,7 @@
       "adapter_framework": "sglang",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3",
-      "id": 550580871060
+      "id": 550580879011
     },
     {
       "model_series": "GLM-5.2",
@@ -121047,7 +121047,7 @@
       "adapter_framework": "sglang",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3",
-      "id": 550580876080
+      "id": 550580877061
     },
     {
       "model_series": "Hy3",
@@ -121057,7 +121057,7 @@
       "adapter_framework": "sglang",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3",
-      "id": 550580873678
+      "id": 550580873082
     },
     {
       "model_series": "Kimi-K2.6",
@@ -121067,7 +121067,7 @@
       "adapter_framework": "sglang",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3",
-      "id": 550580875624
+      "id": 550580878022
     },
     {
       "model_series": "MiMo-V2-Flash",
@@ -121077,7 +121077,7 @@
       "adapter_framework": "sglang",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3",
-      "id": 550580871368
+      "id": 550580878182
     },
     {
       "model_series": "MiniMax-M2.5",
@@ -121087,7 +121087,7 @@
       "adapter_framework": "sglang",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3",
-      "id": 550580871410
+      "id": 550580878757
     },
     {
       "model_series": "Qwen3-235B-A22B",
@@ -121097,7 +121097,7 @@
       "adapter_framework": "sglang",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3",
-      "id": 550580872855
+      "id": 550580879874
     },
     {
       "model_series": "Qwen3-30B-A3B",
@@ -121107,7 +121107,7 @@
       "adapter_framework": "sglang",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3",
-      "id": 550580876364
+      "id": 550580879606
     },
     {
       "model_series": "Qwen3-32B",
@@ -121117,7 +121117,7 @@
       "adapter_framework": "sglang",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3",
-      "id": 550580873962
+      "id": 550580875759
     },
     {
       "model_series": "Qwen3.5-397B-A17B",
@@ -121127,7 +121127,7 @@
       "adapter_framework": "sglang",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3",
-      "id": 550580875163
+      "id": 550580879892
     },
     {
       "model_series": "Qwen3.6-27B",
@@ -121137,7 +121137,7 @@
       "adapter_framework": "sglang",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3",
-      "id": 550580873757
+      "id": 550580873262
     },
     {
       "model_series": "Qwen3.6-35B-A3B",
@@ -121147,7 +121147,7 @@
       "adapter_framework": "sglang",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3",
-      "id": 550580875600
+      "id": 550580876572
     },
     {
       "model_series": "Qwen3.8-Max",
@@ -121157,7 +121157,7 @@
       "adapter_framework": "sglang",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3",
-      "id": 550580874765
+      "id": 550580874673
     },
     {
       "model_series": "Qwen3-8B",
@@ -121167,7 +121167,7 @@
       "adapter_framework": "sglang",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3",
-      "id": 550580871061
+      "id": 550580872691
     },
     {
       "model_series": "Qwen3-Next-80B-A3B-Instruct",
@@ -121177,7 +121177,7 @@
       "adapter_framework": "sglang",
       "training_or_inference": "推理",
       "adapter_hardware": "A2,A3",
-      "id": 550580879228
+      "id": 550580875273
     },
     {
       "model_series": "deepseek4",
@@ -121188,7 +121188,7 @@
       "sub_framework": "fsdp2",
       "training_or_inference": "训练",
       "adapter_hardware": "A3",
-      "id": 550580872571
+      "id": 550580873383
     },
     {
       "model_series": "glm52",
@@ -121199,7 +121199,7 @@
       "sub_framework": "fsdp2",
       "training_or_inference": "训练",
       "adapter_hardware": "A3",
-      "id": 550580876936
+      "id": 550580872203
     },
     {
       "model_series": "gpt_oss",
@@ -121210,7 +121210,7 @@
       "sub_framework": "fsdp2",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580877789
+      "id": 550580873018
     },
     {
       "model_series": "longcat_flash_lite",
@@ -121221,7 +121221,7 @@
       "sub_framework": "fsdp2",
       "training_or_inference": "训练",
       "adapter_hardware": "A3",
-      "id": 550580871096
+      "id": 550580872656
     },
     {
       "model_series": "mamba3",
@@ -121232,7 +121232,7 @@
       "sub_framework": "fsdp2",
       "training_or_inference": "训练",
       "adapter_hardware": "A2",
-      "id": 550580877957
+      "id": 550580871717
     },
     {
       "model_series": "minimax_m27",
@@ -121243,7 +121243,7 @@
       "sub_framework": "fsdp2",
       "training_or_inference": "训练",
       "adapter_hardware": "A3",
-      "id": 550580871038
+      "id": 550580876179
     },
     {
       "model_series": "qwen3",
@@ -121254,7 +121254,7 @@
       "sub_framework": "fsdp2",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580873629
+      "id": 550580877038
     },
     {
       "model_series": "qwen3",
@@ -121265,7 +121265,7 @@
       "sub_framework": "fsdp2",
       "training_or_inference": "训练",
       "adapter_hardware": "A2",
-      "id": 550580873640
+      "id": 550580879997
     },
     {
       "model_series": "qwen3",
@@ -121276,7 +121276,7 @@
       "sub_framework": "fsdp2",
       "training_or_inference": "训练",
       "adapter_hardware": "A3",
-      "id": 550580871148
+      "id": 550580877138
     },
     {
       "model_series": "qwen3",
@@ -121287,7 +121287,7 @@
       "sub_framework": "fsdp2",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580874186
+      "id": 550580879600
     },
     {
       "model_series": "qwen3_moe",
@@ -121298,7 +121298,7 @@
       "sub_framework": "fsdp2",
       "training_or_inference": "训练",
       "adapter_hardware": "A3",
-      "id": 550580879596
+      "id": 550580878995
     },
     {
       "model_series": "qwen3_moe",
@@ -121309,7 +121309,7 @@
       "sub_framework": "fsdp2",
       "training_or_inference": "训练",
       "adapter_hardware": "A3,A5",
-      "id": 550580879613
+      "id": 550580875774
     },
     {
       "model_series": "qwen3_next",
@@ -121320,7 +121320,7 @@
       "sub_framework": "fsdp2",
       "training_or_inference": "训练",
       "adapter_hardware": "A3",
-      "id": 550580873589
+      "id": 550580871733
     },
     {
       "model_series": "step35",
@@ -121331,7 +121331,7 @@
       "sub_framework": "fsdp2",
       "training_or_inference": "训练",
       "adapter_hardware": "A3",
-      "id": 550580875676
+      "id": 550580878433
     },
     {
       "model_series": "deepseek2_lite",
@@ -121342,7 +121342,7 @@
       "sub_framework": "mcore",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580872477
+      "id": 550580876201
     },
     {
       "model_series": "deepseek3",
@@ -121353,7 +121353,7 @@
       "sub_framework": "mcore",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580871381
+      "id": 550580871803
     },
     {
       "model_series": "deepseek32",
@@ -121364,7 +121364,7 @@
       "sub_framework": "mcore",
       "training_or_inference": "训练",
       "adapter_hardware": "A3",
-      "id": 550580871618
+      "id": 550580875865
     },
     {
       "model_series": "deepseek4_flash",
@@ -121375,7 +121375,7 @@
       "sub_framework": "mcore",
       "training_or_inference": "训练",
       "adapter_hardware": "A3",
-      "id": 550580871069
+      "id": 550580871896
     },
     {
       "model_series": "gated_deltanet",
@@ -121386,7 +121386,7 @@
       "sub_framework": "mcore",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580874307
+      "id": 550580879354
     },
     {
       "model_series": "gated_deltanet",
@@ -121397,7 +121397,7 @@
       "sub_framework": "mcore",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580877091
+      "id": 550580879686
     },
     {
       "model_series": "gemma2",
@@ -121408,7 +121408,7 @@
       "sub_framework": "mcore",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580872734
+      "id": 550580871914
     },
     {
       "model_series": "gemma2",
@@ -121419,7 +121419,7 @@
       "sub_framework": "mcore",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580879564
+      "id": 550580871728
     },
     {
       "model_series": "glm45",
@@ -121430,7 +121430,7 @@
       "sub_framework": "mcore",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580877832
+      "id": 550580873073
     },
     {
       "model_series": "glm45-air",
@@ -121441,7 +121441,7 @@
       "sub_framework": "mcore",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580872834
+      "id": 550580877095
     },
     {
       "model_series": "glm5",
@@ -121452,7 +121452,7 @@
       "sub_framework": "mcore",
       "training_or_inference": "训练",
       "adapter_hardware": "A3",
-      "id": 550580872755
+      "id": 550580876843
     },
     {
       "model_series": "glm52",
@@ -121463,7 +121463,7 @@
       "sub_framework": "mcore",
       "training_or_inference": "训练",
       "adapter_hardware": "A3",
-      "id": 550580877984
+      "id": 550580873885
     },
     {
       "model_series": "hunyuan3",
@@ -121474,7 +121474,7 @@
       "sub_framework": "mcore",
       "training_or_inference": "训练",
       "adapter_hardware": "A3",
-      "id": 550580877397
+      "id": 550580875985
     },
     {
       "model_series": "kimi2",
@@ -121485,7 +121485,7 @@
       "sub_framework": "mcore",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580873284
+      "id": 550580874900
     },
     {
       "model_series": "ling_v2",
@@ -121496,7 +121496,7 @@
       "sub_framework": "mcore",
       "training_or_inference": "训练",
       "adapter_hardware": "A3",
-      "id": 550580878819
+      "id": 550580872315
     },
     {
       "model_series": "ling_v2",
@@ -121507,7 +121507,7 @@
       "sub_framework": "mcore",
       "training_or_inference": "训练",
       "adapter_hardware": "A3",
-      "id": 550580876110
+      "id": 550580873119
     },
     {
       "model_series": "ling_v2",
@@ -121518,7 +121518,7 @@
       "sub_framework": "mcore",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580873683
+      "id": 550580875889
     },
     {
       "model_series": "ling_v2",
@@ -121529,7 +121529,7 @@
       "sub_framework": "mcore",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580875911
+      "id": 550580873636
     },
     {
       "model_series": "llama2",
@@ -121540,7 +121540,7 @@
       "sub_framework": "mcore",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580876207
+      "id": 550580876988
     },
     {
       "model_series": "longcat",
@@ -121551,7 +121551,7 @@
       "sub_framework": "mcore",
       "training_or_inference": "训练",
       "adapter_hardware": "A3",
-      "id": 550580871979
+      "id": 550580877541
     },
     {
       "model_series": "magistral",
@@ -121562,7 +121562,7 @@
       "sub_framework": "mcore",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580878969
+      "id": 550580873503
     },
     {
       "model_series": "minimax27",
@@ -121573,7 +121573,7 @@
       "sub_framework": "mcore",
       "training_or_inference": "训练",
       "adapter_hardware": "A3",
-      "id": 550580873643
+      "id": 550580877807
     },
     {
       "model_series": "phi35",
@@ -121584,7 +121584,7 @@
       "sub_framework": "mcore",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580871552
+      "id": 550580879697
     },
     {
       "model_series": "phi35",
@@ -121595,7 +121595,7 @@
       "sub_framework": "mcore",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580871469
+      "id": 550580872666
     },
     {
       "model_series": "plm",
@@ -121606,7 +121606,7 @@
       "sub_framework": "mcore",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580874853
+      "id": 550580874124
     },
     {
       "model_series": "qwen25",
@@ -121617,7 +121617,7 @@
       "sub_framework": "mcore",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580872787
+      "id": 550580875316
     },
     {
       "model_series": "qwen3",
@@ -121628,7 +121628,7 @@
       "sub_framework": "mcore",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580875047
+      "id": 550580873190
     },
     {
       "model_series": "qwen3",
@@ -121639,7 +121639,7 @@
       "sub_framework": "mcore",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580877427
+      "id": 550580875052
     },
     {
       "model_series": "qwen3",
@@ -121650,7 +121650,7 @@
       "sub_framework": "mcore",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580871493
+      "id": 550580879073
     },
     {
       "model_series": "qwen3",
@@ -121661,7 +121661,7 @@
       "sub_framework": "mcore",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580879579
+      "id": 550580874853
     },
     {
       "model_series": "qwen3",
@@ -121672,7 +121672,7 @@
       "sub_framework": "mcore",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580871390
+      "id": 550580874841
     },
     {
       "model_series": "qwen3",
@@ -121683,7 +121683,7 @@
       "sub_framework": "mcore",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580877895
+      "id": 550580872560
     },
     {
       "model_series": "qwen3_coder_next",
@@ -121694,7 +121694,7 @@
       "sub_framework": "mcore",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580874779
+      "id": 550580874635
     },
     {
       "model_series": "qwen3_moe",
@@ -121705,7 +121705,7 @@
       "sub_framework": "mcore",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580876761
+      "id": 550580879572
     },
     {
       "model_series": "qwen3_moe",
@@ -121716,7 +121716,7 @@
       "sub_framework": "mcore",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580871771
+      "id": 550580878494
     },
     {
       "model_series": "qwen3_moe",
@@ -121727,7 +121727,7 @@
       "sub_framework": "mcore",
       "training_or_inference": "训练",
       "adapter_hardware": "A3",
-      "id": 550580877954
+      "id": 550580875302
     },
     {
       "model_series": "qwen3_next",
@@ -121738,7 +121738,7 @@
       "sub_framework": "mcore",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580876333
+      "id": 550580878229
     },
     {
       "model_series": "seed_oss",
@@ -121749,7 +121749,7 @@
       "sub_framework": "mcore",
       "training_or_inference": "训练",
       "adapter_hardware": "A3",
-      "id": 550580873583
+      "id": 550580879275
     },
     {
       "model_series": "chatglm3",
@@ -121760,7 +121760,7 @@
       "sub_framework": "mindspore",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580872467
+      "id": 550580871644
     },
     {
       "model_series": "deepseek2_lite",
@@ -121771,7 +121771,7 @@
       "sub_framework": "mindspore",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580875956
+      "id": 550580876033
     },
     {
       "model_series": "deepseek3",
@@ -121782,7 +121782,7 @@
       "sub_framework": "mindspore",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580879568
+      "id": 550580874164
     },
     {
       "model_series": "deepseek3",
@@ -121793,7 +121793,7 @@
       "sub_framework": "mindspore",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580872246
+      "id": 550580878537
     },
     {
       "model_series": "gemma2",
@@ -121804,7 +121804,7 @@
       "sub_framework": "mindspore",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580871919
+      "id": 550580873712
     },
     {
       "model_series": "gemma2",
@@ -121815,7 +121815,7 @@
       "sub_framework": "mindspore",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580879824
+      "id": 550580872732
     },
     {
       "model_series": "glm4",
@@ -121826,7 +121826,7 @@
       "sub_framework": "mindspore",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580879763
+      "id": 550580879832
     },
     {
       "model_series": "glm4",
@@ -121837,7 +121837,7 @@
       "sub_framework": "mindspore",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580871373
+      "id": 550580878156
     },
     {
       "model_series": "glm45-moe",
@@ -121848,7 +121848,7 @@
       "sub_framework": "mindspore",
       "training_or_inference": "训练",
       "adapter_hardware": "A3",
-      "id": 550580873008
+      "id": 550580874895
     },
     {
       "model_series": "grok1",
@@ -121859,7 +121859,7 @@
       "sub_framework": "mindspore",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580871261
+      "id": 550580876558
     },
     {
       "model_series": "internlm25",
@@ -121870,7 +121870,7 @@
       "sub_framework": "mindspore",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580875903
+      "id": 550580875108
     },
     {
       "model_series": "internlm25",
@@ -121881,7 +121881,7 @@
       "sub_framework": "mindspore",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580873562
+      "id": 550580879691
     },
     {
       "model_series": "llama2",
@@ -121892,7 +121892,7 @@
       "sub_framework": "mindspore",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580878312
+      "id": 550580876560
     },
     {
       "model_series": "llama2",
@@ -121903,7 +121903,7 @@
       "sub_framework": "mindspore",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580879434
+      "id": 550580875738
     },
     {
       "model_series": "llama2",
@@ -121914,7 +121914,7 @@
       "sub_framework": "mindspore",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580873652
+      "id": 550580876965
     },
     {
       "model_series": "llama2",
@@ -121925,7 +121925,7 @@
       "sub_framework": "mindspore",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580874241
+      "id": 550580878676
     },
     {
       "model_series": "llama3",
@@ -121936,7 +121936,7 @@
       "sub_framework": "mindspore",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580874253
+      "id": 550580871529
     },
     {
       "model_series": "llama3",
@@ -121947,7 +121947,7 @@
       "sub_framework": "mindspore",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580874720
+      "id": 550580875214
     },
     {
       "model_series": "llama31",
@@ -121958,7 +121958,7 @@
       "sub_framework": "mindspore",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580872361
+      "id": 550580875413
     },
     {
       "model_series": "llama31",
@@ -121969,7 +121969,7 @@
       "sub_framework": "mindspore",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580875626
+      "id": 550580879914
     },
     {
       "model_series": "llama32",
@@ -121980,7 +121980,7 @@
       "sub_framework": "mindspore",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580874318
+      "id": 550580875417
     },
     {
       "model_series": "llama32",
@@ -121991,7 +121991,7 @@
       "sub_framework": "mindspore",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580875411
+      "id": 550580872248
     },
     {
       "model_series": "llama33",
@@ -122002,7 +122002,7 @@
       "sub_framework": "mindspore",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580874016
+      "id": 550580871113
     },
     {
       "model_series": "phi35",
@@ -122013,7 +122013,7 @@
       "sub_framework": "mindspore",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580873546
+      "id": 550580875318
     },
     {
       "model_series": "qwen25",
@@ -122024,7 +122024,7 @@
       "sub_framework": "mindspore",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580874966
+      "id": 550580879429
     },
     {
       "model_series": "qwen25",
@@ -122035,7 +122035,7 @@
       "sub_framework": "mindspore",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580872588
+      "id": 550580876713
     },
     {
       "model_series": "qwen3",
@@ -122046,7 +122046,7 @@
       "sub_framework": "mindspore",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580872340
+      "id": 550580875039
     },
     {
       "model_series": "qwen3",
@@ -122057,7 +122057,7 @@
       "sub_framework": "mindspore",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580879187
+      "id": 550580876870
     },
     {
       "model_series": "qwen3",
@@ -122068,7 +122068,7 @@
       "sub_framework": "mindspore",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580879649
+      "id": 550580877182
     },
     {
       "model_series": "qwen3",
@@ -122079,7 +122079,7 @@
       "sub_framework": "mindspore",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580879488
+      "id": 550580871685
     },
     {
       "model_series": "qwen3",
@@ -122090,7 +122090,7 @@
       "sub_framework": "mindspore",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580879458
+      "id": 550580875193
     },
     {
       "model_series": "qwen3",
@@ -122101,7 +122101,7 @@
       "sub_framework": "mindspore",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580874654
+      "id": 550580871613
     },
     {
       "model_series": "qwen3_moe",
@@ -122112,7 +122112,7 @@
       "sub_framework": "mindspore",
       "training_or_inference": "训练",
       "adapter_hardware": "A3",
-      "id": 550580874418
+      "id": 550580872993
     },
     {
       "model_series": "qwen3_moe",
@@ -122123,7 +122123,7 @@
       "sub_framework": "mindspore",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580879867
+      "id": 550580876206
     },
     {
       "model_series": "grpo",
@@ -122134,7 +122134,7 @@
       "sub_framework": "rlhf",
       "training_or_inference": "训练",
       "adapter_hardware": "A3",
-      "id": 550580872780
+      "id": 550580874544
     },
     {
       "model_series": "bagel",
@@ -122144,7 +122144,7 @@
       "adapter_framework": "mindspeed_mm",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580875705
+      "id": 550580876863
     },
     {
       "model_series": "cosyvoice3",
@@ -122154,7 +122154,7 @@
       "adapter_framework": "mindspeed_mm",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580875927
+      "id": 550580872963
     },
     {
       "model_series": "dancegrpo",
@@ -122164,7 +122164,7 @@
       "adapter_framework": "mindspeed_mm",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580876378
+      "id": 550580876699
     },
     {
       "model_series": "deepseekocr2",
@@ -122174,7 +122174,7 @@
       "adapter_framework": "mindspeed_mm",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580872611
+      "id": 550580877991
     },
     {
       "model_series": "funasr",
@@ -122184,7 +122184,7 @@
       "adapter_framework": "mindspeed_mm",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580879847
+      "id": 550580871250
     },
     {
       "model_series": "glm4.5v",
@@ -122194,7 +122194,7 @@
       "adapter_framework": "mindspeed_mm",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580874302
+      "id": 550580871282
     },
     {
       "model_series": "glm5.3_flash",
@@ -122204,7 +122204,7 @@
       "adapter_framework": "mindspeed_mm",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580878551
+      "id": 550580879564
     },
     {
       "model_series": "hunyuanvideo_1.5",
@@ -122214,7 +122214,7 @@
       "adapter_framework": "mindspeed_mm",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580872628
+      "id": 550580873418
     },
     {
       "model_series": "internvl3.5",
@@ -122224,7 +122224,7 @@
       "adapter_framework": "mindspeed_mm",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580872951
+      "id": 550580876370
     },
     {
       "model_series": "kimi_k3",
@@ -122234,7 +122234,7 @@
       "adapter_framework": "mindspeed_mm",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580876984
+      "id": 550580878267
     },
     {
       "model_series": "kimik2_5",
@@ -122244,7 +122244,7 @@
       "adapter_framework": "mindspeed_mm",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580872804
+      "id": 550580873893
     },
     {
       "model_series": "ltx2",
@@ -122254,7 +122254,7 @@
       "adapter_framework": "mindspeed_mm",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580873771
+      "id": 550580878951
     },
     {
       "model_series": "ltx2_3",
@@ -122264,7 +122264,7 @@
       "adapter_framework": "mindspeed_mm",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580871602
+      "id": 550580878470
     },
     {
       "model_series": "magistral-2509",
@@ -122274,7 +122274,7 @@
       "adapter_framework": "mindspeed_mm",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580876737
+      "id": 550580878670
     },
     {
       "model_series": "mimov2_5",
@@ -122284,7 +122284,7 @@
       "adapter_framework": "mindspeed_mm",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580876476
+      "id": 550580876209
     },
     {
       "model_series": "minimax_h3",
@@ -122294,7 +122294,7 @@
       "adapter_framework": "mindspeed_mm",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580878408
+      "id": 550580871243
     },
     {
       "model_series": "minimax_m3_vl",
@@ -122304,7 +122304,7 @@
       "adapter_framework": "mindspeed_mm",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580873396
+      "id": 550580875002
     },
     {
       "model_series": "moss_tts",
@@ -122314,7 +122314,7 @@
       "adapter_framework": "mindspeed_mm",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580878220
+      "id": 550580873620
     },
     {
       "model_series": "qwen2.5omni",
@@ -122324,7 +122324,7 @@
       "adapter_framework": "mindspeed_mm",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580877471
+      "id": 550580871389
     },
     {
       "model_series": "qwen2.5vl",
@@ -122334,7 +122334,7 @@
       "adapter_framework": "mindspeed_mm",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580877601
+      "id": 550580874278
     },
     {
       "model_series": "qwen3_5",
@@ -122344,7 +122344,7 @@
       "adapter_framework": "mindspeed_mm",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580874871
+      "id": 550580872454
     },
     {
       "model_series": "qwen3_6",
@@ -122354,7 +122354,7 @@
       "adapter_framework": "mindspeed_mm",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580877671
+      "id": 550580878013
     },
     {
       "model_series": "qwen3_8",
@@ -122364,7 +122364,7 @@
       "adapter_framework": "mindspeed_mm",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580873523
+      "id": 550580871323
     },
     {
       "model_series": "qwen3_asr",
@@ -122374,7 +122374,7 @@
       "adapter_framework": "mindspeed_mm",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580877258
+      "id": 550580874829
     },
     {
       "model_series": "qwen3omni",
@@ -122384,7 +122384,7 @@
       "adapter_framework": "mindspeed_mm",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580878604
+      "id": 550580879356
     },
     {
       "model_series": "qwen3tts",
@@ -122394,7 +122394,7 @@
       "adapter_framework": "mindspeed_mm",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580876553
+      "id": 550580879557
     },
     {
       "model_series": "qwen3vl",
@@ -122404,7 +122404,7 @@
       "adapter_framework": "mindspeed_mm",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580878118
+      "id": 550580877363
     },
     {
       "model_series": "self_forcing",
@@ -122414,7 +122414,7 @@
       "adapter_framework": "mindspeed_mm",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580872273
+      "id": 550580879090
     },
     {
       "model_series": "step3_vl",
@@ -122424,7 +122424,7 @@
       "adapter_framework": "mindspeed_mm",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580877013
+      "id": 550580871823
     },
     {
       "model_series": "vace",
@@ -122434,7 +122434,7 @@
       "adapter_framework": "mindspeed_mm",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580871604
+      "id": 550580877582
     },
     {
       "model_series": "wan2.1",
@@ -122444,7 +122444,7 @@
       "adapter_framework": "mindspeed_mm",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580873659
+      "id": 550580874347
     },
     {
       "model_series": "wan2.2",
@@ -122454,7 +122454,7 @@
       "adapter_framework": "mindspeed_mm",
       "training_or_inference": "训练",
       "adapter_hardware": "A2,A3",
-      "id": 550580871924
+      "id": 550580878296
     }
   ]
 }
